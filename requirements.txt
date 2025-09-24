@@ -1,5 +1,6 @@
 # Core RDF and Semantic Web libraries
 rdflib==7.0.0
+rdflib-jsonld==0.6.2
 SPARQLWrapper==2.0.0
 owlrl==6.0.2
 

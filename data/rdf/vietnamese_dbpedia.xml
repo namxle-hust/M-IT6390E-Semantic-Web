@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://vi.dbpedia.org/property/1"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vidbp="http://vi.dbpedia.org/property/"
+>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ph%E1%BA%ADt_t%E1%BB%AD_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Phật tử Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nguồn CS1 tiếng Anh (en)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nguy%E1%BB%85n_Du">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="vi">Nguyễn Du</rdfs:label>
+    <foaf:name xml:lang="vi">Nguyễn Du</foaf:name>
+    <rdfs:comment xml:lang="vi">Nguyễn Du (chữ Hán: 阮攸; 3 tháng 1 năm 1766 – 16 tháng 9 năm 1820) tên tự là Tố Như (素如), hiệu là Thanh Hiên (清軒), biệt hiệu là Hồng Sơn lạp hộ (鴻山獵戶), Nam Hải điếu đồ (南海釣屠), là một nhà thơ, nhà văn hóa lớn thời Lê mạt Nguyễn sơ ở Việt Nam. Ông được người Việt kính trọng tôn xưng là "Đại thi hào dân tộc" và được UNESCO vinh danh là "Danh nhân văn hóa thế giới".
+Tác phẩm Truyện Kiều của ông được xem là một kiệt tác văn học, một trong những thành tựu tiêu biểu nhất trong nền văn học trung đại Việt Nam.</rdfs:comment>
+    <dct:description xml:lang="vi">Nguyễn Du (chữ Hán: 阮攸; 3 tháng 1 năm 1766 – 16 tháng 9 năm 1820) tên tự là Tố Như (素如), hiệu là Thanh Hiên (清軒), biệt hiệu là Hồng Sơn lạp hộ (鴻山獵戶), Nam Hải điếu đồ (南海釣屠), là một nhà thơ, nhà văn hóa lớn thời Lê mạt Nguyễn sơ ở Việt Nam. Ông được người Việt kính trọng tôn xưng là "Đại thi hào dân tộc" và được UNESCO vinh danh là "Danh nhân văn hóa thế giới".
+Tác phẩm Truyện Kiều của ông được xem là một kiệt tác văn học, một trong những thành tựu tiêu biểu nhất trong nền văn học trung đại Việt Nam.</dct:description>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n%20Du"/>
+    <dct:language>vi</dct:language>
+    <vidbp:name xml:lang="vi">Nguyễn Du阮攸</vidbp:name>
+    <vidbp:image xml:lang="vi">Tượng đài cụ Nguyễn Du.jpg</vidbp:image>
+    <vidbp:imagesize xml:lang="vi">222px</vidbp:imagesize>
+    <vidbp:birthname xml:lang="vi">Nguyễn Du</vidbp:birthname>
+    <vidbp:birth_date xml:lang="vi">{{ngày sinh|1766|1|3</vidbp:birth_date>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_Wikipedia_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_RERO_sai"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BIBSYS"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLG"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLP"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VcBA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a_th%E1%BA%BF_gi%E1%BB%9Bi_c%E1%BB%A7a_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BA%A7u_t%C6%B0%E1%BB%9Bc_nh%C3%A0_Nguy%E1%BB%85n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_1820"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nguy%E1%BB%85n_Du"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%C3%A0_N%E1%BB%99i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%C3%A0_T%C4%A9nh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_Nguy%E1%BB%85n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_18"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_19"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_s%E1%BB%AD_thi"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%C3%A2y_S%C6%A1n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Quan_h%E1%BB%87_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_Trung_Qu%E1%BB%91c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_Nguy%E1%BB%85n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1766"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nguyễn Du</skos:prefLabel>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1008</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="vi">Võ Nguyên Giáp</rdfs:label>
+    <foaf:name xml:lang="vi">Võ Nguyên Giáp</foaf:name>
+    <rdfs:comment xml:lang="vi">Võ Nguyên Giáp (25 tháng 8 năm 1911 – 4 tháng 10 năm 2013), tên khai sinh là Võ Giáp, còn được gọi là tướng Giáp hoặc anh Văn, là một nhà lãnh đạo quân sự và chính trị gia người Việt Nam. Ông là Đại tướng đầu tiên, Tổng Tư lệnh tối cao của Quân đội Nhân dân Việt Nam, một trong những thành viên sáng lập nhà nước Việt Nam Dân chủ Cộng hòa, được Chính phủ Việt Nam đánh giá là "người học trò xuất sắc và gần gũi của Chủ tịch Hồ Chí Minh", là chỉ huy trưởng của các chiến dịch trong Chiến tranh Đông Dương (1946–1954), Chiến tranh Việt Nam (1955–1975) và Chiến tranh biên giới Việt – Trung (1979).
+Xuất thân là một giáo viên dạy lịch sử, ông được đánh giá là một trong những nhà lãnh đạo quân sự lỗi lạc nhất trong lịch sử Việt Nam. Ông được nhiều tờ báo ca ngợi là anh hùng dân tộc của nhân dân Việt Nam. Võ Nguyên Giáp cũng đọc và chịu ảnh hưởng của nhiều nhà lãnh đạo lịch sử, chẳng hạn như Carl von Clausewitz, Tôn Tử, George Washington, và Vladimir Lenin, mặc dù cá nhân ông cho rằng T. E. Lawrence và Napoléon là hai người có ảnh hưởng lớn nhất đến ông. Các báo chí phương Tây còn gọi ông Giáp với biệt danh là "Napoleon đỏ" (Red Napoleon) do tài chỉ huy quân sự của ông đã đánh bại hoàn toàn âm mưu xâm lược của nước Pháp trong trận Điện Biên Phủ năm 1954 gây chấn động thế giới. Ông Giáp cũng là một nhà hậu cần chiến lược, và được công nhận là kiến ​​trúc sư chính của đường mòn Hồ Chí Minh, đưa vũ khí và người từ miền Bắc Việt Nam vào Nam qua Lào và Campuchia, được công nhận là một trong những kỳ công vĩ đại của thế kỷ 20 về kỹ thuật quân sự và khả năng quản lý quân sự hoàn hảo.
+Võ Nguyên Giáp thường được ghi nhận là người có công trong chiến thắng quân sự của Việt Nam Dân chủ Cộng hòa trước Hoa Kỳ và Việt Nam Cộng hòa. Sự nghiệp quân sự của ông so với các nhà lãnh đạo khác được xem là nổi bật hơn, với những tướng cũ của ông là Văn Tiến Dũng và Hoàng Văn Thái sau này có trách nhiệm quân sự trực tiếp hơn ông. Mặc dù vậy, ông đã đóng vai trò quan trọng trong việc biến Quân đội Nhân dân Việt Nam thành một trong những lực lượng chiến đấu kết hợp và cơ giới hóa "lớn nhất, đáng gờm nhất" có khả năng đánh bại Quân lực Việt Nam Cộng hòa trong chiến tranh.</rdfs:comment>
+    <dct:description xml:lang="vi">Võ Nguyên Giáp (25 tháng 8 năm 1911 – 4 tháng 10 năm 2013), tên khai sinh là Võ Giáp, còn được gọi là tướng Giáp hoặc anh Văn, là một nhà lãnh đạo quân sự và chính trị gia người Việt Nam. Ông là Đại tướng đầu tiên, Tổng Tư lệnh tối cao của Quân đội Nhân dân Việt Nam, một trong những thành viên sáng lập nhà nước Việt Nam Dân chủ Cộng hòa, được Chính phủ Việt Nam đánh giá là "người học trò xuất sắc và gần gũi của Chủ tịch Hồ Chí Minh", là chỉ huy trưởng của các chiến dịch trong Chiến tranh Đông Dương (1946–1954), Chiến tranh Việt Nam (1955–1975) và Chiến tranh biên giới Việt – Trung (1979).
+Xuất thân là một giáo viên dạy lịch sử, ông được đánh giá là một trong những nhà lãnh đạo quân sự lỗi lạc nhất trong lịch sử Việt Nam. Ông được nhiều tờ báo ca ngợi là anh hùng dân tộc của nhân dân Việt Nam. Võ Nguyên Giáp cũng đọc và chịu ảnh hưởng của nhiều nhà lãnh đạo lịch sử, chẳng hạn như Carl von Clausewitz, Tôn Tử, George Washington, và Vladimir Lenin, mặc dù cá nhân ông cho rằng T. E. Lawrence và Napoléon là hai người có ảnh hưởng lớn nhất đến ông. Các báo chí phương Tây còn gọi ông Giáp với biệt danh là "Napoleon đỏ" (Red Napoleon) do tài chỉ huy quân sự của ông đã đánh bại hoàn toàn âm mưu xâm lược của nước Pháp trong trận Điện Biên Phủ năm 1954 gây chấn động thế giới. Ông Giáp cũng là một nhà hậu cần chiến lược, và được công nhận là kiến ​​trúc sư chính của đường mòn Hồ Chí Minh, đưa vũ khí và người từ miền Bắc Việt Nam vào Nam qua Lào và Campuchia, được công nhận là một trong những kỳ công vĩ đại của thế kỷ 20 về kỹ thuật quân sự và khả năng quản lý quân sự hoàn hảo.
+Võ Nguyên Giáp thường được ghi nhận là người có công trong chiến thắng quân sự của Việt Nam Dân chủ Cộng hòa trước Hoa Kỳ và Việt Nam Cộng hòa. Sự nghiệp quân sự của ông so với các nhà lãnh đạo khác được xem là nổi bật hơn, với những tướng cũ của ông là Văn Tiến Dũng và Hoàng Văn Thái sau này có trách nhiệm quân sự trực tiếp hơn ông. Mặc dù vậy, ông đã đóng vai trò quan trọng trong việc biến Quân đội Nhân dân Việt Nam thành một trong những lực lượng chiến đấu kết hợp và cơ giới hóa "lớn nhất, đáng gờm nhất" có khả năng đánh bại Quân lực Việt Nam Cộng hòa trong chiến tranh.</dct:description>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/V%C3%B5%20Nguy%C3%AAn%20Gi%C3%A1p"/>
+    <dct:language>vi</dct:language>
+    <vidbp:image xml:lang="vi">Mr. Vo Nguyen Giap.jpg</vidbp:image>
+    <vidbp:caption xml:lang="vi">Võ Nguyên Giáp vào năm 1957</vidbp:caption>
+    <vidbp:office xml:lang="vi">[[Bộ Tổng Tư lệnh Quân đội nhân dân Việt Nam</vidbp:office>
+    <vidbp:term_start xml:lang="vi">2 tháng 3 năm 1946</vidbp:term_start>
+    <vidbp:term_end xml:lang="vi">30 tháng 4 1975</vidbp:term_end>
+    <vidbp:predecessor xml:lang="vi">Chức vụ thành lập</vidbp:predecessor>
+    <vidbp:successor xml:lang="vi">Chức vụ bãi bõ</vidbp:successor>
+    <vidbp:office1 xml:lang="vi">[[Bí thư Quân ủy Trung ương (Việt Nam)</vidbp:office1>
+    <vidbp:term_start1 xml:lang="vi">1946</vidbp:term_start1>
+    <vidbp:term_end1 xml:lang="vi">1978</vidbp:term_end1>
+    <ns1:blankname1 xml:lang="vi">[[Phó Bí thư Quân ủy Trung ương (Việt Nam)</ns1:blankname1>
+    <ns1:namedata1 xml:lang="vi">{{plainlist| * Trần Tử Bình * Văn Tiến Dũng * Nguyễn Chí Thanh * Song Hào * Chu Huy Mân</ns1:namedata1>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_L%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_v%C5%A9_trang_nh%C3%A2n_d%C3%A2n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BIBSYS"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CANTIC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLG"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLP"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NSK"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SELIBR"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Vi%E1%BB%87t_n%C3%AAu_r%C3%B5"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%AD_th%C6%B0_Qu%C3%A2n_%E1%BB%A7y_Trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Khoa_h%E1%BB%8Dc_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_N%E1%BB%99i_v%E1%BB%A5_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Qu%E1%BB%91c_ph%C3%B2ng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/CS1_gi%C3%A1_tr%E1%BB%8B_quy%E1%BB%83n_d%C3%A0i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ch%E1%BB%91ng_ch%E1%BB%A7_ngh%C4%A9a_%C4%91%E1%BA%BF_qu%E1%BB%91c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/C%E1%BB%B1u_h%E1%BB%8Dc_sinh_Trung_h%E1%BB%8Dc_Albert_Sarraut"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Huy_hi%E1%BB%87u_70_n%C4%83m_tu%E1%BB%95i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Chi%E1%BA%BFn_th%E1%BA%AFng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_H%E1%BB%93_Ch%C3%AD_Minh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Qu%C3%A2n_c%C3%B4ng_h%E1%BA%A1ng_Nh%E1%BA%A5t"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Sao_V%C3%A0ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BB%8Dc_sinh_Qu%E1%BB%91c_h%E1%BB%8Dc_Hu%E1%BA%BF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Li%C3%AAn_k%E1%BA%BFt_c%C3%B3_t%E1%BB%93n_t%E1%BA%A1i_trong_b%E1%BA%A3n_m%E1%BA%ABu_Interlanguage_link"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_li%C3%AAn_k%E1%BA%BFt_ngo%C3%A0i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_tham_s%E1%BB%91_th%E1%BB%ABa"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_2013"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Ph%C3%A1p_fr"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_ch%E1%BB%91ng_x%C3%A9t_l%E1%BA%A1i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_c%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_V%C3%B5_t%E1%BA%A1i_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_th%E1%BB%8D_b%C3%A1ch_ni%C3%AAn_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_c%C3%A1ch_m%E1%BA%A1ng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_d%C3%A2n_t%E1%BB%99c_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_trong_Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_trong_N%E1%BB%99i_chi%E1%BA%BFn_L%C3%A0o"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ph%C3%B3_Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ph%E1%BA%ADt_t%E1%BB%AD_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%C3%A2n_nh%C3%A2n_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1911"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Sinh_t%E1%BA%A1i_L%E1%BB%87_Th%E1%BB%A7y_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_b%E1%BB%8B_h%E1%BA%A1n_ch%E1%BA%BF_cho_th%C3%A0nh_vi%C3%AAn_x%C3%A1c_nh%E1%BA%ADn_m%E1%BB%9F_r%E1%BB%99ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/T%C3%A2n_Vi%E1%BB%87t_C%C3%A1ch_m%E1%BB%87nh_%C4%90%E1%BA%A3ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam_ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam_th%E1%BB%A5_phong_th%E1%BA%ADp_ni%C3%AAn_1940"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_I"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V_Qu%E1%BA%A3ng_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_t%C6%B0%E1%BB%9Bng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_V"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Võ Nguyên Giáp</skos:prefLabel>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">867</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BB%93_Ch%C3%AD_Minh">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="vi">Hồ Chí Minh</rdfs:label>
+    <foaf:name xml:lang="vi">Hồ Chí Minh</foaf:name>
+    <rdfs:comment xml:lang="vi">Hồ Chí Minh (chữ Nho: 胡志明; 19 tháng 5 năm 1890 – 2 tháng 9 năm 1969), tên khai sinh là Nguyễn Sinh Cung (chữ Nho: 阮生恭), còn được gọi phổ biến tại Việt Nam với tên gọi Bác Hồ, là một nhà cách mạng và chính khách người Việt Nam. Ông là người sáng lập Đảng Cộng sản Việt Nam, từng là Chủ tịch nước Việt Nam Dân chủ Cộng hòa từ 1945–1969, Thủ tướng Việt Nam Dân chủ Cộng hòa trong những năm 1945–1955, Tổng Bí thư Ban Chấp hành Trung ương Đảng Lao động Việt Nam từ 1956–1960, Chủ tịch Ban Chấp hành Trung ương Đảng Lao động Việt Nam từ năm 1951 cho đến khi qua đời.
+Trong quãng thời gian sinh sống và hoạt động trước khi lên nắm quyền, Hồ Chí Minh đã đi qua nhiều quốc gia và châu lục, ông được cho là đã sử dụng từ 50 đến 200 bí danh khác nhau. Về mặt tư tưởng chính trị, Hồ Chí Minh là một người theo chủ nghĩa Marx–Lenin. Ông là nhà lãnh đạo phong trào độc lập Việt Minh tiến hành Cách mạng Tháng Tám năm 1945. Ông cũng là người đã soạn thảo, đọc bản Tuyên ngôn độc lập thành lập nước Việt Nam Dân chủ Cộng hòa, và trở thành Chủ tịch nước sau cuộc tổng tuyển cử năm 1946.
+Trong giai đoạn diễn ra chiến tranh Đông Dương và chiến tranh Việt Nam, Hồ Chí Minh là nhân vật chủ chốt trong hàng ngũ lãnh đạo của Việt Nam Dân chủ Cộng hòa và Mặt trận Dân tộc Giải phóng miền Nam Việt Nam. Hồ Chí Minh giảm dần hoạt động chính trị vào năm 1965 vì lý do sức khỏe rồi qua đời vào năm 1969. Năm 1975, Việt Nam Dân chủ Cộng hòa chiến thắng, hai miền Việt Nam được thống nhất, dẫn đến sự ra đời của nhà nước Cộng hòa Xã hội chủ nghĩa Việt Nam vào năm 1976. Thành phố Sài Gòn – Gia Định được đổi tên thành Thành phố Hồ Chí Minh để tôn vinh ông cũng như sự kiện này. Ngoài hoạt động chính trị, Hồ Chí Minh cũng là nhà văn, nhà thơ và nhà báo với nhiều tác phẩm viết bằng tiếng Việt, tiếng Hán và tiếng Pháp.</rdfs:comment>
+    <dct:description xml:lang="vi">Hồ Chí Minh (chữ Nho: 胡志明; 19 tháng 5 năm 1890 – 2 tháng 9 năm 1969), tên khai sinh là Nguyễn Sinh Cung (chữ Nho: 阮生恭), còn được gọi phổ biến tại Việt Nam với tên gọi Bác Hồ, là một nhà cách mạng và chính khách người Việt Nam. Ông là người sáng lập Đảng Cộng sản Việt Nam, từng là Chủ tịch nước Việt Nam Dân chủ Cộng hòa từ 1945–1969, Thủ tướng Việt Nam Dân chủ Cộng hòa trong những năm 1945–1955, Tổng Bí thư Ban Chấp hành Trung ương Đảng Lao động Việt Nam từ 1956–1960, Chủ tịch Ban Chấp hành Trung ương Đảng Lao động Việt Nam từ năm 1951 cho đến khi qua đời.
+Trong quãng thời gian sinh sống và hoạt động trước khi lên nắm quyền, Hồ Chí Minh đã đi qua nhiều quốc gia và châu lục, ông được cho là đã sử dụng từ 50 đến 200 bí danh khác nhau. Về mặt tư tưởng chính trị, Hồ Chí Minh là một người theo chủ nghĩa Marx–Lenin. Ông là nhà lãnh đạo phong trào độc lập Việt Minh tiến hành Cách mạng Tháng Tám năm 1945. Ông cũng là người đã soạn thảo, đọc bản Tuyên ngôn độc lập thành lập nước Việt Nam Dân chủ Cộng hòa, và trở thành Chủ tịch nước sau cuộc tổng tuyển cử năm 1946.
+Trong giai đoạn diễn ra chiến tranh Đông Dương và chiến tranh Việt Nam, Hồ Chí Minh là nhân vật chủ chốt trong hàng ngũ lãnh đạo của Việt Nam Dân chủ Cộng hòa và Mặt trận Dân tộc Giải phóng miền Nam Việt Nam. Hồ Chí Minh giảm dần hoạt động chính trị vào năm 1965 vì lý do sức khỏe rồi qua đời vào năm 1969. Năm 1975, Việt Nam Dân chủ Cộng hòa chiến thắng, hai miền Việt Nam được thống nhất, dẫn đến sự ra đời của nhà nước Cộng hòa Xã hội chủ nghĩa Việt Nam vào năm 1976. Thành phố Sài Gòn – Gia Định được đổi tên thành Thành phố Hồ Chí Minh để tôn vinh ông cũng như sự kiện này. Ngoài hoạt động chính trị, Hồ Chí Minh cũng là nhà văn, nhà thơ và nhà báo với nhiều tác phẩm viết bằng tiếng Việt, tiếng Hán và tiếng Pháp.</dct:description>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/H%E1%BB%93%20Ch%C3%AD%20Minh"/>
+    <dct:language>vi</dct:language>
+    <vidbp:name xml:lang="vi">Hồ Chí Minh</vidbp:name>
+    <vidbp:office xml:lang="vi">[[Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam</vidbp:office>
+    <vidbp:image xml:lang="vi">Ho Chi Minh - 1946 Portrait.jpg</vidbp:image>
+    <vidbp:caption xml:lang="vi">Hồ Chí Minh vào năm 1946</vidbp:caption>
+    <ns1:blankname xml:lang="vi">[[Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam</ns1:blankname>
+    <ns1:namedata xml:lang="vi">Trường ChinhLê Duẩn</ns1:namedata>
+    <vidbp:predecessor xml:lang="vi">Mới lập</vidbp:predecessor>
+    <vidbp:successor xml:lang="vi">Bãi bỏ</vidbp:successor>
+    <vidbp:signature xml:lang="vi">Ho Chi Minh Signature.svg</vidbp:signature>
+    <vidbp:office2 xml:lang="vi">[[Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam</vidbp:office2>
+    <vidbp:predecessor2 xml:lang="vi">Trường Chinh</vidbp:predecessor2>
+    <vidbp:party xml:lang="vi">Đảng Xã hội Pháp(1919–1921)Đảng Cộng sản Pháp(1921–1925)[[Đảng Cộng sản Việt Nam</vidbp:party>
+    <vidbp:successor2 xml:lang="vi">Lê Duẩn</vidbp:successor2>
+    <vidbp:birth_name xml:lang="vi">Nguyễn Sinh Cung</vidbp:birth_name>
+    <vidbp:birth_date xml:lang="vi">{{birth date|df=y|1890|5|19</vidbp:birth_date>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_c%C6%A1_b%E1%BA%A3n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_Wikipedia_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_RERO_sai"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BIBSYS"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ICCU"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LNB"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NARA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLG"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLP"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SELIBR"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ch%C3%BA_th%C3%ADch_kh%C3%B4ng_%C4%91%E1%BA%A7y_%C4%91%E1%BB%A7"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ph%E1%BA%A1m_vi_%C4%91%E1%BB%8Ba_l%C3%BD_h%E1%BA%A1n_ch%E1%BA%BF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%E1%BA%A7n_ch%C3%BA_th%C3%ADch_chi_ti%E1%BA%BFt_h%C6%A1n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_%C4%91%E1%BB%8Bnh_d%E1%BA%A1ng_hAudio"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_v%E1%BB%81_ti%E1%BB%83u_s%E1%BB%AD_c%C3%B3_%E1%BA%A3nh_ch%E1%BB%A5p_ch%E1%BB%AF_k%C3%BD_nh%C3%A2n_v%E1%BA%ADt"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_Portal_inline_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_%C4%91%E1%BB%8F_%C4%91%E1%BA%BFn_c%E1%BB%95ng_th%C3%B4ng_tin"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/CS1_gi%C3%A1_tr%E1%BB%8B_quy%E1%BB%83n_d%C3%A0i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ch%E1%BB%91ng_ch%E1%BB%A7_ngh%C4%A9a_%C4%91%E1%BA%BF_qu%E1%BB%91c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ch%E1%BB%A7_ngh%C4%A9a_d%C3%A2n_t%E1%BB%99c_c%C3%A1nh_t%E1%BA%A3"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_qu%E1%BB%91c_ph%C3%B2ng_v%C3%A0_an_ninh_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a_th%E1%BA%BF_gi%E1%BB%9Bi_c%E1%BB%A7a_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/D%C3%B2ng_h%E1%BB%8D_Nguy%E1%BB%85n_Sinh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BB%8Dc_sinh_Qu%E1%BB%91c_h%E1%BB%8Dc_Hu%E1%BA%BF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BB%93_Ch%C3%AD_Minh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BB%99i_Vi%E1%BB%87t_Nam_C%C3%A1ch_m%E1%BA%A1ng_Thanh_ni%C3%AAn"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%C3%A3nh_t%E1%BB%A5_C%E1%BB%99ng_s%E1%BA%A3n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_tham_s%E1%BB%91_th%E1%BB%ABa"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_thi%E1%BA%BFu_t%C3%AAn"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_thi%E1%BA%BFu_t%E1%BA%A1p_ch%C3%AD"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_kh%C3%B4ng_c%C3%B3_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_1969"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Ph%C3%A1p_fr"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Ngh%E1%BB%87_An"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_Nam_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_%C4%91%C6%B0%E1%BB%A3c_%C4%91%E1%BA%B7t_t%C3%AAn_%C4%91%C6%B0%E1%BB%9Dng_%E1%BB%9F_Ph%C3%A1p"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_ch%E1%BB%91ng_x%C3%A9t_l%E1%BA%A1i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_c%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_Nguy%E1%BB%85n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_b%C3%A1o_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_c%C3%A1ch_m%E1%BA%A1ng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_d%C3%A2n_t%E1%BB%99c_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_ho%E1%BA%A1t_%C4%91%E1%BB%99ng_%C4%91%E1%BB%99c_l%E1%BA%ADp"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_20"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_1945_1975"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_t%C6%B0_t%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_1945_1975"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_trong_Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1890"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Th%E1%BB%AD_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m_CS1"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_b%E1%BB%8B_h%E1%BA%A1n_ch%E1%BA%BF_cho_th%C3%A0nh_vi%C3%AAn_x%C3%A1c_nh%E1%BA%ADn_m%E1%BB%9F_r%E1%BB%99ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_c%E1%BB%95ng_th%C3%B4ng_tin_tr%E1%BB%91ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_sfn_v%E1%BB%9Bi_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/T%E1%BB%95ng_B%C3%AD_th%C6%B0_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_I"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A3ng_vi%C3%AAn_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Ph%C3%A1p"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Hồ Chí Minh</skos:prefLabel>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375318</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_L%C3%AA_s%C6%A1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà văn Việt Nam thời Lê sơ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nguy%E1%BB%85n_Tr%C3%A3i">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="vi">Nguyễn Trãi</rdfs:label>
+    <foaf:name xml:lang="vi">Nguyễn Trãi</foaf:name>
+    <rdfs:comment xml:lang="vi">Nguyễn Trãi (chữ Hán: 阮廌; 1380 – 19 tháng 9 năm 1442), hiệu là Ức Trai (抑齋), là một nhà chính trị, nhà văn, nhà văn hóa lớn của dân tộc Việt Nam. Ông đã tham gia tích cực cuộc Khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo chống lại sự xâm lược của nhà Minh (Trung Quốc) với Đại Việt. Khi cuộc khởi nghĩa thành công vào năm 1428, Nguyễn Trãi trở thành một trong những khai quốc công thần của triều đại quân chủ nhà Hậu Lê trong Lịch sử Việt Nam.
+Nguyễn Trãi có cha là Nguyễn Phi Khanh, con rể của quan Tư đồ Trần Nguyên Đán nhà Trần. Khi nhà Trần bị Hồ Quý Ly lật đổ lập nên nhà Hồ, Nguyễn Trãi tham gia dự thi, thi đỗ Thái học sinh năm 1400, Nguyễn Trãi làm quan dưới triều Hồ với chức Ngự sử đài chính chưởng. Khi nhà Minh xâm lược, cha ông là Nguyễn Phi Khanh ra đầu hàng giặc và về Trung Quốc (Đại Việt Sử kí Toàn thư).
+Sau khi nước Đại Ngu rơi vào sự cai trị của nhà Minh, Nguyễn Trãi tham gia vào cuộc khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo chống lại sự thống trị của nhà Minh, giúp soạn thảo các văn thư ngoại giao với quân Minh. Ông tiếp tục phục vụ dưới triều đại vua Lê Thái Tổ và Lê Thái Tông với chức vụ Nhập nội hành khiển và Thừa chỉ (tức Hàn lâm viện Thừa chỉ học sĩ hay Tuyên phụng đại phu Hàn lâm Thừa chỉ). Lần thăng chức sau đó, Nguyễn Trãi được phong Triều liệt đại phu, Nhập nội hành khiển, Lại bộ Thượng thư kiêm hành Khu mật viện sự.
+Năm 1442, toàn thể gia đình Nguyễn Trãi bị kết án tru di tam tộc trong vụ án Lệ Chi Viên. Năm 1464, vua Lê Thánh Tông xuống chiếu ân xá cho ông. Nguyễn Trãi là một nhà văn hóa lớn, có đóng góp to lớn vào sự phát triển của văn học và tư tưởng Việt Nam.</rdfs:comment>
+    <dct:description xml:lang="vi">Nguyễn Trãi (chữ Hán: 阮廌; 1380 – 19 tháng 9 năm 1442), hiệu là Ức Trai (抑齋), là một nhà chính trị, nhà văn, nhà văn hóa lớn của dân tộc Việt Nam. Ông đã tham gia tích cực cuộc Khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo chống lại sự xâm lược của nhà Minh (Trung Quốc) với Đại Việt. Khi cuộc khởi nghĩa thành công vào năm 1428, Nguyễn Trãi trở thành một trong những khai quốc công thần của triều đại quân chủ nhà Hậu Lê trong Lịch sử Việt Nam.
+Nguyễn Trãi có cha là Nguyễn Phi Khanh, con rể của quan Tư đồ Trần Nguyên Đán nhà Trần. Khi nhà Trần bị Hồ Quý Ly lật đổ lập nên nhà Hồ, Nguyễn Trãi tham gia dự thi, thi đỗ Thái học sinh năm 1400, Nguyễn Trãi làm quan dưới triều Hồ với chức Ngự sử đài chính chưởng. Khi nhà Minh xâm lược, cha ông là Nguyễn Phi Khanh ra đầu hàng giặc và về Trung Quốc (Đại Việt Sử kí Toàn thư).
+Sau khi nước Đại Ngu rơi vào sự cai trị của nhà Minh, Nguyễn Trãi tham gia vào cuộc khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo chống lại sự thống trị của nhà Minh, giúp soạn thảo các văn thư ngoại giao với quân Minh. Ông tiếp tục phục vụ dưới triều đại vua Lê Thái Tổ và Lê Thái Tông với chức vụ Nhập nội hành khiển và Thừa chỉ (tức Hàn lâm viện Thừa chỉ học sĩ hay Tuyên phụng đại phu Hàn lâm Thừa chỉ). Lần thăng chức sau đó, Nguyễn Trãi được phong Triều liệt đại phu, Nhập nội hành khiển, Lại bộ Thượng thư kiêm hành Khu mật viện sự.
+Năm 1442, toàn thể gia đình Nguyễn Trãi bị kết án tru di tam tộc trong vụ án Lệ Chi Viên. Năm 1464, vua Lê Thánh Tông xuống chiếu ân xá cho ông. Nguyễn Trãi là một nhà văn hóa lớn, có đóng góp to lớn vào sự phát triển của văn học và tư tưởng Việt Nam.</dct:description>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n%20Tr%C3%A3i"/>
+    <dct:language>vi</dct:language>
+    <vidbp:name xml:lang="vi">Nguyễn Trãi</vidbp:name>
+    <vidbp:image xml:lang="vi">Nguyen Trai.jpg</vidbp:image>
+    <vidbp:birthname xml:lang="vi">Nguyễn Trãi</vidbp:birthname>
+    <vidbp:birth_date xml:lang="vi">1380</vidbp:birth_date>
+    <vidbp:birth_place xml:lang="vi">Thăng Long, Đại Việt</vidbp:birth_place>
+    <vidbp:death_date xml:lang="vi">19 tháng 9 năm 1442(62 tuổi)Ngày tháng trong bài này đều lấy theo lịch Gregory đón trước.</vidbp:death_date>
+    <vidbp:realname xml:lang="vi">Nguyễn Trãi</vidbp:realname>
+    <vidbp:penname xml:lang="vi">Ức Trai</vidbp:penname>
+    <vidbp:occupation xml:lang="vi">Nhà văn, [[Chính trị gia</vidbp:occupation>
+    <vidbp:nationality xml:lang="vi">Việt Nam</vidbp:nationality>
+    <vidbp:ethnicity xml:lang="vi">[[Người Việt</vidbp:ethnicity>
+    <vidbp:citizenship xml:lang="vi">Việt Nam</vidbp:citizenship>
+    <vidbp:phong_t%C6%B0%E1%BB%9Bc xml:lang="vi">Tán Trù bá (phong bởi Lê Thánh Tông)Tế Văn hầu (phong bởi Lê Tương Dực)</vidbp:phong_t%C6%B0%E1%BB%9Bc>
+    <vidbp:education xml:lang="vi">Thái học sinh (Tiến sĩ)</vidbp:education>
+    <vidbp:period xml:lang="vi">[[Văn học Việt Nam thời Lê sơ</vidbp:period>
+    <vidbp:genre xml:lang="vi">Thơ, [[Cáo (văn kiện)</vidbp:genre>
+    <vidbp:notableworks xml:lang="vi">''Bình Ngô đại cáo'Quốc âm thi tập'Quân trung từ mệnh tập'Dư địa chí'Ức Trai thi tập''</vidbp:notableworks>
+    <vidbp:spouse xml:lang="vi">[[#Gia đình</vidbp:spouse>
+    <vidbp:children xml:lang="vi">[[#Gia đình</vidbp:children>
+    <vidbp:relatives xml:lang="vi">Nguyễn Phi Khanh (cha) Trần Thị Thái (mẹ)</vidbp:relatives>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/CS1_gi%C3%A1_tr%E1%BB%8B_quy%E1%BB%83n_d%C3%A0i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a_th%E1%BA%BF_gi%E1%BB%9Bi_c%E1%BB%A7a_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BA%A7u_t%C6%B0%E1%BB%9Bc_truy_phong_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_kh%C3%B4ng_c%C3%B3_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_nhi%E1%BB%81u_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_1442"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nghi_%C3%A1n_v%E1%BB%81_t%E1%BB%99i_gi%E1%BA%BFt_ng%C6%B0%E1%BB%9Di_ch%C6%B0a_c%C3%B3_l%E1%BB%9Di_gi%E1%BA%A3i_minh_b%E1%BA%A1ch_trong_l%E1%BB%8Bch_s%E1%BB%AD"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nguy%E1%BB%85n_Tr%C3%A3i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%C3%A0_N%E1%BB%99i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%E1%BA%A3i_D%C6%B0%C6%A1ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_Nam_b%E1%BB%8B_x%E1%BB%AD_t%E1%BB%AD_h%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_b%E1%BB%8B_x%E1%BB%AD_t%E1%BB%AD_h%C3%ACnh_do_k%E1%BA%BFt_%C3%A1n_oan_sai"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_s%E1%BB%AD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_L%C3%AA_s%C6%A1"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_t%C6%B0_t%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_L%C3%AA_s%C6%A1"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_%C4%91%E1%BB%8Ba_l%C3%BD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_H%E1%BB%93"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_L%C3%AA_s%C6%A1"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1380"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Th%C3%A1i_h%E1%BB%8Dc_sinh_nh%C3%A0_H%E1%BB%93"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nguyễn Trãi</skos:prefLabel>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1555</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Khởi nghĩa Lam Sơn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_trong_N%E1%BB%99i_chi%E1%BA%BFn_L%C3%A0o">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhân vật trong Nội chiến Lào</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_Nam_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Việt Nam trong chiến tranh Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_ng%C3%B4n_ng%E1%BB%AF_kh%C3%B4ng_r%C3%B5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quản lý CS1: ngôn ngữ không rõ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Anh hùng dân tộc Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa IV</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam_th%E1%BB%A5_phong_th%E1%BA%ADp_ni%C3%AAn_1940">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Tướng lĩnh Quân đội nhân dân Việt Nam thụ phong thập niên 1940</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ch%E1%BB%91ng_ch%E1%BB%A7_ngh%C4%A9a_%C4%91%E1%BA%BF_qu%E1%BB%91c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Chống chủ nghĩa đế quốc</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_2013">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Mất năm 2013</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_Li%C3%AAn_X%C3%B4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Anh hùng Liên Xô</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%C3%A2y_S%C6%A1n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà văn Việt Nam thời Tây Sơn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BB%99i_An">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdfs:label xml:lang="vi">Hội An</rdfs:label>
+    <foaf:name xml:lang="vi">Hội An</foaf:name>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/H%E1%BB%99i%20An"/>
+    <dct:language>vi</dct:language>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_%C4%91%E1%BB%95i_h%C6%B0%E1%BB%9Bng_t%E1%BB%AB_vi%E1%BB%87c_di_chuy%E1%BB%83n"/>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19934624</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Qu%C3%A2n_nh%C3%A2n_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quân nhân trong Chiến tranh Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/V%E1%BB%8Bnh_H%E1%BA%A1_Long">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/ĐịaĐiểm"/>
+    <rdfs:label xml:lang="vi">Vịnh Hạ Long</rdfs:label>
+    <foaf:name xml:lang="vi">Vịnh Hạ Long</foaf:name>
+    <rdfs:comment xml:lang="vi">Vịnh Hạ Long là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của thành phố Hạ Long thuộc tỉnh Quảng Ninh.
+Là trung tâm của một khu vực rộng lớn có những yếu tố ít nhiều tương đồng về địa chất, địa mạo, cảnh quan, khí hậu và văn hóa, với vịnh Bái Tử Long phía Đông Bắc và quần đảo Cát Bà phía Tây Nam, vịnh Hạ Long giới hạn trong diện tích khoảng 1.553 km² bao gồm 1.969 hòn đảo lớn nhỏ, phần lớn là đảo đá vôi, trong đó vùng lõi của vịnh có diện tích 335 km² quần tụ dày đặc 775 hòn đảo. Lịch sử kiến tạo địa chất đá vôi của vịnh đã trải qua khoảng 500 triệu năm với những hoàn cảnh cổ địa lý rất khác nhau; và quá trình tiến hóa karst đầy đủ trải qua trên 20 triệu năm với sự kết hợp các yếu tố như tầng đá vôi dày, khí hậu nóng ẩm và tiến trình nâng kiến tạo chậm chạp trên tổng thể. Sự kết hợp của môi trường, khí hậu, địa chất, địa mạo, đã khiến vịnh Hạ Long trở thành quần tụ của đa dạng sinh học bao gồm hệ sinh thái rừng kín thường xanh mưa ẩm nhiệt đới và hệ sinh thái biển và ven bờ với nhiều tiểu hệ sinh thái. 17 loài thực vật đặc hữu và khoảng 60 loài động vật đặc hữu đã được phát hiện trong số hàng ngàn động, thực vật quần cư tại vịnh.
+Những kết quả nghiên cứu, thám sát khảo cổ học và văn hóa học cho thấy sự hiện diện của những cư dân tiền sử trên vùng vịnh Hạ Long từ khá sớm, đã tạo lập những hình thái văn hóa cổ đại tiếp nối nhau bao gồm văn hóa Soi Nhụ trong khoảng 18.000-7.000 năm trước Công Nguyên, văn hóa Cái Bèo trong 7.000-5.000 năm trước Công Nguyên và văn hóa Hạ Long cách ngày nay khoảng từ 3.500-5.000 năm. Tiến trình dựng nước và truyền thống giữ nước của dân tộc Việt Nam, trong suốt hành trình lịch sử, cũng khẳng định vị trí tiền tiêu và vị thế văn hóa của vịnh Hạ Long qua những địa danh mà tên gọi gắn với điển tích còn lưu truyền đến nay, như núi Bài Thơ, hang Đầu Gỗ, Bãi Cháy v.v. Hiện nay, vịnh Hạ Long là một khu vực phát triển năng động nhờ những điều kiện và lợi thế sẵn có như có một tiềm năng lớn về du lịch, nghiên cứu khoa học, nuôi trồng, đánh bắt thủy sản, giao thông thủy đối với khu vực vùng biển Đông Bắc Việt Nam nói riêng và miền Bắc Việt Nam nói chung.
+Từ hơn 500 năm về trước trong bài thơ Lộ nhập Vân Đồn, Nguyễn Trãi đã lần đầu tiên ca ngợi vịnh Hạ Long là "kỳ quan đá dựng giữa trời cao". Năm 1962 Bộ Văn hóa - Thông tin (Việt Nam) đã xếp hạng vịnh Hạ Long là di tích danh thắng cấp quốc gia đồng thời quy hoạch vùng bảo vệ. Năm 1994 vùng lõi của vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới với giá trị thẩm mỹ (tiêu chuẩn vii), và được tái công nhận lần thứ 2 với giá trị ngoại hạng toàn cầu về địa chất-địa mạo (tiêu chuẩn viii) vào năm 2000. Cùng với vịnh Nha Trang và vịnh Lăng Cô của Việt Nam, vịnh Hạ Long là một trong số 29 vịnh được Câu lạc bộ những vịnh đẹp nhất thế giới xếp hạng và chính thức công nhận vào tháng 7 năm 2003.
+Vịnh Hạ Long cùng với đảo Cát Bà tạo thành một trong 21 khu du lịch quốc gia đầu tiên ở Việt Nam. Năm 2015, Cục Di sản văn hóa đã công bố về số lượng khách tham quan vịnh Hạ Long là trên 2,5 triệu lượt khách.</rdfs:comment>
+    <dct:description xml:lang="vi">Vịnh Hạ Long là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của thành phố Hạ Long thuộc tỉnh Quảng Ninh.
+Là trung tâm của một khu vực rộng lớn có những yếu tố ít nhiều tương đồng về địa chất, địa mạo, cảnh quan, khí hậu và văn hóa, với vịnh Bái Tử Long phía Đông Bắc và quần đảo Cát Bà phía Tây Nam, vịnh Hạ Long giới hạn trong diện tích khoảng 1.553 km² bao gồm 1.969 hòn đảo lớn nhỏ, phần lớn là đảo đá vôi, trong đó vùng lõi của vịnh có diện tích 335 km² quần tụ dày đặc 775 hòn đảo. Lịch sử kiến tạo địa chất đá vôi của vịnh đã trải qua khoảng 500 triệu năm với những hoàn cảnh cổ địa lý rất khác nhau; và quá trình tiến hóa karst đầy đủ trải qua trên 20 triệu năm với sự kết hợp các yếu tố như tầng đá vôi dày, khí hậu nóng ẩm và tiến trình nâng kiến tạo chậm chạp trên tổng thể. Sự kết hợp của môi trường, khí hậu, địa chất, địa mạo, đã khiến vịnh Hạ Long trở thành quần tụ của đa dạng sinh học bao gồm hệ sinh thái rừng kín thường xanh mưa ẩm nhiệt đới và hệ sinh thái biển và ven bờ với nhiều tiểu hệ sinh thái. 17 loài thực vật đặc hữu và khoảng 60 loài động vật đặc hữu đã được phát hiện trong số hàng ngàn động, thực vật quần cư tại vịnh.
+Những kết quả nghiên cứu, thám sát khảo cổ học và văn hóa học cho thấy sự hiện diện của những cư dân tiền sử trên vùng vịnh Hạ Long từ khá sớm, đã tạo lập những hình thái văn hóa cổ đại tiếp nối nhau bao gồm văn hóa Soi Nhụ trong khoảng 18.000-7.000 năm trước Công Nguyên, văn hóa Cái Bèo trong 7.000-5.000 năm trước Công Nguyên và văn hóa Hạ Long cách ngày nay khoảng từ 3.500-5.000 năm. Tiến trình dựng nước và truyền thống giữ nước của dân tộc Việt Nam, trong suốt hành trình lịch sử, cũng khẳng định vị trí tiền tiêu và vị thế văn hóa của vịnh Hạ Long qua những địa danh mà tên gọi gắn với điển tích còn lưu truyền đến nay, như núi Bài Thơ, hang Đầu Gỗ, Bãi Cháy v.v. Hiện nay, vịnh Hạ Long là một khu vực phát triển năng động nhờ những điều kiện và lợi thế sẵn có như có một tiềm năng lớn về du lịch, nghiên cứu khoa học, nuôi trồng, đánh bắt thủy sản, giao thông thủy đối với khu vực vùng biển Đông Bắc Việt Nam nói riêng và miền Bắc Việt Nam nói chung.
+Từ hơn 500 năm về trước trong bài thơ Lộ nhập Vân Đồn, Nguyễn Trãi đã lần đầu tiên ca ngợi vịnh Hạ Long là "kỳ quan đá dựng giữa trời cao". Năm 1962 Bộ Văn hóa - Thông tin (Việt Nam) đã xếp hạng vịnh Hạ Long là di tích danh thắng cấp quốc gia đồng thời quy hoạch vùng bảo vệ. Năm 1994 vùng lõi của vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới với giá trị thẩm mỹ (tiêu chuẩn vii), và được tái công nhận lần thứ 2 với giá trị ngoại hạng toàn cầu về địa chất-địa mạo (tiêu chuẩn viii) vào năm 2000. Cùng với vịnh Nha Trang và vịnh Lăng Cô của Việt Nam, vịnh Hạ Long là một trong số 29 vịnh được Câu lạc bộ những vịnh đẹp nhất thế giới xếp hạng và chính thức công nhận vào tháng 7 năm 2003.
+Vịnh Hạ Long cùng với đảo Cát Bà tạo thành một trong 21 khu du lịch quốc gia đầu tiên ở Việt Nam. Năm 2015, Cục Di sản văn hóa đã công bố về số lượng khách tham quan vịnh Hạ Long là trên 2,5 triệu lượt khách.</dct:description>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/V%E1%BB%8Bnh%20H%E1%BA%A1%20Long"/>
+    <dct:language>vi</dct:language>
+    <vidbp:WHS xml:lang="vi">Vịnh Hạ Long-Quần đảo Cát Bà</vidbp:WHS>
+    <vidbp:Image xml:lang="vi">Vịnh Hạ Long - NKS.jpg</vidbp:Image>
+    <vidbp:Location xml:lang="vi">Quảng Ninh, Việt Nam</vidbp:Location>
+    <vidbp:Criteria xml:lang="vi">Thiên nhiên: vii, viii</vidbp:Criteria>
+    <vidbp:ID xml:lang="vi">672</vidbp:ID>
+    <vidbp:Year xml:lang="vi">1994</vidbp:Year>
+    <vidbp:Extension xml:lang="vi">2000, 2023</vidbp:Extension>
+    <vidbp:locmapin xml:lang="vi">Vietnam</vidbp:locmapin>
+    <vidbp:coordinates xml:lang="vi">{{coord|20.9|N|107.2|E|type:waterbody_region:VN_dim:30000|format=dms|display=inline,title</vidbp:coordinates>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_Vi%E1%BB%87t_Nam_ch%E1%BB%8Dn_l%E1%BB%8Dc"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_l%E1%BB%97i_th%E1%BB%9Di"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Di_s%E1%BA%A3n_th%E1%BA%BF_gi%E1%BB%9Bi_t%E1%BA%A1i_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Di_t%C3%ADch_qu%E1%BB%91c_gia_%C4%91%E1%BA%B7c_bi%E1%BB%87t"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Du_l%E1%BB%8Bch_Qu%E1%BA%A3ng_Ninh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/H%E1%BA%A1_Long"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/IUCN_Lo%E1%BA%A1i_III"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Khu_du_l%E1%BB%8Bch_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/K%E1%BB%B3_quan_thi%C3%AAn_nhi%C3%AAn"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_li%C3%AAn_k%E1%BA%BFt_ngo%C3%A0i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_tham_s%E1%BB%91_th%E1%BB%ABa"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_%E1%BA%A5n_ph%E1%BA%A9m_b%E1%BB%8B_b%E1%BB%8F_qua"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_ng%C3%B4n_ng%E1%BB%AF_kh%C3%B4ng_r%C3%B5"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_nhi%E1%BB%81u_t%C3%AAn_danh_s%C3%A1ch_t%C3%A1c_gi%E1%BA%A3"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m_thi%E1%BA%BFu_nh%C3%A0_xu%E1%BA%A5t_b%E1%BA%A3n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/V%C6%B0%E1%BB%9Dn_di_s%E1%BA%A3n_ASEAN"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/V%E1%BB%8Bnh_B%E1%BA%AFc_B%E1%BB%99"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/V%E1%BB%8Bnh_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers"/>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4483</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ch%E1%BB%A7_ngh%C4%A9a_d%C3%A2n_t%E1%BB%99c_c%C3%A1nh_t%E1%BA%A3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Chủ nghĩa dân tộc cánh tả</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Khu_du_l%E1%BB%8Bch_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Khu du lịch Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_b%E1%BB%8B_h%E1%BA%A1n_ch%E1%BA%BF_cho_th%C3%A0nh_vi%C3%AAn_x%C3%A1c_nh%E1%BA%ADn_m%E1%BB%9F_r%E1%BB%99ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang bị hạn chế cho thành viên xác nhận mở rộng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng GND</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LNB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng LNB</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%E1%BA%A7n_ch%C3%BA_th%C3%ADch_chi_ti%E1%BA%BFt_h%C6%A1n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết cần chú thích chi tiết hơn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Huy_hi%E1%BB%87u_70_n%C4%83m_tu%E1%BB%95i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Huy hiệu 70 năm tuổi Đảng Cộng sản Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng BNF</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ph%E1%BA%A1m_Tu%C3%A2n">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdfs:label xml:lang="vi">Phạm Tuân</rdfs:label>
+    <foaf:name xml:lang="vi">Phạm Tuân</foaf:name>
+    <rdfs:comment xml:lang="vi">Phạm Tuân (sinh ngày 14 tháng 2 năm 1947) là phi công, phi hành gia người Việt Nam, Trung tướng Quân đội nhân dân Việt Nam. Ông là người Việt Nam và châu Á đầu tiên bay lên vũ trụ vào năm 1980 trong chương trình Interkosmos của Liên Xô. Ông cũng là người Việt Nam đầu tiên được phong danh hiệu Anh hùng 3 lần, bởi 2 quốc gia khác nhau: Anh hùng lực lượng vũ trang nhân dân Việt Nam, Anh hùng Lao động, Anh hùng Liên Xô.</rdfs:comment>
+    <dct:description xml:lang="vi">Phạm Tuân (sinh ngày 14 tháng 2 năm 1947) là phi công, phi hành gia người Việt Nam, Trung tướng Quân đội nhân dân Việt Nam. Ông là người Việt Nam và châu Á đầu tiên bay lên vũ trụ vào năm 1980 trong chương trình Interkosmos của Liên Xô. Ông cũng là người Việt Nam đầu tiên được phong danh hiệu Anh hùng 3 lần, bởi 2 quốc gia khác nhau: Anh hùng lực lượng vũ trang nhân dân Việt Nam, Anh hùng Lao động, Anh hùng Liên Xô.</dct:description>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/Ph%E1%BA%A1m%20Tu%C3%A2n"/>
+    <dct:language>vi</dct:language>
+    <vidbp:honorific_prefix xml:lang="vi">[[Trung tướng Quân đội nhân dân Việt Nam</vidbp:honorific_prefix>
+    <vidbp:name xml:lang="vi">Phạm Tuân</vidbp:name>
+    <vidbp:image xml:lang="vi">Phạm Tuân .JPG</vidbp:image>
+    <vidbp:caption xml:lang="vi">Trung tướng Phạm Tuân, năm 2012</vidbp:caption>
+    <vidbp:type xml:lang="vi">Không quân Nhân dân Việt Nam / Phi hành gia Nghiên cứu Intercosmos</vidbp:type>
+    <vidbp:status xml:lang="vi">Về hưu</vidbp:status>
+    <vidbp:nationality xml:lang="vi">{{flag|Việt Nam</vidbp:nationality>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_Lao_%C4%91%E1%BB%99ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_Li%C3%AAn_X%C3%B4"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_L%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_v%C5%A9_trang_nh%C3%A2n_d%C3%A2n"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_H%E1%BB%93_Ch%C3%AD_Minh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Lenin"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/L%C3%A3nh_%C4%91%E1%BA%A1o_doanh_nghi%E1%BB%87p"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Th%C3%A1i_B%C3%ACnh"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_%C4%91%C6%B0%E1%BB%A3c_phong_t%E1%BA%B7ng_danh_hi%E1%BB%87u_Anh_h%C3%B9ng_Lao_%C4%91%E1%BB%99ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A0_du_h%C3%A0nh_v%C5%A9_tr%E1%BB%A5_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_c%C3%B2n_s%E1%BB%91ng"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Phi_c%C3%B4ng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1947"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Trung_t%C6%B0%E1%BB%9Bng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/T%E1%BB%95ng_c%E1%BB%A5c_C%C3%B4ng_nghi%E1%BB%87p_Qu%E1%BB%91c_ph%C3%B2ng_Vi%E1%BB%87t_Nam"/>
+    <dct:subject rdf:resource="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers"/>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13962</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Sinh_t%E1%BA%A1i_L%E1%BB%87_Th%E1%BB%A7y_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Sinh tại Lệ Thủy, Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài có liên kết hỏng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/T%C3%A2n_Vi%E1%BB%87t_C%C3%A1ch_m%E1%BB%87nh_%C4%90%E1%BA%A3ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Tân Việt Cách mệnh Đảng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NDL</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%AD_th%C6%B0_Qu%C3%A2n_%E1%BB%A7y_Trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bí thư Quân ủy Trung ương Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_H%E1%BB%93_Ch%C3%AD_Minh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Huân chương Hồ Chí Minh</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có bản mẫu Hatnote trỏ đến một trang không tồn tại</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có văn bản tiếng Trung Quốc</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Việt Nam Dân chủ Cộng hòa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa I</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NLI</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Phi_c%C3%B4ng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Phi công Quân đội nhân dân Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa VII</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NKC</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_nhi%E1%BB%81u_t%C3%AAn_danh_s%C3%A1ch_t%C3%A1c_gi%E1%BA%A3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quản lý CS1: nhiều tên: danh sách tác giả</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_%C4%91%E1%BB%8Bnh_d%E1%BA%A1ng_hAudio">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết sử dụng định dạng hAudio</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_%C4%91%E1%BB%8Ba_l%C3%BD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà địa lý học Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng PLWABN</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_N%E1%BB%99i_v%E1%BB%A5_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bộ trưởng Bộ Nội vụ Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Vi%E1%BB%87t_n%C3%AAu_r%C3%B5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có văn bản tiếng Việt nêu rõ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_li%C3%AAn_k%E1%BA%BFt_ngo%C3%A0i">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi CS1: liên kết ngoài</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa VI</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_L%C3%AA_s%C6%A1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thời Lê sơ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng BNE</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_qu%E1%BB%91c_ph%C3%B2ng_v%C3%A0_an_ninh_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Chủ tịch Hội đồng quốc phòng và an ninh Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_Lao_%C4%91%E1%BB%99ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Anh hùng Lao động</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có trích dẫn không khớp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa II</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng LCCN</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Quan_h%E1%BB%87_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_Trung_Qu%E1%BB%91c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quan hệ ngoại giao Việt Nam – Trung Quốc</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Khoa_h%E1%BB%8Dc_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bộ trưởng Bộ Khoa học và Công nghệ Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BIBSYS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng BIBSYS</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Di_t%C3%ADch_qu%E1%BB%91c_gia_%C4%91%E1%BA%B7c_bi%E1%BB%87t">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Di tích quốc gia đặc biệt</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng CINII</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Chiến dịch Điện Biên Phủ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_c%C6%A1_b%E1%BA%A3n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài cơ bản</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng MusicBrainz</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdfs:label xml:lang="vi">Cách mạng tháng Tám</rdfs:label>
+    <foaf:name xml:lang="vi">Cách mạng tháng Tám</foaf:name>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/C%C3%A1ch%20m%E1%BA%A1ng%20th%C3%A1ng%20T%C3%A1m"/>
+    <dct:language>vi</dct:language>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13469760</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NARA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NARA</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%C3%A0_N%E1%BB%99i">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Hà Nội</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A3ng_vi%C3%AAn_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Ph%C3%A1p">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đảng viên Đảng Cộng sản Pháp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_Nguy%E1%BB%85n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người họ Nguyễn tại Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_1442">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Mất năm 1442</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Li%C3%AAn_k%E1%BA%BFt_c%C3%B3_t%E1%BB%93n_t%E1%BA%A1i_trong_b%E1%BA%A3n_m%E1%BA%ABu_Interlanguage_link">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Liên kết có tồn tại trong bản mẫu Interlanguage link</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BB%8Dc_sinh_Qu%E1%BB%91c_h%E1%BB%8Dc_Hu%E1%BA%BF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Học sinh Quốc học Huế</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/C%E1%BB%B1u_h%E1%BB%8Dc_sinh_Trung_h%E1%BB%8Dc_Albert_Sarraut">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Cựu học sinh Trung học Albert Sarraut</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Qu%C3%A2n_c%C3%B4ng_h%E1%BA%A1ng_Nh%E1%BA%A5t">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Huân chương Quân công hạng Nhất</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quản lý CS1: địa điểm</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa II</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang sử dụng liên kết tự động ISBN</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/V%E1%BB%8Bnh_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Vịnh Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa V Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_thi%E1%BA%BFu_t%C3%AAn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi CS1: thiếu tên</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_1969">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Mất năm 1969</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/T%E1%BB%95ng_c%E1%BB%A5c_C%C3%B4ng_nghi%E1%BB%87p_Qu%E1%BB%91c_ph%C3%B2ng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Tổng cục Công nghiệp Quốc phòng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_b%E1%BB%8B_x%E1%BB%AD_t%E1%BB%AD_h%C3%ACnh_do_k%E1%BA%BFt_%C3%A1n_oan_sai">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người bị xử tử hình do kết án oan sai</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam_ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Tướng lĩnh Quân đội nhân dân Việt Nam người Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa IV</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VcBA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng VcBA</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà văn Việt Nam thời Nguyễn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BA%A7u_t%C6%B0%E1%BB%9Bc_nh%C3%A0_Nguy%E1%BB%85n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Hầu tước nhà Nguyễn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_c%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người cộng sản Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_19">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thế kỷ 19</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa II</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NLG</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a_th%E1%BA%BF_gi%E1%BB%9Bi_c%E1%BB%A7a_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Danh nhân văn hóa thế giới của Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1380">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Sinh năm 1380</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà ngoại giao Việt Nam thời Nguyễn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Thủ tướng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_%C4%91%C6%B0%E1%BB%A3c_phong_t%E1%BA%B7ng_danh_hi%E1%BB%87u_Anh_h%C3%B9ng_Lao_%C4%91%E1%BB%99ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người được phong tặng danh hiệu Anh hùng Lao động</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BA%A1_Long">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Hạ Long</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_H%E1%BB%93">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quan lại nhà Hồ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bộ trưởng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng VIAF</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_1945_1975">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà văn Việt Nam thời kỳ 1945–1975</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/V%E1%BB%8Bnh_B%E1%BA%AFc_B%E1%BB%99">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Vịnh Bắc Bộ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%C3%A3nh_t%E1%BB%A5_C%E1%BB%99ng_s%E1%BA%A3n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lãnh tụ Cộng sản</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trung_t%C6%B0%E1%BB%9Bng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trung tướng Quân đội nhân dân Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_v%E1%BB%81_ti%E1%BB%83u_s%E1%BB%AD_c%C3%B3_%E1%BA%A3nh_ch%E1%BB%A5p_ch%E1%BB%AF_k%C3%BD_nh%C3%A2n_v%E1%BA%ADt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết về tiểu sử có ảnh chụp chữ ký nhân vật</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/CS1_gi%C3%A1_tr%E1%BB%8B_quy%E1%BB%83n_d%C3%A0i">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:CS1: giá trị quyển dài</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Anh_h%C3%B9ng_L%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_v%C5%A9_trang_nh%C3%A2n_d%C3%A2n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Anh hùng Lực lượng vũ trang nhân dân</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Chi%E1%BA%BFn_th%E1%BA%AFng_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7">
+    <rdf:type rdf:resource="http://vi.dbpedia.org/ontology/Người"/>
+    <rdfs:label xml:lang="vi">Chiến thắng Điện Biên Phủ</rdfs:label>
+    <foaf:name xml:lang="vi">Chiến thắng Điện Biên Phủ</foaf:name>
+    <foaf:isPrimaryTopicOf rdf:resource="https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn%20th%E1%BA%AFng%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7"/>
+    <dct:language>vi</dct:language>
+    <vidbp:wikipediaPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117997</vidbp:wikipediaPageID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa IV</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có nguồn tham khảo tiếng Anh (en)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_Portal_inline_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_%C4%91%E1%BB%8F_%C4%91%E1%BA%BFn_c%E1%BB%95ng_th%C3%B4ng_tin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bản mẫu Portal-inline có liên kết đỏ đến cổng thông tin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_1945_1975">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thời kỳ 1945–1975</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/IUCN_Lo%E1%BA%A1i_III">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:IUCN Loại III</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_Wikipedia_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_RERO_sai">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết Wikipedia chứa nhận dạng RERO sai</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/D%C3%B2ng_h%E1%BB%8D_Nguy%E1%BB%85n_Sinh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Dòng họ Nguyễn Sinh</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/T%E1%BB%95ng_B%C3%AD_th%C6%B0_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1890">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Sinh năm 1890</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà văn Việt Nam thời Pháp thuộc</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ph%C3%B3_Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Phó Thủ tướng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_s%E1%BB%AD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà sử học Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Th%E1%BB%AD_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m_CS1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Thử địa điểm CS1</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng Trove</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang đưa đối số thừa vào bản mẫu</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_l%E1%BB%97i_th%E1%BB%9Di">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài lỗi thời</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bản mẫu webarchive dùng liên kết wayback</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%E1%BA%A3i_D%C6%B0%C6%A1ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Hải Dương</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NSK">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NSK</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_sfn_v%E1%BB%9Bi_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang sử dụng bản mẫu sfn với tham số không rõ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BA%A7u_t%C6%B0%E1%BB%9Bc_truy_phong_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Hầu tước truy phong Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa III</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_Nguy%E1%BB%85n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quan lại nhà Nguyễn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_b%C3%A1o_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà báo Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa I</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_Vi%E1%BB%87t_Nam_ch%E1%BB%8Dn_l%E1%BB%8Dc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài Việt Nam chọn lọc</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_tham_s%E1%BB%91_th%E1%BB%ABa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi CS1: tham số thừa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng SNAC-ID</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng ISNI</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Sao_V%C3%A0ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Huân chương Sao Vàng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang bị khóa hạn chế sửa đổi</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa III Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Lenin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Huân chương Lenin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_du_h%C3%A0nh_v%C5%A9_tr%E1%BB%A5_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà du hành vũ trụ Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Du_l%E1%BB%8Bch_Qu%E1%BA%A3ng_Ninh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Du lịch Quảng Ninh</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NLP</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Tọa độ trên Wikidata</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1766">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Sinh năm 1766</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Th%C3%A1i_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Thái Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_thi%E1%BA%BFu_t%E1%BA%A1p_ch%C3%AD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi CS1: thiếu tạp chí</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quản lý CS1: bot: trạng thái URL ban đầu không rõ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_%C4%91%E1%BB%95i_h%C6%B0%E1%BB%9Bng_t%E1%BB%AB_vi%E1%BB%87c_di_chuy%E1%BB%83n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang đổi hướng từ việc di chuyển</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bộ trưởng Bộ Ngoại giao Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_s%E1%BB%AD_thi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ sử thi</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_V%C3%B5_t%E1%BA%A1i_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người họ Võ tại Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ch%C3%BA_th%C3%ADch_kh%C3%B4ng_%C4%91%E1%BA%A7y_%C4%91%E1%BB%A7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có chú thích không đầy đủ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng SUDOC</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1911">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Sinh năm 1911</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_H%C3%A0_T%C4%A9nh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Hà Tĩnh</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Ph%C3%A1p_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nguồn CS1 tiếng Pháp (fr)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NLA</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_t%C6%B0_t%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà tư tưởng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_t%C6%B0%E1%BB%9Bng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại tướng Quân đội nhân dân Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Chủ tịch nước Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_ho%E1%BA%A1t_%C4%91%E1%BB%99ng_%C4%91%E1%BB%99c_l%E1%BA%ADp">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà hoạt động độc lập</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/K%E1%BB%B3_quan_thi%C3%AAn_nhi%C3%AAn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Kỳ quan thiên nhiên</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/H%E1%BB%99i_Vi%E1%BB%87t_Nam_C%C3%A1ch_m%E1%BA%A1ng_Thanh_ni%C3%AAn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Hội Việt Nam Cách mạng Thanh niên</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà ngoại giao Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NLK</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/V%C6%B0%E1%BB%9Dn_di_s%E1%BA%A3n_ASEAN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Vườn di sản ASEAN</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa III</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Th%C3%A1i_h%E1%BB%8Dc_sinh_nh%C3%A0_H%E1%BB%93">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Thái học sinh nhà Hồ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa VI</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_I">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa I</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi CS1: tham số không rõ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang có lỗi chú thích</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_Nam_b%E1%BB%8B_x%E1%BB%AD_t%E1%BB%AD_h%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Việt Nam bị xử tử hình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thời Pháp thuộc</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nghi_%C3%A1n_v%E1%BB%81_t%E1%BB%99i_gi%E1%BA%BFt_ng%C6%B0%E1%BB%9Di_ch%C6%B0a_c%C3%B3_l%E1%BB%9Di_gi%E1%BA%A3i_minh_b%E1%BA%A1ch_trong_l%E1%BB%8Bch_s%E1%BB%AD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nghi án về tội giết người chưa có lời giải minh bạch trong lịch sử</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa II Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_trong_Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhân vật trong Chiến tranh Đông Dương</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Qu%E1%BB%91c_ph%C3%B2ng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bộ trưởng Bộ Quốc phòng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Wikipedia_articles_with_WorldCat_VIAF_identifiers">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Wikipedia articles with WorldCat-VIAF identifiers</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa IV Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m_thi%E1%BA%BFu_nh%C3%A0_xu%E1%BA%A5t_b%E1%BA%A3n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quản lý CS1: địa điểm thiếu nhà xuất bản</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_CS1_%E1%BA%A5n_ph%E1%BA%A9m_b%E1%BB%8B_b%E1%BB%8F_qua">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi CS1: ấn phẩm bị bỏ qua</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thời Nguyễn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_ch%E1%BB%91ng_x%C3%A9t_l%E1%BA%A1i">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người chống xét lại</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SELIBR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng SELIBR</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa III</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_th%E1%BB%8D_b%C3%A1ch_ni%C3%AAn_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người thọ bách niên Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CANTIC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng CANTIC</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_c%C3%A1ch_m%E1%BA%A1ng_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà cách mạng Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Ngh%E1%BB%87_An">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Nghệ An</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng NTA</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_nhi%E1%BB%81u_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi nhiều mục tiêu Harv và Sfn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_20">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thế kỷ 20</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Trang_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_c%E1%BB%95ng_th%C3%B4ng_tin_tr%E1%BB%91ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Trang có bản mẫu cổng thông tin trống</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_18">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà thơ Việt Nam thế kỷ 18</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Sinh_n%C4%83m_1947">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Sinh năm 1947</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_L%C3%AA_trung_h%C6%B0ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quan lại nhà Lê trung hưng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Hu%C3%A2n_ch%C6%B0%C6%A1ng_Chi%E1%BA%BFn_th%E1%BA%AFng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Huân chương Chiến thắng</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%E1%BB%97i_kh%C3%B4ng_c%C3%B3_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lỗi không có mục tiêu Harv và Sfn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/M%E1%BA%A5t_n%C4%83m_1820">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Mất năm 1820</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/L%C3%A3nh_%C4%91%E1%BA%A1o_doanh_nghi%E1%BB%87p">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Lãnh đạo doanh nghiệp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Quan_l%E1%BA%A1i_nh%C3%A0_L%C3%AA_s%C6%A1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Quan lại nhà Lê sơ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết sử dụng pull quote có nguồn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A0_d%C3%A2n_t%E1%BB%99c_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhà dân tộc chủ nghĩa Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa VII Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ph%E1%BA%A1m_vi_%C4%91%E1%BB%8Ba_l%C3%BD_h%E1%BA%A1n_ch%E1%BA%BF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết có phạm vi địa lý hạn chế</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI_Qu%E1%BA%A3ng_B%C3%ACnh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa VI Quảng Bình</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Danh nhân văn hóa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ICCU">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Bài viết chứa nhận dạng ICCU</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Nh%C3%A2n_v%E1%BA%ADt_c%C3%B2n_s%E1%BB%91ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Nhân vật còn sống</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Di_s%E1%BA%A3n_th%E1%BA%BF_gi%E1%BB%9Bi_t%E1%BA%A1i_Vi%E1%BB%87t_Nam">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Di sản thế giới tại Việt Nam</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Đại biểu Quốc hội Việt Nam khóa V</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_%C4%91%C6%B0%E1%BB%A3c_%C4%91%E1%BA%B7t_t%C3%AAn_%C4%91%C6%B0%E1%BB%9Dng_%E1%BB%9F_Ph%C3%A1p">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Người Việt được đặt tên đường ở Pháp</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_V">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="vi">Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa V</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

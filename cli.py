@@ -103,13 +103,21 @@ def create_ontology(output_dir: str, formats: str):
                 'n3': 'n3'
             }
             
+            # Map CLI format names to RDFLib format names
+            rdflib_format_map = {
+                'turtle': 'turtle',
+                'xml': 'xml',
+                'jsonld': 'json-ld',
+                'n3': 'n3'
+            }
+            
             exported_files = []
             for fmt in formats.split(','):
                 fmt = fmt.strip()
-                if fmt in format_map:
+                if fmt in format_map and fmt in rdflib_format_map:
                     filename = f"vietnamese_ontology.{format_map[fmt]}"
                     file_path = output_path / filename
-                    onto.export_ontology(str(file_path), fmt)
+                    onto.export_ontology(str(file_path), rdflib_format_map[fmt])
                     exported_files.append(str(file_path))
                     progress.update(task, description=f"Exported {fmt} format")
             
@@ -247,13 +255,21 @@ def transform_rdf(input: str, output_dir: str, formats: str):
                 'n3': 'n3'
             }
             
+            # Map CLI format names to RDFLib format names
+            rdflib_format_map = {
+                'turtle': 'turtle',
+                'xml': 'xml',
+                'jsonld': 'json-ld',
+                'n3': 'n3'
+            }
+            
             exported_files = []
             for fmt in formats.split(','):
                 fmt = fmt.strip()
-                if fmt in format_map:
+                if fmt in format_map and fmt in rdflib_format_map:
                     filename = f"vietnamese_dbpedia.{format_map[fmt]}"
                     file_path = output_path / filename
-                    transformer.export_rdf(str(file_path), fmt)
+                    transformer.export_rdf(str(file_path), rdflib_format_map[fmt])
                     exported_files.append(str(file_path))
                     progress.update(task, description=f"Exported {fmt} format")
             

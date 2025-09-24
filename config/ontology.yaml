@@ -147,6 +147,7 @@ mappings:
   infobox_templates:
     "Thông tin nhân vật": "Person"
     "Thông tin chính trị gia": "PoliticalFigure"
+    "Thành phố Việt Nam": "City"
     "Thông tin địa điểm": "Place"
     "Thông tin tỉnh thành": "Province"
     "Thông tin trường đại học": "University"

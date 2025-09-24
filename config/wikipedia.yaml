@@ -26,6 +26,7 @@ extraction:
   
 target_categories:
   people:
+    - "Thể loại:Danh nhân văn hóa"
     - "Thể loại:Nhân vật lịch sử Việt Nam"
     - "Thể loại:Chính trị gia Việt Nam"
     - "Thể loại:Nhà văn Việt Nam"
@@ -54,25 +55,25 @@ target_categories:
 
 sample_articles:
   people:
-    - "Hồ Chí Minh"
-    - "Nguyễn Trãi"
-    - "Võ Nguyên Giáp"
-    - "Phạm Tuân"
-    - "Nguyễn Du"
+    - "Hồ_Chí_Minh"
+    - "Nguyễn_Trãi"
+    - "Võ_Nguyên_Giáp"
+    - "Phạm_Tuân"
+    - "Nguyễn_Du"
   places:
-    - "Hà Nội"
-    - "Thành phố Hồ Chí Minh"
+    - "Hà_Nội"
+    - "Thành_phố_Hồ_Chí_Minh"
     - "Huế"
-    - "Vịnh Hạ Long"
-    - "Hội An"
+    - "Vịnh_Hạ_Long"
+    - "Hội_An"
   organizations:
-    - "Đại học Quốc gia Hà Nội"
-    - "Đại học Bách khoa Hà Nội"
-    - "Đại học Quốc gia Thành phố Hồ Chí Minh"
+    - "Đại_học_Quốc_gia_Hà_Nội"
+    - "Đại_học_Bách_khoa_Hà_Nội"
+    - "Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh"
   events:
-    - "Chiến thắng Điện Biên Phủ"
-    - "Cách mạng tháng Tám"
+    - "Chiến_thắng_Điện_Biên_Phủ"
+    - "Cách_mạng_tháng_Tám"
   works:
-    - "Truyện Kiều"
-    - "Số đỏ"
-    - "Dế Mèn phiêu lưu ký"
+    - "Truyện_Kiều"
+    - "Số_đỏ"
+    - "Dế_Mèn_phiêu_lưu_ký"

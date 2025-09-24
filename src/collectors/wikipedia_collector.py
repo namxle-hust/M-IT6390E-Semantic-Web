@@ -129,7 +129,11 @@ class WikipediaCollector:
 
         # Add default parameters
         default_params = {
-            "action": self.api_config["action"],
+            "action": (
+                self.api_config["action"]
+                if "action" not in params
+                else params["action"]
+            ),
             "format": self.api_config["format"],
         }
         params.update(default_params)
@@ -165,7 +169,7 @@ class WikipediaCollector:
 
         # Get basic article information
         params = {
-            "prop": "info|extracts|categories|templates|revisions",
+            "prop": "extracts|info|categories|links|templates",
             "titles": title,
             "exintro": True,
             "explaintext": True,
@@ -263,9 +267,10 @@ class WikipediaCollector:
 
         # Common Vietnamese infobox patterns
         infobox_patterns = [
-            r"{{Thông tin ([^}]+)}}",
-            r"{{Infobox ([^}]+)}}",
-            r"{{Hộp thông tin ([^}]+)}}",
+            r"\{\{\s*[Tt]hông tin\s+([^}]+?)\}\}",
+            r"\{\{\s*[Hh]ộp thông tin\s+([^}]+?)\}\}",
+            r"\{\{\s*[Ii]nfobox\s+([^}]+?)\}\}",
+            r"\{\{\s*[Tt]hông\s+tin\s+([^}]+?)\}\}",
         ]
 
         for pattern in infobox_patterns:
@@ -329,16 +334,29 @@ class WikipediaCollector:
         if not text:
             return ""
 
-        # Remove wiki links [[link|text]] -> text or [[link]] -> link
+        # Remove HTML comments first
+        text = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
+
+        # Remove file/image links (these can be complex)
+        text = re.sub(r"\[\[[Ff]ile:.*?\]\]", "", text)
+        text = re.sub(r"\[\[[Ii]mage:.*?\]\]", "", text)
+
+        # Remove templates {{template}} (handle nested ones)
+        while "{{" in text:
+            text = re.sub(r"{{[^{}]*}}", "", text)
+
+        # Remove wiki links with display text [[link|text]] -> text
         text = re.sub(r"\[\[([^|\]]+)\|([^\]]+)\]\]", r"\2", text)
+
+        # Remove simple wiki links [[link]] -> link
         text = re.sub(r"\[\[([^\]]+)\]\]", r"\1", text)
 
-        # Remove external links
+        # Remove external links with text [url text] -> text
         text = re.sub(r"\[https?://[^\s]+ ([^\]]+)\]", r"\1", text)
-        text = re.sub(r"https?://[^\s]+", "", text)
 
-        # Remove templates {{template}}
-        text = re.sub(r"{{[^}]+}}", "", text)
+        # Remove standalone external links
+        text = re.sub(r"\[https?://[^\]]+\]", "", text)
+        text = re.sub(r"https?://[^\s]+", "", text)
 
         # Remove HTML tags
         text = re.sub(r"<[^>]+>", "", text)
@@ -346,6 +364,11 @@ class WikipediaCollector:
         # Remove formatting
         text = re.sub(r"'''([^']+)'''", r"\1", text)  # Bold
         text = re.sub(r"''([^']+)''", r"\1", text)  # Italic
+
+        # Clean up any remaining brackets or markup
+        text = re.sub(r"\[\[", "", text)  # Remove any leftover [[
+        text = re.sub(r"\]\]", "", text)  # Remove any leftover ]]
+        text = re.sub(r"[\[\]]", "", text)  # Remove any single brackets
 
         # Clean up whitespace
         text = re.sub(r"\s+", " ", text)
