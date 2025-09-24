@@ -23,7 +23,7 @@ services:
       start_period: 40s
 
   vietnamese-dbpedia:
-    build: .
+    image: namxle/vietnamese-dbpedia
     container_name: vietnamese-dbpedia-app
     ports:
       - "5000:5000"
@@ -32,13 +32,10 @@ services:
       - GRAPHDB_PORT=7200
       - FLASK_ENV=production
     volumes:
-      - ./data:/app/data
-      - ./config:/app/config
-      - ./logs:/app/logs
+      - .:/workspace
     depends_on:
       - graphdb
     restart: unless-stopped
-    command: python src/interfaces/web_interface.py
 
   nginx:
     image: nginx:alpine

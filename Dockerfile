@@ -44,5 +44,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
 # Expose port
 EXPOSE 5000
 
-# Default command
-CMD ["python", "src/interfaces/web_interface.py"]
+WORKDIR /workspace
