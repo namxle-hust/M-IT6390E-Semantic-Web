@@ -138,6 +138,8 @@ class WikipediaCollector:
         }
         params.update(default_params)
 
+        logger.debug(f"Making API request with params: {params}")
+
         max_retries = self.api_config["max_retries"]
         backoff_factor = self.api_config["backoff_factor"]
 
@@ -178,6 +180,7 @@ class WikipediaCollector:
             "tllimit": 500,
             "rvprop": "timestamp|ids",
             "rvlimit": 1,
+            # "redirects": True,  # Follow redirects automatically
         }
 
         response = self._make_api_request(params)
@@ -242,24 +245,31 @@ class WikipediaCollector:
 
     def _extract_infobox(self, title: str) -> Dict[str, Any]:
         """Extract infobox data from Wikipedia article."""
-        params = {
-            "action": "parse",
-            "page": title,
-            "prop": "wikitext",
-            "section": 0,
-            "disablelimitreport": True,
-        }
+        try:
+            params = {
+                "action": "parse",
+                "page": title,
+                "prop": "wikitext",
+                "section": 0,
+                "disablelimitreport": True,
+                # "redirects": True,  # Follow redirects automatically
+            }
 
-        response = self._make_api_request(params)
-        if not response or "parse" not in response:
-            logger.warning(f"Failed to get wikitext for: {title}")
+            response = self._make_api_request(params)
+            if not response or "parse" not in response:
+                logger.warning(f"Failed to get wikitext for: {title}")
+                return {}
+
+            wikitext = response["parse"].get("wikitext", {}).get("*", "")
+            if not wikitext:
+                logger.debug(f"No wikitext found for: {title}")
+                return {}
+
+            return self._parse_infobox_from_wikitext(wikitext)
+        
+        except Exception as e:
+            logger.error(f"Error extracting infobox for {title}: {e}")
             return {}
-
-        wikitext = response["parse"].get("wikitext", {}).get("*", "")
-        if not wikitext:
-            return {}
-
-        return self._parse_infobox_from_wikitext(wikitext)
 
     def _parse_infobox_from_wikitext(self, wikitext: str) -> Dict[str, Any]:
         """Parse infobox data from wikitext."""
@@ -342,8 +352,15 @@ class WikipediaCollector:
         text = re.sub(r"\[\[[Ii]mage:.*?\]\]", "", text)
 
         # Remove templates {{template}} (handle nested ones)
-        while "{{" in text:
+        max_iterations = 10  # Safety limit to prevent infinite loops
+        iteration_count = 0
+        while "{{" in text and iteration_count < max_iterations:
+            # old_text = text
             text = re.sub(r"{{[^{}]*}}", "", text)
+            iteration_count += 1
+            # If text didn't change, break to prevent infinite loop
+            # if text == old_text:
+            #     break
 
         # Remove wiki links with display text [[link|text]] -> text
         text = re.sub(r"\[\[([^|\]]+)\|([^\]]+)\]\]", r"\2", text)
