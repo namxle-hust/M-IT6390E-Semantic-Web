@@ -23,6 +23,8 @@ services:
       start_period: 40s
 
   vietnamese-dbpedia:
+    tty: true
+    privileged: true
     image: namxle/vietnamese-dbpedia
     container_name: vietnamese-dbpedia-app
     ports:
