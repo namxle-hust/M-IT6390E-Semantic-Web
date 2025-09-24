@@ -1,0 +1,112 @@
+# Federated SPARQL Queries - Vietnamese to English DBPedia
+
+# 1. Find Vietnamese-English entity links
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?viEntity ?enEntity ?viLabel ?enLabel WHERE {
+    ?viEntity rdfs:label ?viLabel ;
+             owl:sameAs ?enEntity .
+    SERVICE <https://dbpedia.org/sparql> {
+        ?enEntity rdfs:label ?enLabel .
+        FILTER(LANG(?enLabel) = "en")
+    }
+    FILTER(LANG(?viLabel) = "vi")
+} LIMIT 10
+
+---
+
+# 2. Compare Vietnamese and English descriptions
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?viEntity ?viLabel ?viComment ?enComment WHERE {
+    ?viEntity rdfs:label ?viLabel ;
+             rdfs:comment ?viComment ;
+             owl:sameAs ?enEntity .
+    SERVICE <https://dbpedia.org/sparql> {
+        ?enEntity rdfs:comment ?enComment .
+        FILTER(LANG(?enComment) = "en")
+    }
+    FILTER(LANG(?viLabel) = "vi")
+    FILTER(LANG(?viComment) = "vi")
+} LIMIT 5
+
+---
+
+# 3. Find Vietnamese people in English DBPedia
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?viPerson ?viName ?enPerson ?enName ?birthDate WHERE {
+    ?viPerson a vi:Người ;
+             rdfs:label ?viName ;
+             owl:sameAs ?enPerson .
+    SERVICE <https://dbpedia.org/sparql> {
+        ?enPerson a dbo:Person ;
+                 rdfs:label ?enName ;
+                 dbo:birthDate ?birthDate .
+        FILTER(LANG(?enName) = "en")
+    }
+    FILTER(LANG(?viName) = "vi")
+} ORDER BY ?birthDate
+
+---
+
+# 4. Cross-language category comparison
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?viEntity ?viLabel ?viCategory ?enCategory WHERE {
+    ?viEntity rdfs:label ?viLabel ;
+             dct:subject ?viCategory ;
+             owl:sameAs ?enEntity .
+    SERVICE <https://dbpedia.org/sparql> {
+        ?enEntity dct:subject ?enCategory .
+        ?enCategory rdfs:label ?enCategoryLabel .
+        FILTER(LANG(?enCategoryLabel) = "en")
+    }
+    ?viCategory rdfs:label ?viCategoryLabel .
+    FILTER(LANG(?viLabel) = "vi")
+    FILTER(LANG(?viCategoryLabel) = "vi")
+} LIMIT 10
+
+---
+
+# 5. Find missing Vietnamese entities in English DBPedia
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+
+SELECT ?viEntity ?viLabel WHERE {
+    ?viEntity a vi:Người ;
+             rdfs:label ?viLabel .
+    FILTER NOT EXISTS {
+        ?viEntity owl:sameAs ?enEntity .
+    }
+    FILTER(LANG(?viLabel) = "vi")
+} LIMIT 20
+
+---
+
+# 6. Vietnamese places with English geographical data
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT ?viPlace ?viName ?enPlace ?lat ?long WHERE {
+    ?viPlace a vi:ĐịaĐiểm ;
+            rdfs:label ?viName ;
+            owl:sameAs ?enPlace .
+    SERVICE <https://dbpedia.org/sparql> {
+        ?enPlace geo:lat ?lat ;
+                geo:long ?long .
+    }
+    FILTER(LANG(?viName) = "vi")
+} LIMIT 10

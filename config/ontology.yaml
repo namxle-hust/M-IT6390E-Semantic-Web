@@ -1,0 +1,154 @@
+ontology:
+  base_uri: "http://vi.dbpedia.org/ontology/"
+  resource_uri: "http://vi.dbpedia.org/resource/"
+  property_uri: "http://vi.dbpedia.org/property/"
+  
+namespaces:
+  vi: "http://vi.dbpedia.org/ontology/"
+  vidbp: "http://vi.dbpedia.org/property/"
+  vires: "http://vi.dbpedia.org/resource/"
+  dbpedia: "http://dbpedia.org/ontology/"
+  dbpprop: "http://dbpedia.org/property/"
+  dbpres: "http://dbpedia.org/resource/"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  owl: "http://www.w3.org/2002/07/owl#"
+  foaf: "http://xmlns.com/foaf/0.1/"
+  dct: "http://purl.org/dc/terms/"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+
+classes:
+  Person:
+    uri: "Người"
+    label_vi: "Người"
+    label_en: "Person"
+    comment_vi: "Lớp đại diện cho tất cả con người"
+    equivalent_class: "http://dbpedia.org/ontology/Person"
+    subclasses:
+      - PoliticalFigure
+      - Artist
+      - Scientist
+      - Writer
+      - Athlete
+  
+  PoliticalFigure:
+    uri: "NhânVậtChínhTrị"
+    label_vi: "Nhân vật chính trị"
+    label_en: "Political Figure"
+    comment_vi: "Người tham gia hoạt động chính trị"
+    equivalent_class: "http://dbpedia.org/ontology/Politician"
+  
+  Artist:
+    uri: "NghệSĩ"
+    label_vi: "Nghệ sĩ"
+    label_en: "Artist"
+    comment_vi: "Người hoạt động trong lĩnh vực nghệ thuật"
+    equivalent_class: "http://dbpedia.org/ontology/Artist"
+  
+  Place:
+    uri: "ĐịaĐiểm"
+    label_vi: "Địa điểm"
+    label_en: "Place"
+    comment_vi: "Vị trí địa lý cụ thể"
+    equivalent_class: "http://dbpedia.org/ontology/Place"
+    subclasses:
+      - Province
+      - District
+      - Ward
+      - City
+      - HistoricalSite
+  
+  Organization:
+    uri: "TổChức"
+    label_vi: "Tổ chức"
+    label_en: "Organization"
+    comment_vi: "Tổ chức, cơ quan, đơn vị"
+    equivalent_class: "http://dbpedia.org/ontology/Organisation"
+    subclasses:
+      - University
+      - Company
+      - GovernmentAgency
+  
+  Event:
+    uri: "SựKiện"
+    label_vi: "Sự kiện"
+    label_en: "Event"
+    comment_vi: "Sự kiện, biến cố lịch sử hoặc văn hóa"
+    equivalent_class: "http://dbpedia.org/ontology/Event"
+    subclasses:
+      - HistoricalEvent
+      - CulturalEvent
+  
+  Work:
+    uri: "TácPhẩm"
+    label_vi: "Tác phẩm"
+    label_en: "Work"
+    comment_vi: "Tác phẩm văn học, nghệ thuật"
+    equivalent_class: "http://dbpedia.org/ontology/Work"
+    subclasses:
+      - LiteraryWork
+      - MusicalWork
+      - Film
+
+properties:
+  birthDate:
+    uri: "ngàySinh"
+    label_vi: "ngày sinh"
+    label_en: "birth date"
+    domain: "Person"
+    range: "xsd:date"
+    comment_vi: "Ngày sinh của một người"
+    equivalent_property: "http://dbpedia.org/ontology/birthDate"
+  
+  birthPlace:
+    uri: "nơiSinh"
+    label_vi: "nơi sinh"
+    label_en: "birth place"
+    domain: "Person"
+    range: "Place"
+    comment_vi: "Nơi sinh của một người"
+    equivalent_property: "http://dbpedia.org/ontology/birthPlace"
+  
+  locatedIn:
+    uri: "tọaLạcTại"
+    label_vi: "tọa lạc tại"
+    label_en: "located in"
+    domain: "Place"
+    range: "Place"
+    comment_vi: "Vị trí địa lý của một địa điểm"
+    equivalent_property: "http://dbpedia.org/ontology/location"
+  
+  vietnameseTitle:
+    uri: "danh_hiệuViệtNam"
+    label_vi: "danh hiệu Việt Nam"
+    label_en: "Vietnamese title"
+    domain: "Person"
+    range: "xsd:string"
+    comment_vi: "Danh hiệu truyền thống Việt Nam"
+  
+  dynastyPeriod:
+    uri: "triềuĐại"
+    label_vi: "triều đại"
+    label_en: "dynasty period"
+    domain: "Person"
+    range: "xsd:string"
+    comment_vi: "Thời kỳ triều đại"
+  
+  administrativeCenter:
+    uri: "trungTâmHànhChính"
+    label_vi: "trung tâm hành chính"
+    label_en: "administrative center"
+    domain: "Place"
+    range: "Place"
+    comment_vi: "Trung tâm hành chính của vùng"
+
+mappings:
+  infobox_templates:
+    "Thông tin nhân vật": "Person"
+    "Thông tin chính trị gia": "PoliticalFigure"
+    "Thông tin địa điểm": "Place"
+    "Thông tin tỉnh thành": "Province"
+    "Thông tin trường đại học": "University"
+    "Thông tin công ty": "Company"
+    "Thông tin sự kiện": "Event"

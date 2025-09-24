@@ -1,0 +1,78 @@
+wikipedia:
+  language: "vi"
+  base_url: "https://vi.wikipedia.org/w/api.php"
+  user_agent: "Vietnamese-DBPedia-Extractor/1.0 (https://github.com/example/vietnamese-dbpedia)"
+  rate_limit:
+    requests_per_second: 1
+    burst_limit: 5
+    delay_between_requests: 1.0
+  
+api:
+  format: "json"
+  action: "query"
+  timeout: 30
+  max_retries: 3
+  backoff_factor: 2
+  
+extraction:
+  batch_size: 50
+  max_articles: 1000
+  include_redirects: false
+  include_categories: true
+  include_infoboxes: true
+  include_abstracts: true
+  include_content: false
+  min_content_length: 100
+  
+target_categories:
+  people:
+    - "Thể loại:Nhân vật lịch sử Việt Nam"
+    - "Thể loại:Chính trị gia Việt Nam"
+    - "Thể loại:Nhà văn Việt Nam"
+    - "Thể loại:Nghệ sĩ Việt Nam"
+    - "Thể loại:Nhà khoa học Việt Nam"
+  
+  places:
+    - "Thể loại:Tỉnh thành Việt Nam"
+    - "Thể loại:Thành phố Việt Nam"
+    - "Thể loại:Di tích lịch sử Việt Nam"
+    - "Thể loại:Danh lam thắng cảnh Việt Nam"
+  
+  organizations:
+    - "Thể loại:Trường đại học Việt Nam"
+    - "Thể loại:Công ty Việt Nam"
+    - "Thể loại:Tổ chức Việt Nam"
+  
+  events:
+    - "Thể loại:Sự kiện lịch sử Việt Nam"
+    - "Thể loại:Lễ hội Việt Nam"
+  
+  works:
+    - "Thể loại:Văn học Việt Nam"
+    - "Thể loại:Âm nhạc Việt Nam"
+    - "Thể loại:Phim Việt Nam"
+
+sample_articles:
+  people:
+    - "Hồ Chí Minh"
+    - "Nguyễn Trãi"
+    - "Võ Nguyên Giáp"
+    - "Phạm Tuân"
+    - "Nguyễn Du"
+  places:
+    - "Hà Nội"
+    - "Thành phố Hồ Chí Minh"
+    - "Huế"
+    - "Vịnh Hạ Long"
+    - "Hội An"
+  organizations:
+    - "Đại học Quốc gia Hà Nội"
+    - "Đại học Bách khoa Hà Nội"
+    - "Đại học Quốc gia Thành phố Hồ Chí Minh"
+  events:
+    - "Chiến thắng Điện Biên Phủ"
+    - "Cách mạng tháng Tám"
+  works:
+    - "Truyện Kiều"
+    - "Số đỏ"
+    - "Dế Mèn phiêu lưu ký"

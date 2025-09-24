@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  graphdb:
+    image: ontotext/graphdb:10.0.0
+    container_name: vietnamese-dbpedia-graphdb
+    ports:
+      - "7200:7200"
+    environment:
+      - GDB_HEAP_SIZE=2g
+      - GDB_MIN_MEM=1g
+      - GDB_MAX_MEM=2g
+    volumes:
+      - graphdb_data:/opt/graphdb/home
+      - ./graphdb/repositories:/opt/graphdb/home/repositories
+      - ./data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7200/rest/info/version"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  vietnamese-dbpedia:
+    build: .
+    container_name: vietnamese-dbpedia-app
+    ports:
+      - "5000:5000"
+    environment:
+      - GRAPHDB_HOST=graphdb
+      - GRAPHDB_PORT=7200
+      - FLASK_ENV=production
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./logs:/app/logs
+    depends_on:
+      - graphdb
+    restart: unless-stopped
+    command: python src/interfaces/web_interface.py
+
+  nginx:
+    image: nginx:alpine
+    container_name: vietnamese-dbpedia-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - vietnamese-dbpedia
+    restart: unless-stopped
+
+volumes:
+  graphdb_data:
+    driver: local
+
+networks:
+  default:
+    name: vietnamese-dbpedia-network

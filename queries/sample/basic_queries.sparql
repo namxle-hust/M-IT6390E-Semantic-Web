@@ -1,0 +1,80 @@
+# Basic SPARQL Queries for Vietnamese DBPedia
+
+# 1. List all people
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?person ?name WHERE {
+    ?person a vi:Người ;
+            rdfs:label ?name .
+    FILTER(LANG(?name) = "vi")
+} LIMIT 20
+
+---
+
+# 2. List all places  
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?place ?name WHERE {
+    ?place a vi:ĐịaĐiểm ;
+           rdfs:label ?name .
+    FILTER(LANG(?name) = "vi")
+} LIMIT 20
+
+---
+
+# 3. Search entities by name
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?entity ?label ?type WHERE {
+    ?entity rdfs:label ?label ;
+            a ?type .
+    FILTER(CONTAINS(LCASE(STR(?label)), "hồ chí minh"))
+    FILTER(LANG(?label) = "vi")
+}
+
+---
+
+# 4. Get all properties of an entity
+PREFIX vires: <http://vi.dbpedia.org/resource/>
+
+SELECT ?property ?value WHERE {
+    vires:Hồ_Chí_Minh ?property ?value .
+}
+
+---
+
+# 5. Count entities by type
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+
+SELECT ?type (COUNT(?entity) AS ?count) WHERE {
+    ?entity a ?type .
+    FILTER(STRSTARTS(STR(?type), "http://vi.dbpedia.org/ontology/"))
+} GROUP BY ?type ORDER BY DESC(?count)
+
+---
+
+# 6. Find people with birth dates
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX vidbp: <http://vi.dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?person ?name ?birthDate WHERE {
+    ?person a vi:Người ;
+            rdfs:label ?name ;
+            vidbp:ngàySinh ?birthDate .
+    FILTER(LANG(?name) = "vi")
+} ORDER BY ?birthDate
+
+---
+
+# 7. Vietnamese entities with Wikipedia page IDs
+PREFIX vidbp: <http://vi.dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?entity ?label ?pageId WHERE {
+    ?entity rdfs:label ?label ;
+            vidbp:wikipediaPageID ?pageId .
+    FILTER(LANG(?label) = "vi")
+} LIMIT 10

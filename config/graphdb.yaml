@@ -1,0 +1,41 @@
+graphdb:
+  host: "localhost"
+  port: 7200
+  username: "admin"
+  password: "admin"
+  timeout: 30
+  
+repositories:
+  vietnamese_dbpedia:
+    id: "vietnamese-dbpedia"
+    title: "Vietnamese DBPedia Repository"
+    type: "graphdb"
+    ruleset: "rdfs-plus"
+    disable_same_as: false
+    check_for_inconsistencies: false
+    disable_context_index: false
+    enable_context_index: true
+    enablePredicateList: true
+    in_memory_literal_properties: true
+    enable_literal_index: true
+    index_compression_ratio: -1
+    enable_fts_index: true
+    fts_string_literals_index: "default"
+    fts_iris_index: "none"
+    query_timeout: 0
+    query_limit_results: 0
+    throw_query_evaluation_exception_on_timeout: false
+    read_only: false
+    
+workbench:
+  url: "http://localhost:7200/workbench"
+  
+sparql:
+  endpoint: "http://localhost:7200/repositories/vietnamese-dbpedia"
+  query_endpoint: "http://localhost:7200/repositories/vietnamese-dbpedia"
+  update_endpoint: "http://localhost:7200/repositories/vietnamese-dbpedia/statements"
+  
+backup:
+  directory: "./backups"
+  schedule: "daily"
+  retention_days: 30
