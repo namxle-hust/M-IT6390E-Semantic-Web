@@ -1,0 +1,99 @@
+# Vietnamese DBPedia - Data Integrity Tests
+# Test Vietnamese entity data quality and consistency
+
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX vires: <http://vi.dbpedia.org/resource/>
+PREFIX vidbp: <http://vi.dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Query 2.1: Count entities by type
+SELECT ?type ?typeLabel (COUNT(?entity) AS ?count) WHERE {
+  ?entity a ?type .
+  ?type rdfs:label ?typeLabel .
+  FILTER(LANG(?typeLabel) = "vi")
+  FILTER(STRSTARTS(STR(?entity), "http://vi.dbpedia.org/resource/"))
+} GROUP BY ?type ?typeLabel
+ORDER BY DESC(?count)
+
+# Query 2.2: Entities with Vietnamese labels
+SELECT ?entity ?label WHERE {
+  ?entity rdfs:label ?label .
+  FILTER(LANG(?label) = "vi")
+  FILTER(STRSTARTS(STR(?entity), "http://vi.dbpedia.org/resource/"))
+} ORDER BY ?label
+LIMIT 20
+
+# Query 2.3: People (Người) with birth information
+SELECT ?person ?name ?birthDate ?birthPlace WHERE {
+  ?person a vi:Người ;
+          rdfs:label ?name .
+  OPTIONAL { ?person vidbp:ngàySinh ?birthDate }
+  OPTIONAL { ?person vidbp:nơiSinh ?birthPlace }
+  FILTER(LANG(?name) = "vi")
+} ORDER BY ?name
+LIMIT 10
+
+# Query 2.4: Places (Địa điểm) with location information
+SELECT ?place ?name ?locatedIn ?administrativeCenter WHERE {
+  ?place a vi:ĐịaĐiểm ;
+         rdfs:label ?name .
+  OPTIONAL { ?place vidbp:tọaLạcTại ?locatedIn }
+  OPTIONAL { ?place vidbp:trungTâmHànhChính ?administrativeCenter }
+  FILTER(LANG(?name) = "vi")
+} ORDER BY ?name
+LIMIT 10
+
+# Query 2.5: Organizations (Tổ chức) 
+SELECT ?org ?name ?type WHERE {
+  ?org a vi:TổChức ;
+       rdfs:label ?name .
+  OPTIONAL { ?org a ?type . FILTER(?type != vi:TổChức) }
+  FILTER(LANG(?name) = "vi")
+} ORDER BY ?name
+LIMIT 10
+
+# Query 2.6: Data quality - entities without labels
+SELECT ?entity ?type WHERE {
+  ?entity a ?type .
+  FILTER NOT EXISTS { ?entity rdfs:label ?label }
+  FILTER(STRSTARTS(STR(?entity), "http://vi.dbpedia.org/resource/"))
+} LIMIT 10
+
+# Query 2.7: Data quality - invalid date formats
+SELECT ?entity ?property ?value WHERE {
+  ?entity ?property ?value .
+  ?property rdfs:range xsd:date .
+  FILTER(!REGEX(STR(?value), "^[0-9]{4}-[0-9]{2}-[0-9]{2}"))
+} LIMIT 10
+
+# Query 2.8: Property usage statistics
+SELECT ?property ?propertyLabel (COUNT(?usage) AS ?usageCount) WHERE {
+  ?entity ?property ?value .
+  ?property rdfs:label ?propertyLabel .
+  FILTER(STRSTARTS(STR(?property), "http://vi.dbpedia.org/property/"))
+  FILTER(LANG(?propertyLabel) = "vi")
+} GROUP BY ?property ?propertyLabel
+ORDER BY DESC(?usageCount)
+
+# Query 2.9: Entities with multiple types
+SELECT ?entity ?label ?types WHERE {
+  ?entity rdfs:label ?label .
+  FILTER(LANG(?label) = "vi")
+  {
+    SELECT ?entity (GROUP_CONCAT(?type; separator=", ") AS ?types) WHERE {
+      ?entity a ?type .
+      FILTER(STRSTARTS(STR(?type), "http://vi.dbpedia.org/ontology/"))
+    } GROUP BY ?entity
+    HAVING(COUNT(?type) > 1)
+  }
+} ORDER BY ?label
+LIMIT 10
+
+# Query 2.10: Check for circular references in location hierarchy
+SELECT ?place1 ?place2 WHERE {
+  ?place1 vidbp:tọaLạcTại+ ?place2 .
+  ?place2 vidbp:tọaLạcTại+ ?place1 .
+  FILTER(?place1 != ?place2)
+} LIMIT 5

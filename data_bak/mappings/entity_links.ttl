@@ -1,0 +1,45 @@
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix ns1: <http://vi.dbpedia.org/property/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vires: <http://vi.dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vires:H%C3%A0_N%E1%BB%99i_link_-2000273865827689903 ns1:confidenceScore 9e-01,
+        9.5e-01 ;
+    ns1:linkedEntity dbpedia:Hanoi ;
+    ns1:matchMethod "direct_mapping",
+        "language_link" ;
+    ns1:sourceEntity vires:H%C3%A0_N%E1%BB%99i .
+
+vires:H%C3%A0_N%E1%BB%99i_link_5336976039545972853 ns1:confidenceScore 8.266667e-01 ;
+    ns1:linkedEntity <http://dbpedia.org/resource/Ha_Noi_F.C.> ;
+    ns1:matchMethod "similarity" ;
+    ns1:sourceEntity vires:H%C3%A0_N%E1%BB%99i .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_link_-8946056766435987612 ns1:confidenceScore 9.5e-01 ;
+    ns1:linkedEntity dbpedia:Ho_Chi_Minh_City ;
+    ns1:matchMethod "direct_mapping" ;
+    ns1:sourceEntity vires:Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh .
+
+vires:V%E1%BB%8Bnh_H%E1%BA%A1_Long_link_1809424289401413369 ns1:confidenceScore 9.5e-01 ;
+    ns1:linkedEntity dbpedia:Ha_Long_Bay ;
+    ns1:matchMethod "direct_mapping" ;
+    ns1:sourceEntity vires:V%E1%BB%8Bnh_H%E1%BA%A1_Long .
+
+vires:V%E1%BB%8Bnh_H%E1%BA%A1_Long_link_5412480917095079045 ns1:confidenceScore 9e-01 ;
+    ns1:linkedEntity dbpedia:H%E1%BA%A1_Long_Bay ;
+    ns1:matchMethod "language_link" ;
+    ns1:sourceEntity vires:V%E1%BB%8Bnh_H%E1%BA%A1_Long .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh rdfs:label "Thành phố Hồ Chí Minh"@vi ;
+    owl:sameAs dbpedia:Ho_Chi_Minh_City .
+
+vires:H%C3%A0_N%E1%BB%99i rdfs:label "Hà Nội"@vi ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Ha_Noi_F.C.> ;
+    owl:sameAs dbpedia:Hanoi .
+
+vires:V%E1%BB%8Bnh_H%E1%BA%A1_Long rdfs:label "Vịnh Hạ Long"@vi ;
+    owl:sameAs dbpedia:H%E1%BA%A1_Long_Bay,
+        dbpedia:Ha_Long_Bay .
+

@@ -1,0 +1,59 @@
+# Vietnamese DBPedia - Ontology Structure Tests
+# Test 1: List all classes in the Vietnamese ontology
+
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# Query 1.1: All classes with Vietnamese and English labels
+SELECT ?class ?viLabel ?enLabel WHERE {
+  ?class a owl:Class .
+  ?class rdfs:label ?viLabel .
+  ?class rdfs:label ?enLabel .
+  FILTER(LANG(?viLabel) = "vi")
+  FILTER(LANG(?enLabel) = "en")
+} ORDER BY ?class
+
+# Query 1.2: All properties with domains and ranges
+SELECT ?property ?viLabel ?enLabel ?domain ?range WHERE {
+  ?property a ?propertyType .
+  FILTER(?propertyType = owl:DatatypeProperty || ?propertyType = owl:ObjectProperty)
+  ?property rdfs:label ?viLabel .
+  ?property rdfs:label ?enLabel .
+  OPTIONAL { ?property rdfs:domain ?domain }
+  OPTIONAL { ?property rdfs:range ?range }
+  FILTER(LANG(?viLabel) = "vi")
+  FILTER(LANG(?enLabel) = "en")
+} ORDER BY ?property
+
+# Query 1.3: Class hierarchy - subclass relationships
+SELECT ?subclass ?superclass ?subLabel ?superLabel WHERE {
+  ?subclass rdfs:subClassOf ?superclass .
+  ?subclass rdfs:label ?subLabel .
+  ?superclass rdfs:label ?superLabel .
+  FILTER(LANG(?subLabel) = "vi")
+  FILTER(LANG(?superLabel) = "vi")
+} ORDER BY ?superclass ?subclass
+
+# Query 1.4: Count classes and properties
+SELECT 
+  (COUNT(DISTINCT ?class) AS ?totalClasses)
+  (COUNT(DISTINCT ?dataProperty) AS ?totalDataProperties)
+  (COUNT(DISTINCT ?objectProperty) AS ?totalObjectProperties)
+WHERE {
+  {
+    ?class a owl:Class
+  } UNION {
+    ?dataProperty a owl:DatatypeProperty
+  } UNION {
+    ?objectProperty a owl:ObjectProperty
+  }
+}
+
+# Query 1.5: Check ontology imports and metadata
+SELECT ?ontology ?creator ?version ?comment WHERE {
+  ?ontology a owl:Ontology .
+  OPTIONAL { ?ontology <http://purl.org/dc/terms/creator> ?creator }
+  OPTIONAL { ?ontology owl:versionInfo ?version }
+  OPTIONAL { ?ontology rdfs:comment ?comment }
+}

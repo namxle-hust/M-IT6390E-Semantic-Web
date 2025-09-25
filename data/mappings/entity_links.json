@@ -1,0 +1,391 @@
+{
+  "Hồ Chí Minh": [
+    {
+      "vietnamese_entity": "Hồ Chí Minh",
+      "english_entity": "Ho Chi Minh",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ho_Chi_Minh",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Nguyễn Trãi": [
+    {
+      "vietnamese_entity": "Nguyễn Trãi",
+      "english_entity": "Nguyen Trai",
+      "dbpedia_uri": "http://dbpedia.org/resource/Nguyen_Trai",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Nguyễn Trãi",
+      "english_entity": "Nguyễn Trãi",
+      "dbpedia_uri": "http://dbpedia.org/resource/Nguyễn_Trãi",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Võ Nguyên Giáp": [
+    {
+      "vietnamese_entity": "Võ Nguyên Giáp",
+      "english_entity": "Vo Nguyen Giap",
+      "dbpedia_uri": "http://dbpedia.org/resource/Vo_Nguyen_Giap",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Võ Nguyên Giáp",
+      "english_entity": "Võ Nguyên Giáp",
+      "dbpedia_uri": "http://dbpedia.org/resource/Võ_Nguyên_Giáp",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Nguyễn Du": [
+    {
+      "vietnamese_entity": "Nguyễn Du",
+      "english_entity": "Nguyễn Du",
+      "dbpedia_uri": "http://dbpedia.org/resource/Nguyễn_Du",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Phạm Tuân": [
+    {
+      "vietnamese_entity": "Phạm Tuân",
+      "english_entity": "Phạm Tuân",
+      "dbpedia_uri": "http://dbpedia.org/resource/Phạm_Tuân",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Trần Hưng Đạo": [
+    {
+      "vietnamese_entity": "Trần Hưng Đạo",
+      "english_entity": "Tran Hung Dao",
+      "dbpedia_uri": "http://dbpedia.org/resource/Tran_Hung_Dao",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Trần Hưng Đạo",
+      "english_entity": "Trần Hưng Đạo",
+      "dbpedia_uri": "http://dbpedia.org/resource/Trần_Hưng_Đạo",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Ngô Quyền": [
+    {
+      "vietnamese_entity": "Ngô Quyền",
+      "english_entity": "Ngô Quyền",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ngô_Quyền",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Lý Thường Kiệt": [
+    {
+      "vietnamese_entity": "Lý Thường Kiệt",
+      "english_entity": "Lý Thường Kiệt",
+      "dbpedia_uri": "http://dbpedia.org/resource/Lý_Thường_Kiệt",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Phan Bội Châu": [
+    {
+      "vietnamese_entity": "Phan Bội Châu",
+      "english_entity": "Phan Bội Châu",
+      "dbpedia_uri": "http://dbpedia.org/resource/Phan_Bội_Châu",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Tôn Đức Thắng": [
+    {
+      "vietnamese_entity": "Tôn Đức Thắng",
+      "english_entity": "Tôn Đức Thắng",
+      "dbpedia_uri": "http://dbpedia.org/resource/Tôn_Đức_Thắng",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Hà Nội": [
+    {
+      "vietnamese_entity": "Hà Nội",
+      "english_entity": "Hanoi",
+      "dbpedia_uri": "http://dbpedia.org/resource/Category:Hanoi",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Hà Nội",
+      "english_entity": "Hanoi",
+      "dbpedia_uri": "http://dbpedia.org/resource/Hanoi",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    },
+    {
+      "vietnamese_entity": "Hà Nội",
+      "english_entity": "Ha Noi F.C.",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ha_Noi_F.C.",
+      "confidence_score": 0.8266666666666668,
+      "similarity_scores": {
+        "levenshtein": 0.6666666666666667,
+        "ratio": 0.8,
+        "partial_ratio": 1.0,
+        "token_sort_ratio": 0.8,
+        "token_set_ratio": 1.0,
+        "jaccard": 0.6666666666666666
+      },
+      "match_method": "similarity",
+      "additional_info": {
+        "candidate": "Ha Noi"
+      }
+    }
+  ],
+  "Lê Duẩn": [
+    {
+      "vietnamese_entity": "Lê Duẩn",
+      "english_entity": "Lê Duẩn",
+      "dbpedia_uri": "http://dbpedia.org/resource/Lê_Duẩn",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    },
+    {
+      "vietnamese_entity": "Lê Duẩn",
+      "english_entity": "Lê Dung",
+      "dbpedia_uri": "http://dbpedia.org/resource/Lê_Dung",
+      "confidence_score": 0.8045238095238096,
+      "similarity_scores": {
+        "levenshtein": 0.7142857142857143,
+        "ratio": 0.86,
+        "partial_ratio": 0.86,
+        "token_sort_ratio": 0.86,
+        "token_set_ratio": 0.86,
+        "jaccard": 0.3333333333333333
+      },
+      "match_method": "property_based",
+      "additional_info": {
+        "sparql_query": true
+      }
+    }
+  ],
+  "Huế": [
+    {
+      "vietnamese_entity": "Huế",
+      "english_entity": "Huế",
+      "dbpedia_uri": "http://dbpedia.org/resource/Huế",
+      "confidence_score": 1.0,
+      "similarity_scores": {
+        "levenshtein": 1.0,
+        "ratio": 1.0,
+        "partial_ratio": 1.0,
+        "token_sort_ratio": 1.0,
+        "token_set_ratio": 1.0,
+        "jaccard": 1.0
+      },
+      "match_method": "property_based",
+      "additional_info": {
+        "sparql_query": true
+      }
+    },
+    {
+      "vietnamese_entity": "Huế",
+      "english_entity": "Hue",
+      "dbpedia_uri": "http://dbpedia.org/resource/Hue",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Trường Chinh": [
+    {
+      "vietnamese_entity": "Trường Chinh",
+      "english_entity": "Trường Chinh",
+      "dbpedia_uri": "http://dbpedia.org/resource/Trường_Chinh",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Thành phố Hồ Chí Minh": [
+    {
+      "vietnamese_entity": "Thành phố Hồ Chí Minh",
+      "english_entity": "Ho Chi Minh City",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ho_Chi_Minh_City",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Hội An": [
+    {
+      "vietnamese_entity": "Hội An",
+      "english_entity": "Hoi An",
+      "dbpedia_uri": "http://dbpedia.org/resource/Category:Hoi_An",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Vịnh Hạ Long": [
+    {
+      "vietnamese_entity": "Vịnh Hạ Long",
+      "english_entity": "Ha Long Bay",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ha_Long_Bay",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Vịnh Hạ Long",
+      "english_entity": "Hạ Long Bay",
+      "dbpedia_uri": "http://dbpedia.org/resource/Hạ_Long_Bay",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ],
+  "Quảng Ninh": [
+    {
+      "vietnamese_entity": "Quảng Ninh",
+      "english_entity": "Quảng Ninh province",
+      "dbpedia_uri": "http://dbpedia.org/resource/Quảng_Ninh_province",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ]
+}

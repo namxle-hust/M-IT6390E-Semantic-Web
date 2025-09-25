@@ -1,0 +1,111 @@
+# Vietnamese DBPedia - Performance and System Tests
+# Test system performance, scalability, and GraphDB optimization
+
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX vires: <http://vi.dbpedia.org/resource/>
+PREFIX vidbp: <http://vi.dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# Query 4.1: Repository size and statistics
+SELECT 
+  (COUNT(DISTINCT ?s) AS ?totalSubjects)
+  (COUNT(DISTINCT ?p) AS ?totalPredicates) 
+  (COUNT(?triple) AS ?totalTriples)
+WHERE {
+  ?s ?p ?o .
+  BIND(?s AS ?triple)
+}
+
+# Query 4.2: Context/Graph distribution
+SELECT ?context (COUNT(?triple) AS ?tripleCount) WHERE {
+  {
+    SELECT ?context ?s ?p ?o WHERE {
+      GRAPH ?context { ?s ?p ?o }
+    }
+  }
+  BIND(?s AS ?triple)
+} GROUP BY ?context
+ORDER BY DESC(?tripleCount)
+
+# Query 4.3: Large result set test (performance benchmark)
+SELECT ?entity ?label ?type WHERE {
+  ?entity rdfs:label ?label ;
+          a ?type .
+  FILTER(LANG(?label) = "vi")
+} ORDER BY ?label
+LIMIT 1000
+
+# Query 4.4: Complex join performance test
+SELECT ?person ?personName ?birthPlace ?placeName WHERE {
+  ?person a vi:Người ;
+          rdfs:label ?personName ;
+          vidbp:nơiSinh ?birthPlace .
+  ?birthPlace rdfs:label ?placeName .
+  FILTER(LANG(?personName) = "vi")
+  FILTER(LANG(?placeName) = "vi")
+} ORDER BY ?personName
+LIMIT 100
+
+# Query 4.5: Full-text search performance (if Lucene enabled)
+SELECT ?entity ?label ?score WHERE {
+  ?search a <http://www.ontotext.com/connectors/lucene#LuceneQuery> ;
+          <http://www.ontotext.com/connectors/lucene#query> "Việt Nam" ;
+          <http://www.ontotext.com/connectors/lucene#entities> ?entity .
+  ?entity rdfs:label ?label ;
+          <http://www.ontotext.com/connectors/lucene#score> ?score .
+} ORDER BY DESC(?score)
+LIMIT 20
+
+# Query 4.6: Property path performance test
+SELECT ?place ?containedPlace WHERE {
+  ?place rdfs:label "Việt Nam"@vi .
+  ?containedPlace vidbp:tọaLạcTại+ ?place .
+} LIMIT 50
+
+# Query 4.7: OPTIONAL performance test
+SELECT ?entity ?label ?birthDate ?birthPlace ?deathDate WHERE {
+  ?entity a vi:Người ;
+          rdfs:label ?label .
+  OPTIONAL { ?entity vidbp:ngàySinh ?birthDate }
+  OPTIONAL { ?entity vidbp:nơiSinh ?birthPlace }
+  OPTIONAL { ?entity vidbp:ngàyMất ?deathDate }
+  FILTER(LANG(?label) = "vi")
+} ORDER BY ?label
+LIMIT 100
+
+# Query 4.8: Aggregation performance test
+SELECT ?type ?typeLabel 
+       (COUNT(?entity) AS ?entityCount)
+       (AVG(strlen(?label)) AS ?avgLabelLength)
+WHERE {
+  ?entity a ?type ;
+          rdfs:label ?label .
+  ?type rdfs:label ?typeLabel .
+  FILTER(LANG(?label) = "vi")
+  FILTER(LANG(?typeLabel) = "vi")
+} GROUP BY ?type ?typeLabel
+ORDER BY DESC(?entityCount)
+
+# Query 4.9: Cross-graph join performance
+SELECT ?viEntity ?viLabel ?linkType ?enEntity WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viEntity rdfs:label ?viLabel .
+    FILTER(LANG(?viLabel) = "vi")
+  }
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity ?linkType ?enEntity .
+    FILTER(?linkType = owl:sameAs || ?linkType = rdfs:seeAlso)
+  }
+} ORDER BY ?viLabel
+LIMIT 50
+
+# Query 4.10: Memory usage estimation query
+SELECT ?class ?instanceCount ((?instanceCount * 10) AS ?estimatedTriples) WHERE {
+  {
+    SELECT ?class (COUNT(?instance) AS ?instanceCount) WHERE {
+      ?instance a ?class .
+      FILTER(STRSTARTS(STR(?instance), "http://vi.dbpedia.org/resource/"))
+    } GROUP BY ?class
+  }
+} ORDER BY DESC(?instanceCount)

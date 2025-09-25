@@ -1,0 +1,260 @@
+# Vietnamese DBPedia - Federated Query Tests
+# Test cross-language queries between Vietnamese DBPedia and English DBPedia
+
+PREFIX vi: <http://vi.dbpedia.org/ontology/>
+PREFIX vires: <http://vi.dbpedia.org/resource/>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX vidbp: <http://vi.dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# NOTE: These queries require network access to English DBPedia
+# They may not work in isolated local environments
+
+# Query 5.1: Basic federated query - Vietnamese entities with English info
+SELECT ?viEntity ?viName ?enEntity ?enName ?abstract WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity owl:sameAs ?enEntity ;
+              rdfs:label ?viName .
+  }
+  FILTER(LANG(?viName) = "vi")
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enEntity rdfs:label ?enName ;
+              dbo:abstract ?abstract .
+    FILTER(LANG(?enName) = "en")
+    FILTER(LANG(?abstract) = "en")
+  }
+} ORDER BY ?viName
+LIMIT 5
+
+# Query 5.2: Compare birth information across languages
+SELECT ?viPerson ?viName ?enPerson ?enName ?viBirthPlace ?enBirthPlace ?birthDate WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viPerson a vi:Người ;
+              rdfs:label ?viName .
+    OPTIONAL { ?viPerson vidbp:nơiSinh ?viBirthPlace }
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viPerson owl:sameAs ?enPerson .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enPerson rdfs:label ?enName ;
+              dbo:birthPlace ?enBirthPlace ;
+              dbo:birthDate ?birthDate .
+    FILTER(LANG(?enName) = "en")
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY ?viName
+LIMIT 10
+
+# Query 5.3: Geographic entities with coordinates from English DBPedia
+SELECT ?viPlace ?viName ?enPlace ?enName ?lat ?long WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viPlace a vi:ĐịaĐiểm ;
+             rdfs:label ?viName .
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viPlace owl:sameAs ?enPlace .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enPlace rdfs:label ?enName ;
+             <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat ;
+             <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long .
+    FILTER(LANG(?enName) = "en")
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY ?viName
+LIMIT 10
+
+# Query 5.4: Find common categories/types across languages
+SELECT ?viEntity ?viName ?enEntity ?enName ?viType ?enType WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viEntity a ?viType ;
+              rdfs:label ?viName .
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity owl:sameAs ?enEntity .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enEntity rdfs:label ?enName ;
+              a ?enType .
+    FILTER(LANG(?enName) = "en")
+    FILTER(STRSTARTS(STR(?enType), "http://dbpedia.org/ontology/"))
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+  FILTER(STRSTARTS(STR(?viType), "http://vi.dbpedia.org/ontology/"))
+} ORDER BY ?viName
+LIMIT 15
+
+# Query 5.5: Data enrichment - missing Vietnamese properties from English
+SELECT ?viEntity ?viName ?enProperty ?enValue WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viEntity a vi:Người ;
+              rdfs:label ?viName .
+    # Entity exists in Vietnamese but missing some property
+    FILTER NOT EXISTS { ?viEntity vidbp:ngàySinh ?viBirthDate }
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity owl:sameAs ?enEntity .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enEntity ?enProperty ?enValue .
+    FILTER(?enProperty IN (dbo:birthDate, dbo:deathDate, dbo:birthPlace))
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY ?viName ?enProperty
+LIMIT 20
+
+# Query 5.6: Cross-language relationship discovery
+SELECT ?viPerson1 ?viName1 ?relation ?viPerson2 ?viName2 WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viPerson1 rdfs:label ?viName1 .
+    ?viPerson2 rdfs:label ?viName2 .
+    FILTER(?viPerson1 != ?viPerson2)
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viPerson1 owl:sameAs ?enPerson1 .
+    ?viPerson2 owl:sameAs ?enPerson2 .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enPerson1 ?relation ?enPerson2 .
+    FILTER(?relation IN (dbo:spouse, dbo:child, dbo:parent, dbo:relative))
+  }
+  
+  FILTER(LANG(?viName1) = "vi")
+  FILTER(LANG(?viName2) = "vi")
+} ORDER BY ?viName1
+LIMIT 10
+
+# Query 5.7: Historical timeline comparison
+SELECT ?viEvent ?viName ?enEvent ?enName ?date WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viEvent a vi:SựKiện ;
+             rdfs:label ?viName .
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEvent owl:sameAs ?enEvent .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enEvent rdfs:label ?enName ;
+             dbo:date ?date .
+    FILTER(LANG(?enName) = "en")
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY ?date
+LIMIT 15
+
+# Query 5.8: Cultural works with international recognition
+SELECT ?viWork ?viName ?enWork ?enName ?awards WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viWork a vi:TácPhẩm ;
+            rdfs:label ?viName .
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viWork owl:sameAs ?enWork .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enWork rdfs:label ?enName .
+    OPTIONAL { ?enWork dbo:award ?awards }
+    FILTER(LANG(?enName) = "en")
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY ?viName
+LIMIT 10
+
+# Query 5.9: Population data comparison
+SELECT ?viPlace ?viName ?enPlace ?enName ?population WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viPlace a vi:ĐịaĐiểm ;
+             rdfs:label ?viName .
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viPlace owl:sameAs ?enPlace .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enPlace rdfs:label ?enName ;
+             dbo:populationTotal ?population .
+    FILTER(LANG(?enName) = "en")
+    FILTER(?population > 100000)
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY DESC(?population)
+LIMIT 10
+
+# Query 5.10: Educational institutions comparison
+SELECT ?viOrg ?viName ?enOrg ?enName ?founded ?students WHERE {
+  GRAPH <http://vi.dbpedia.org/resource/> {
+    ?viOrg a vi:TổChức ;
+           rdfs:label ?viName .
+    FILTER(CONTAINS(LCASE(STR(?viName)), "đại học"))
+  }
+  
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viOrg owl:sameAs ?enOrg .
+  }
+  
+  SERVICE <https://dbpedia.org/sparql> {
+    ?enOrg rdfs:label ?enName .
+    OPTIONAL { ?enOrg dbo:foundingDate ?founded }
+    OPTIONAL { ?enOrg dbo:numberOfStudents ?students }
+    FILTER(LANG(?enName) = "en")
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY ?viName
+LIMIT 10
+
+# Query 5.11: Simple connectivity test (no network required)
+SELECT (COUNT(?link) AS ?totalLinks) WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity ?linkType ?enEntity .
+    FILTER(?linkType = owl:sameAs || ?linkType = rdfs:seeAlso)
+    BIND(?viEntity AS ?link)
+  }
+}
+
+# Query 5.12: Link quality assessment for federated queries
+SELECT ?viEntity ?viName ?confidence ?method (BOUND(?enLabel) AS ?enExists) WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?linkEntity vidbp:sourceEntity ?viEntity ;
+                vidbp:linkedEntity ?enEntity ;
+                vidbp:confidenceScore ?confidence ;
+                vidbp:matchMethod ?method .
+    ?viEntity rdfs:label ?viName .
+  }
+  
+  OPTIONAL {
+    SERVICE SILENT <https://dbpedia.org/sparql> {
+      ?enEntity rdfs:label ?enLabel .
+      FILTER(LANG(?enLabel) = "en")
+    }
+  }
+  
+  FILTER(LANG(?viName) = "vi")
+} ORDER BY DESC(?confidence)
+LIMIT 20

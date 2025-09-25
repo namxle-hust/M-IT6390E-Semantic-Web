@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://vi.dbpedia.org/property/%> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vi: <http://vi.dbpedia.org/ontology/> .
@@ -7,27 +8,171 @@
 @prefix vires: <http://vi.dbpedia.org/resource/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-vires:C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m a vi:Người ;
-    rdfs:label "Cách mạng tháng Tám"@vi ;
+vires:L%C3%AA_Du%E1%BA%A9n a vi:Người ;
+    rdfs:label "Lê Duẩn"@vi ;
+    dct:description """Lê Duẩn (7 tháng 4 năm 1907 – 10 tháng 7 năm 1986) là một chính trị gia người Việt Nam, Bí thư Thứ nhất Đảng Lao động Việt Nam từ năm 1960 đến năm 1976 và Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam từ năm 1976 đến năm 1986. Với tổng thời gian tại nhiệm kéo dài 25 năm 303 ngày, ông là người nắm giữ cương vị đứng đầu Đảng lâu nhất trong lịch sử Đảng Cộng sản Việt Nam.
+Sinh ra tại huyện Triệu Phong, tỉnh Quảng Trị, Lê Duẩn tham gia cách mạng từ những năm 1920 và trở thành một trong những đảng viên đầu tiên của Đảng Cộng sản Đông Dương vào năm 1930. Trong thời gian hoạt động cách mạng, ông từng hai lần bị bắt và giam giữ tại Côn Đảo, chỉ được trả tự do sau Cách mạng tháng Tám năm 1945. Trong Chiến tranh Đông Dương, ông giữ vai trò lãnh đạo phong trào cách mạng ở miền Nam, là Bí thư Trung ương Cục miền Nam trong giai đoạn 1951–1954. Từ giữa thập niên 1950, Lê Duẩn là người kiên quyết thúc đẩy đường lối thống nhất đất nước bằng đấu tranh vũ trang. Văn kiện Đề cương cách mạng miền Nam năm 1956 do ông soạn thảo trở thành nền tảng chỉ đạo cho chính sách của Đảng. Năm 1960, ông được bầu làm Bí thư Thứ nhất, trở thành người lãnh đạo thực tế của Việt Nam trong bối cảnh Chủ tịch Hồ Chí Minh lui dần về phía hậu trường. Sau khi Hồ Chí Minh qua đời năm 1969, ông giữ vai trò điều hành tối cao, theo đuổi chiến lược quân sự quyết liệt trong Chiến tranh Việt Nam, mà đỉnh điểm là Chiến dịch Hồ Chí Minh và Sự kiện 30 tháng 4 năm 1975.
+Từ năm 1976, trên cương vị Tổng Bí thư, ông tiếp tục duy trì mô hình kinh tế kế hoạch hóa tập trung và đẩy mạnh cải tạo xã hội chủ nghĩa trên toàn quốc. Về đối ngoại, Lê Duẩn theo đuổi lập trường độc lập, kiên quyết không lệ thuộc vào bất kỳ cường quốc nào, đồng thời giữ khoảng cách với cả Trung Quốc lẫn Liên Xô khi cần thiết. Tuy nhiên, khi căng thẳng với Bắc Kinh ngày càng gia tăng, ông chủ trương thắt chặt liên minh chiến lược với Moskva như một đối trọng. Năm 1978, trong bối cảnh bị quốc tế cô lập, Việt Nam đã tăng cường quan hệ với Liên Xô và gia nhập Hội đồng Tương trợ Kinh tế. Tháng 12 cùng năm, Lê Duẩn tiến hành can thiệp quân sự vào Campuchia nhằm lật đổ chế độ Khmer Đỏ – một đồng minh thân cận của Trung Quốc – và thiết lập chính quyền thân Việt Nam tại Phnôm Pênh. Sự kiện này kéo theo phản ứng gay gắt từ Trung Quốc, dẫn đến cuộc chiến tranh biên giới ngắn ngày vào tháng 2 năm 1979. Trong những năm sau đó, trước khủng hoảng kinh tế kéo dài và sức ép cải cách ngày càng gia tăng từ nội bộ, Lê Duẩn vẫn kiên quyết bảo vệ mô hình xã hội chủ nghĩa tập trung và phản đối mọi xu hướng "xét lại" hoặc cải cách theo hướng thị trường. Ông tiếp tục giữ chức Tổng Bí thư cho đến khi qua đời vào ngày 10 tháng 7 năm 1986.
+Không lâu sau khi Lê Duẩn qua đời, tại Đại hội Đảng lần thứ VI, công cuộc Đổi Mới được khởi xướng. Nhiều chính sách do Lê Duẩn đề ra, đặc biệt trong lĩnh vực kinh tế và tổ chức bộ máy nhà nước, bị xem xét lại và từng bước điều chỉnh theo hướng cởi mở và thực dụng hơn. Dẫu vậy, ảnh hưởng của ông vẫn còn đậm nét trong nhiều mặt của hệ thống chính trị, đặc biệt là trong việc củng cố vai trò lãnh đạo toàn diện của Đảng và xây dựng bộ máy an ninh – kiểm soát chặt chẽ đời sống xã hội. Ông được đánh giá là một trong những nhân vật có ảnh hưởng lớn nhất trong lịch sử hiện đại Việt Nam, không chỉ trong giai đoạn chiến tranh mà cả trong thời kỳ thống nhất đất nước. Ông góp phần định hình mô hình chính trị xã hội chủ nghĩa đặc thù tại Việt Nam, kết hợp giữa tư tưởng Marx–Lenin với đường lối cách mạng dân tộc. Một số nhà nghiên cứu trong và ngoài nước nhận định ông là nhà lãnh đạo có ảnh hưởng lớn thứ hai trong thế kỷ 20 tại Việt Nam, chỉ sau Hồ Chí Minh."""@vi ;
     dct:language "vi" ;
-    vidbp:wikipediaPageID 13469760 ;
-    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/C%C3%A1ch%20m%E1%BA%A1ng%20th%C3%A1ng%20T%C3%A1m> ;
-    foaf:name "Cách mạng tháng Tám"@vi .
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_V>,
+        vires:B%C3%A0i_vi%E1%BA%BFt_Wikipedia_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_RERO_sai,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%8Dn_l%E1%BB%8Dc,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ICCU,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%C3%AD_th%C6%B0_Qu%C3%A2n_%E1%BB%A7y_Trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam,
+        vires:B%C3%AD_th%C6%B0_X%E1%BB%A9_%E1%BB%A7y_Nam_K%E1%BB%B3,
+        vires:B%C3%AD_th%C6%B0_X%E1%BB%A9_%E1%BB%A7y_Trung_K%E1%BB%B3,
+        vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Sao_V%C3%A0ng,
+        vires:M%E1%BA%A5t_n%C4%83m_1986,
+        vires:Ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_Tr%E1%BB%8B,
+        vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_L%C3%AA_t%E1%BA%A1i_Vi%E1%BB%87t_Nam,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_%C4%90%E1%BB%A9c_de,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_S%C3%A9c_cs,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_T%C3%A2y_Ban_Nha_es,
+        vires:Nh%C3%A2n_v%E1%BA%ADt_trong_Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng,
+        vires:Nh%C3%A2n_v%E1%BA%ADt_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam,
+        vires:Sinh_n%C4%83m_1907,
+        vires:Sinh_t%E1%BA%A1i_Qu%E1%BA%A3ng_Tr%E1%BB%8B,
+        vires:Source_attribution,
+        vires:T%C3%A2n_Vi%E1%BB%87t_C%C3%A1ch_m%E1%BB%87nh_%C4%90%E1%BA%A3ng,
+        vires:T%E1%BB%95ng_B%C3%AD_th%C6%B0_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:birth_date "{{Birth date|1907|4|7|df=yes"@vi ;
+    vidbp:birthname "Lê Văn Nhuận"@vi ;
+    vidbp:caption "Lê Duẩn vào năm 1978"@vi ;
+    vidbp:image "Le duan.png"@vi ;
+    vidbp:imagesize "250px"@vi ;
+    vidbp:name "Lê Duẩn"@vi ;
+    vidbp:wikipediaPageID 6297 ;
+    rdfs:comment """Lê Duẩn (7 tháng 4 năm 1907 – 10 tháng 7 năm 1986) là một chính trị gia người Việt Nam, Bí thư Thứ nhất Đảng Lao động Việt Nam từ năm 1960 đến năm 1976 và Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam từ năm 1976 đến năm 1986. Với tổng thời gian tại nhiệm kéo dài 25 năm 303 ngày, ông là người nắm giữ cương vị đứng đầu Đảng lâu nhất trong lịch sử Đảng Cộng sản Việt Nam.
+Sinh ra tại huyện Triệu Phong, tỉnh Quảng Trị, Lê Duẩn tham gia cách mạng từ những năm 1920 và trở thành một trong những đảng viên đầu tiên của Đảng Cộng sản Đông Dương vào năm 1930. Trong thời gian hoạt động cách mạng, ông từng hai lần bị bắt và giam giữ tại Côn Đảo, chỉ được trả tự do sau Cách mạng tháng Tám năm 1945. Trong Chiến tranh Đông Dương, ông giữ vai trò lãnh đạo phong trào cách mạng ở miền Nam, là Bí thư Trung ương Cục miền Nam trong giai đoạn 1951–1954. Từ giữa thập niên 1950, Lê Duẩn là người kiên quyết thúc đẩy đường lối thống nhất đất nước bằng đấu tranh vũ trang. Văn kiện Đề cương cách mạng miền Nam năm 1956 do ông soạn thảo trở thành nền tảng chỉ đạo cho chính sách của Đảng. Năm 1960, ông được bầu làm Bí thư Thứ nhất, trở thành người lãnh đạo thực tế của Việt Nam trong bối cảnh Chủ tịch Hồ Chí Minh lui dần về phía hậu trường. Sau khi Hồ Chí Minh qua đời năm 1969, ông giữ vai trò điều hành tối cao, theo đuổi chiến lược quân sự quyết liệt trong Chiến tranh Việt Nam, mà đỉnh điểm là Chiến dịch Hồ Chí Minh và Sự kiện 30 tháng 4 năm 1975.
+Từ năm 1976, trên cương vị Tổng Bí thư, ông tiếp tục duy trì mô hình kinh tế kế hoạch hóa tập trung và đẩy mạnh cải tạo xã hội chủ nghĩa trên toàn quốc. Về đối ngoại, Lê Duẩn theo đuổi lập trường độc lập, kiên quyết không lệ thuộc vào bất kỳ cường quốc nào, đồng thời giữ khoảng cách với cả Trung Quốc lẫn Liên Xô khi cần thiết. Tuy nhiên, khi căng thẳng với Bắc Kinh ngày càng gia tăng, ông chủ trương thắt chặt liên minh chiến lược với Moskva như một đối trọng. Năm 1978, trong bối cảnh bị quốc tế cô lập, Việt Nam đã tăng cường quan hệ với Liên Xô và gia nhập Hội đồng Tương trợ Kinh tế. Tháng 12 cùng năm, Lê Duẩn tiến hành can thiệp quân sự vào Campuchia nhằm lật đổ chế độ Khmer Đỏ – một đồng minh thân cận của Trung Quốc – và thiết lập chính quyền thân Việt Nam tại Phnôm Pênh. Sự kiện này kéo theo phản ứng gay gắt từ Trung Quốc, dẫn đến cuộc chiến tranh biên giới ngắn ngày vào tháng 2 năm 1979. Trong những năm sau đó, trước khủng hoảng kinh tế kéo dài và sức ép cải cách ngày càng gia tăng từ nội bộ, Lê Duẩn vẫn kiên quyết bảo vệ mô hình xã hội chủ nghĩa tập trung và phản đối mọi xu hướng "xét lại" hoặc cải cách theo hướng thị trường. Ông tiếp tục giữ chức Tổng Bí thư cho đến khi qua đời vào ngày 10 tháng 7 năm 1986.
+Không lâu sau khi Lê Duẩn qua đời, tại Đại hội Đảng lần thứ VI, công cuộc Đổi Mới được khởi xướng. Nhiều chính sách do Lê Duẩn đề ra, đặc biệt trong lĩnh vực kinh tế và tổ chức bộ máy nhà nước, bị xem xét lại và từng bước điều chỉnh theo hướng cởi mở và thực dụng hơn. Dẫu vậy, ảnh hưởng của ông vẫn còn đậm nét trong nhiều mặt của hệ thống chính trị, đặc biệt là trong việc củng cố vai trò lãnh đạo toàn diện của Đảng và xây dựng bộ máy an ninh – kiểm soát chặt chẽ đời sống xã hội. Ông được đánh giá là một trong những nhân vật có ảnh hưởng lớn nhất trong lịch sử hiện đại Việt Nam, không chỉ trong giai đoạn chiến tranh mà cả trong thời kỳ thống nhất đất nước. Ông góp phần định hình mô hình chính trị xã hội chủ nghĩa đặc thù tại Việt Nam, kết hợp giữa tư tưởng Marx–Lenin với đường lối cách mạng dân tộc. Một số nhà nghiên cứu trong và ngoài nước nhận định ông là nhà lãnh đạo có ảnh hưởng lớn thứ hai trong thế kỷ 20 tại Việt Nam, chỉ sau Hồ Chí Minh."""@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/L%C3%AA%20Du%E1%BA%A9n> ;
+    foaf:name "Lê Duẩn"@vi .
 
-vires:Chi%E1%BA%BFn_th%E1%BA%AFng_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7 a vi:Người ;
-    rdfs:label "Chiến thắng Điện Biên Phủ"@vi ;
-    dct:language "vi" ;
-    vidbp:wikipediaPageID 117997 ;
-    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn%20th%E1%BA%AFng%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7> ;
-    foaf:name "Chiến thắng Điện Biên Phủ"@vi .
+vires:L%C3%BD_Th%C6%B0%E1%BB%9Dng_Ki%E1%BB%87t a vi:Người ;
+    rdfs:label "Lý Thường Kiệt"@vi ;
+    dct:description """Lý Thường Kiệt (chữ Hán: 李常傑; 1019 – 1105) là một nhà quân sự, nhà chính trị rất nổi tiếng vào thời nhà Lý nước Đại Việt. Ông làm quan qua 3 triều Lý Thái Tông, Lý Thánh Tông, Lý Nhân Tông và đạt được nhiều thành tựu to lớn, khiến ông trở thành một trong hai danh tướng vĩ đại nhất nhà Lý, bên cạnh Lê Phụng Hiểu.
+Trong lịch sử Việt Nam, ông nổi bật với việc chinh phạt Chiêm Thành (1069), đánh phá 3 châu Khâm, Ung, Liêm nước Tống (1075–1076), rồi đánh bại cuộc xâm lược Đại Việt của quân Tống do Quách Quỳ, Triệu Tiết chỉ huy. Đặc biệt, trận chiến ở ba châu Khâm, Ung, Liêm đã khiến tên tuổi của ông vang dội ra khỏi Đại Việt và được biết đến ở đất Tống.
+Năm 2013, Bộ Văn hóa, Thể thao và Du lịch liệt ông vào một trong 14 vị anh hùng dân tộc tiêu biểu nhất trong lịch sử Việt Nam.
+Con tàu chiến USS Chincoteague (AVP-24) trong những năm 1972 - 1975 được mang tên là RVNS Lý Thường Kiệt (HQ-16), để vinh danh ông.
 
-vires:H%E1%BB%99i_An a vi:Người ;
-    rdfs:label "Hội An"@vi ;
+"""@vi ;
     dct:language "vi" ;
-    dct:subject vires:Trang_%C4%91%E1%BB%95i_h%C6%B0%E1%BB%9Bng_t%E1%BB%AB_vi%E1%BB%87c_di_chuy%E1%BB%83n ;
-    vidbp:wikipediaPageID 19934624 ;
-    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/H%E1%BB%99i%20An> ;
-    foaf:name "Hội An"@vi .
+    dct:subject vires:Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam,
+        vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n,
+        vires:C%C3%B4ng_t%C6%B0%E1%BB%9Bc_nh%C3%A0_L%C3%BD,
+        vires:Ho%E1%BA%A1n_quan_Vi%E1%BB%87t_Nam,
+        vires:M%E1%BA%A5t_n%C4%83m_1105,
+        vires:Ng%C6%B0%E1%BB%9Di_H%C3%A0_N%E1%BB%99i,
+        vires:Ng%C6%B0%E1%BB%9Di_H%C6%B0ng_Y%C3%AAn,
+        vires:Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam,
+        vires:Sinh_n%C4%83m_1019,
+        vires:T%E1%BB%83_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A1i_%C3%BAy_Vi%E1%BB%87t_Nam,
+        vires:Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i,
+        vires:Trang_c%C3%B3_s%E1%BB%AD_d%E1%BB%A5ng_t%E1%BA%ADp_tin_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i,
+        vires:V%C3%B5_t%C6%B0%E1%BB%9Bng_nh%C3%A0_L%C3%BD,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:wikipediaPageID 115 ;
+    rdfs:comment """Lý Thường Kiệt (chữ Hán: 李常傑; 1019 – 1105) là một nhà quân sự, nhà chính trị rất nổi tiếng vào thời nhà Lý nước Đại Việt. Ông làm quan qua 3 triều Lý Thái Tông, Lý Thánh Tông, Lý Nhân Tông và đạt được nhiều thành tựu to lớn, khiến ông trở thành một trong hai danh tướng vĩ đại nhất nhà Lý, bên cạnh Lê Phụng Hiểu.
+Trong lịch sử Việt Nam, ông nổi bật với việc chinh phạt Chiêm Thành (1069), đánh phá 3 châu Khâm, Ung, Liêm nước Tống (1075–1076), rồi đánh bại cuộc xâm lược Đại Việt của quân Tống do Quách Quỳ, Triệu Tiết chỉ huy. Đặc biệt, trận chiến ở ba châu Khâm, Ung, Liêm đã khiến tên tuổi của ông vang dội ra khỏi Đại Việt và được biết đến ở đất Tống.
+Năm 2013, Bộ Văn hóa, Thể thao và Du lịch liệt ông vào một trong 14 vị anh hùng dân tộc tiêu biểu nhất trong lịch sử Việt Nam.
+Con tàu chiến USS Chincoteague (AVP-24) trong những năm 1972 - 1975 được mang tên là RVNS Lý Thường Kiệt (HQ-16), để vinh danh ông.
+
+"""@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/L%C3%BD%20Th%C6%B0%E1%BB%9Dng%20Ki%E1%BB%87t> ;
+    foaf:name "Lý Thường Kiệt"@vi .
+
+vires:Ng%C3%B4_Quy%E1%BB%81n a vi:Người ;
+    rdfs:label "Ngô Quyền"@vi ;
+    dct:description """Ngô Quyền (chữ Hán: 吳權; 17 tháng 4 năm 898 – 14 tháng 2 năm 944), còn được biết đến với tên gọi Tiền Ngô Vương (前吳王) là vị vua đầu tiên của nhà Ngô trong lịch sử Việt Nam. Năm 938, ông là người lãnh đạo nhân dân đánh bại quân Nam Hán trong trận Bạch Đằng, chính thức kết thúc gần một ngàn năm Bắc thuộc, mở ra một thời kì độc lập lâu dài của Việt Nam. Sau chiến thắng này, ông lên ngôi vua, lập ra nhà Ngô, trị vì từ năm 939 đến năm 944.
+Ngô Quyền nằm trong danh sách mười bốn anh hùng dân tộc Việt Nam. Phan Bội Châu xem ông là vị Tổ Trung hưng của Việt Nam.
+
+"""@vi ;
+    dct:language "vi" ;
+    dct:subject vires:Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam,
+        vires:B%C3%A0i_c%C3%B3_nhi%E1%BB%81u_v%E1%BA%A5n_%C4%91%E1%BB%81,
+        vires:B%C3%A0i_c%E1%BA%A7n_s%E1%BB%ADa_v%C4%83n_phong,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n,
+        vires:B%C3%A0i_vi%E1%BA%BFt_thi%E1%BA%BFu_tr%C3%ADch_d%E1%BA%ABn_trong_v%C4%83n_b%E1%BA%A3n,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%E1%BB%B1_ch%E1%BB%A7,
+        vires:L%E1%BB%97i_CS1_tham_s%E1%BB%91_th%E1%BB%ABa,
+        vires:L%E1%BB%97i_kh%C3%B4ng_c%C3%B3_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn,
+        vires:M%E1%BA%A5t_n%C4%83m_944,
+        vires:Ng%C6%B0%E1%BB%9Di_H%C3%A0_T%C3%A2y,
+        vires:Nh%C3%A2n_v%E1%BA%ADt_qu%C3%A2n_s%E1%BB%B1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_Ti%E1%BB%81n_%C4%91%E1%BB%99c_l%E1%BA%ADp,
+        vires:Sinh_n%C4%83m_898,
+        vires:T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_Ti%E1%BA%BFt_%C4%91%E1%BB%99_s%E1%BB%A9,
+        vires:V%C6%B0%C6%A1ng_t%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:ch%E1%BB%A9c_v%E1%BB%8B "Ngô Vương"@vi ;
+    vidbp:ghi_ch%C3%BA_h%C3%ACnh "Tượng Ngô Quyền trong đền thờ ông ở thôn Cam Lâm, xã Đường Lâm, thị xã Sơn Tây (thị xã)"@vi ;
+    vidbp:h%C3%ACnh "Tượng Ngô Quyền.jpg"@vi ;
+    vidbp:t%C3%AAn_g%E1%BB%91c "前吳王"@vi ;
+    vidbp:t%C6%B0%E1%BB%9Bc_v%E1%BB%8B "Vua Tĩnh Hải quân"@vi ;
+    vidbp:t%E1%BA%A1i_v%E1%BB%8B "1 tháng 2 năm 939 &ndash; 14 tháng 2 năm 944{{số năm theo năm và ngày|939|2|1|944|2|14"@vi ;
+    vidbp:th%C3%AAm "vietnam"@vi ;
+    vidbp:wikipediaPageID 1411 ;
+    rdfs:comment """Ngô Quyền (chữ Hán: 吳權; 17 tháng 4 năm 898 – 14 tháng 2 năm 944), còn được biết đến với tên gọi Tiền Ngô Vương (前吳王) là vị vua đầu tiên của nhà Ngô trong lịch sử Việt Nam. Năm 938, ông là người lãnh đạo nhân dân đánh bại quân Nam Hán trong trận Bạch Đằng, chính thức kết thúc gần một ngàn năm Bắc thuộc, mở ra một thời kì độc lập lâu dài của Việt Nam. Sau chiến thắng này, ông lên ngôi vua, lập ra nhà Ngô, trị vì từ năm 939 đến năm 944.
+Ngô Quyền nằm trong danh sách mười bốn anh hùng dân tộc Việt Nam. Phan Bội Châu xem ông là vị Tổ Trung hưng của Việt Nam.
+
+"""@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Ng%C3%B4%20Quy%E1%BB%81n> ;
+    foaf:name "Ngô Quyền"@vi .
+
+vires:Nguy%E1%BB%85n_Hu%E1%BB%87 a vi:Người ;
+    rdfs:label "Nguyễn Huệ"@vi ;
+    dct:language "vi" ;
+    vidbp:c%E1%BB%A1_h%C3%ACnh "250px"@vi ;
+    vidbp:ch%E1%BB%A9c_v%E1%BB%8B "Nhà Tây Sơn"@vi ;
+    vidbp:ghi_ch%C3%BA_h%C3%ACnh "Tượng đài vua Quang Trung tại Bảo tàng Quang Trung, xã Tây Sơn, tỉnh Gia Lai"@vi ;
+    vidbp:h%C3%ACnh "Quang Trung statue 02.jpg"@vi ;
+    vidbp:t%C3%AAn_g%E1%BB%91c "光中"@vi ;
+    vidbp:t%C6%B0%E1%BB%9Bc_v%E1%BB%8B "Hoàng đế Việt Nam"@vi ;
+    vidbp:t%E1%BA%A1i_v%E1%BB%8B "22 tháng 12 năm 1788 – 16 tháng 9 năm 1792({{số năm theo năm và ngày|1788|12|22|1792|9|16"@vi ;
+    vidbp:th%C3%AAm "Đại Việt"@vi ;
+    vidbp:wikipediaPageID 13337196 ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n%20Hu%E1%BB%87> ;
+    foaf:name "Nguyễn Huệ"@vi .
 
 vires:Ph%E1%BA%A1m_Tu%C3%A2n a vi:Người ;
     rdfs:label "Phạm Tuân"@vi ;
@@ -53,7 +198,7 @@ vires:Ph%E1%BA%A1m_Tu%C3%A2n a vi:Người ;
         vires:Trung_t%C6%B0%E1%BB%9Bng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam,
         vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
     vidbp:caption "Trung tướng Phạm Tuân, năm 2012"@vi ;
-    vidbp:honorific_prefix "[[Trung tướng Quân đội nhân dân Việt Nam"@vi ;
+    vidbp:honorific_prefix "Trung tướng Quân đội nhân dân Việt Nam"@vi ;
     vidbp:image "Phạm Tuân .JPG"@vi ;
     vidbp:name "Phạm Tuân"@vi ;
     vidbp:nationality "{{flag|Việt Nam"@vi ;
@@ -63,6 +208,129 @@ vires:Ph%E1%BA%A1m_Tu%C3%A2n a vi:Người ;
     rdfs:comment "Phạm Tuân (sinh ngày 14 tháng 2 năm 1947) là phi công, phi hành gia người Việt Nam, Trung tướng Quân đội nhân dân Việt Nam. Ông là người Việt Nam và châu Á đầu tiên bay lên vũ trụ vào năm 1980 trong chương trình Interkosmos của Liên Xô. Ông cũng là người Việt Nam đầu tiên được phong danh hiệu Anh hùng 3 lần, bởi 2 quốc gia khác nhau: Anh hùng lực lượng vũ trang nhân dân Việt Nam, Anh hùng Lao động, Anh hùng Liên Xô."@vi ;
     foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Ph%E1%BA%A1m%20Tu%C3%A2n> ;
     foaf:name "Phạm Tuân"@vi .
+
+vires:T%C3%B4n_%C4%90%E1%BB%A9c_Th%E1%BA%AFng a vi:NhânVậtChínhTrị ;
+    rdfs:label "Tôn Đức Thắng"@vi ;
+    dct:description """Tôn Đức Thắng (20 tháng 8 năm 1888 – 30 tháng 3 năm 1980) còn được gọi là Bác Tôn, là một nhà cách mạng, chính trị gia người Việt Nam. Ông là Chủ tịch nước cuối cùng của chính thể Việt Nam Dân chủ Cộng hòa từ năm 1969 đến năm 1976. Từ năm 1976 đến năm 1980, ông là Chủ tịch nước đầu tiên của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam cho đến khi qua đời. Trước đó, ông là Phó Chủ tịch nước (1960–1969), Quyền Chủ tịch nước (2 tháng 9 – 22 tháng 9 năm 1969) và Trưởng ban Thường trực Quốc hội (1955–1960).
+Sau khi kế nhiệm Chủ tịch Hồ Chí Minh, ông trở thành Chủ tịch nước thứ 2 và cũng là Chủ tịch nước cuối cùng của chính thể Việt Nam Dân chủ Cộng hòa, đồng thời là Chủ tịch nước đầu tiên của Nhà nước Cộng hòa Xã hội Chủ nghĩa Việt Nam. Ông cũng là người đầu tiên được tặng thưởng Huân chương Sao Vàng – huân chương cao quý nhất Việt Nam."""@vi ;
+    dct:language "vi" ;
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_I>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V>,
+        <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV>,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_N%E1%BB%99i_v%E1%BB%A5_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_%E1%BB%A6y_ban_Trung_%C6%B0%C6%A1ng_M%E1%BA%B7t_tr%E1%BA%ADn_T%E1%BB%95_qu%E1%BB%91c_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Qu%E1%BB%91c_ph%C3%B2ng_n%C6%B0%E1%BB%9Bc_C%E1%BB%99ng_h%C3%B2a_x%C3%A3_h%E1%BB%99i_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Qu%E1%BB%91c_ph%C3%B2ng_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_C%E1%BB%99ng_h%C3%B2a_x%C3%A3_h%E1%BB%99i_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a,
+        vires:H%E1%BB%8D_T%C3%B4n,
+        vires:H%E1%BB%99i_vi%C3%AAn_H%E1%BB%99i_Vi%E1%BB%87t_Nam_C%C3%A1ch_m%E1%BA%A1ng_Thanh_ni%C3%AAn,
+        vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Sao_V%C3%A0ng,
+        vires:M%E1%BA%A5t_n%C4%83m_1980,
+        vires:Ng%C6%B0%E1%BB%9Di_An_Giang,
+        vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_T%C3%B4n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam,
+        vires:Ph%C3%B3_Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam,
+        vires:Sinh_n%C4%83m_1888,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:c%E1%BB%A1_h%C3%ACnh "250px"@vi ;
+    vidbp:h%C3%ACnh "Tonducthang.jpg"@vi ;
+    vidbp:mi%C3%AAu_t%E1%BA%A3 "Tôn Đức Thắng năm 1960"@vi ;
+    vidbp:wikipediaPageID 42505 ;
+    rdfs:comment """Tôn Đức Thắng (20 tháng 8 năm 1888 – 30 tháng 3 năm 1980) còn được gọi là Bác Tôn, là một nhà cách mạng, chính trị gia người Việt Nam. Ông là Chủ tịch nước cuối cùng của chính thể Việt Nam Dân chủ Cộng hòa từ năm 1969 đến năm 1976. Từ năm 1976 đến năm 1980, ông là Chủ tịch nước đầu tiên của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam cho đến khi qua đời. Trước đó, ông là Phó Chủ tịch nước (1960–1969), Quyền Chủ tịch nước (2 tháng 9 – 22 tháng 9 năm 1969) và Trưởng ban Thường trực Quốc hội (1955–1960).
+Sau khi kế nhiệm Chủ tịch Hồ Chí Minh, ông trở thành Chủ tịch nước thứ 2 và cũng là Chủ tịch nước cuối cùng của chính thể Việt Nam Dân chủ Cộng hòa, đồng thời là Chủ tịch nước đầu tiên của Nhà nước Cộng hòa Xã hội Chủ nghĩa Việt Nam. Ông cũng là người đầu tiên được tặng thưởng Huân chương Sao Vàng – huân chương cao quý nhất Việt Nam."""@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/T%C3%B4n%20%C4%90%E1%BB%A9c%20Th%E1%BA%AFng> ;
+    foaf:name "Tôn Đức Thắng"@vi .
+
+vires:Thanh_Ho%C3%A1 a vi:ĐịaĐiểm ;
+    rdfs:label "Thanh Hoá"@vi ;
+    dct:language "vi" ;
+    ns1:C4%91%E1%BA%A1i_bi%E1%BB%83u_qu%E1%BB%91c_h%E1%BB%99i "Danh sách Đại biểu Quốc hội Việt Nam khóa XV#Thanh Hóa"@vi ;
+    vidbp:b%C3%AD_th%C6%B0 "Nguyễn Doãn Anh"@vi ;
+    vidbp:bi%E1%BB%87t_danh "Vùng đất Lam SơnVùng đất vua chúaVùng đất đế vươngThủ phủ nem chua"@vi ;
+    vidbp:ch%C3%A1nh_%C3%A1n_TAND "Đỗ Thế Bình"@vi ;
+    vidbp:ch%E1%BB%A7_t%E1%BB%8Bch_H%C4%90ND "Lê Tiến Lam (Phó Chủ tịch phụ trách)"@vi ;
+    vidbp:ch%E1%BB%A7_t%E1%BB%8Bch_UBMTTQ "Trịnh Tuấn Sinh"@vi ;
+    vidbp:ch%E1%BB%A7_t%E1%BB%8Bch_UBND "Nguyễn Hoài Anh (chính khách)"@vi ;
+    vidbp:ghi_ch%C3%BA_h%C3%ACnh "Tượng vua Lê Thái Tổ ở Thanh Hóa"@vi ;
+    vidbp:h%C3%ACnh "Le Loi statue.JPG"@vi ;
+    vidbp:h%E1%BB%99i_%C4%91%E1%BB%93ng_nh%C3%A2n_d%C3%A2n "79 đại biểu"@vi ;
+    vidbp:kinh_%C4%91%E1%BB%99 "105.309448"@vi ;
+    vidbp:ph%C3%A2n_chia_h%C3%A0nh_ch%C3%ADnh "19 phường, 147 xã"@vi ;
+    vidbp:t%C3%AAn_c%C5%A9 "Thanh Hoa"@vi ;
+    vidbp:t%E1%BB%89nh_l%E1%BB%B5 "Phường Hạc Thành"@vi ;
+    vidbp:tr%E1%BB%A5_s%E1%BB%9F_UBND "35, đại lộ Lê Lợi, phường Hạc Thành"@vi ;
+    vidbp:v%C3%B9ng "Bắc Trung Bộ"@vi ;
+    vidbp:v%C4%A9_%C4%91%E1%BB%99 "20.141049"@vi ;
+    vidbp:vi%E1%BB%87n_tr%C6%B0%E1%BB%9Fng_VKSND "Trần Thế Kính"@vi ;
+    vidbp:wikipediaPageID 3967 ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Thanh%20Ho%C3%A1> ;
+    foaf:name "Thanh Hoá"@vi .
+
+vires:Tr%C6%B0%E1%BB%9Dng_Chinh a vi:NhânVậtChínhTrị ;
+    rdfs:label "Trường Chinh"@vi ;
+    dct:description """Trường Chinh (tên khai sinh: Đặng Xuân Khu; 9 tháng 2 năm 1907 – 30 tháng 9 năm 1988) là một nhà cách mạng, nhà chính trị và lý luận chính trị người Việt Nam. Ông từng đảm nhận nhiều chức vụ quan trọng trong hệ thống chính trị như: Chủ tịch Hội đồng Nhà nước giai đoạn 1981–1987, Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam giai đoạn 1941–1956 và 1986, Chủ tịch Ủy ban Thường vụ Quốc hội giai đoạn 1960–1975 và Chủ tịch Quốc hội khóa V, VI. Ngoài các hoạt động chính trị, Trường Chinh còn được biết đến là một nhà thơ cách mạng với bút danh Sóng Hồng.
+
+"""@vi ;
+    dct:language "vi" ;
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A3ng_vi%C3%AAn_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam>,
+        <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I>,
+        vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng,
+        vires:B%C3%A0i_c%E1%BA%A7n_s%E1%BB%ADa_v%C4%83n_phong,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Khoa_h%E1%BB%8Dc_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Nh%C3%A0_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Qu%E1%BB%91c_ph%C3%B2ng_n%C6%B0%E1%BB%9Bc_C%E1%BB%99ng_h%C3%B2a_x%C3%A3_h%E1%BB%99i_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam,
+        vires:Ch%E1%BB%A7_t%E1%BB%8Bch_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam,
+        vires:Gi%C3%A1m_%C4%91%E1%BB%91c_H%E1%BB%8Dc_vi%E1%BB%87n_Ch%C3%ADnh_tr%E1%BB%8B_Qu%E1%BB%91c_gia_H%E1%BB%93_Ch%C3%AD_Minh,
+        vires:M%E1%BA%A5t_n%C4%83m_1988,
+        vires:Ng%C6%B0%E1%BB%9Di_l%C3%A0ng_H%C3%A0nh_Thi%E1%BB%87n_Nam_%C4%90%E1%BB%8Bnh,
+        vires:Nh%C3%A2n_v%E1%BA%ADt_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam,
+        vires:Ph%C3%B3_Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam,
+        vires:Sinh_n%C4%83m_1907,
+        vires:T%E1%BB%95ng_B%C3%AD_th%C6%B0_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:caption "Trường Chinh, năm 1955"@vi ;
+    vidbp:image "TruongChinh1955.jpg"@vi ;
+    vidbp:imagesize "250px"@vi ;
+    vidbp:name "Trường Chinh"@vi ;
+    vidbp:office "Tập tin:Communist_Party_of_Vietnam_flag_logo.svg"@vi ;
+    vidbp:term_end "18 tháng 12 năm 1986 ({{ số năm theo năm và ngày |1986|7|14|1986|12|18"@vi ;
+    vidbp:term_start "14 tháng 7 năm 1986"@vi ;
+    vidbp:wikipediaPageID 18218 ;
+    rdfs:comment """Trường Chinh (tên khai sinh: Đặng Xuân Khu; 9 tháng 2 năm 1907 – 30 tháng 9 năm 1988) là một nhà cách mạng, nhà chính trị và lý luận chính trị người Việt Nam. Ông từng đảm nhận nhiều chức vụ quan trọng trong hệ thống chính trị như: Chủ tịch Hội đồng Nhà nước giai đoạn 1981–1987, Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam giai đoạn 1941–1956 và 1986, Chủ tịch Ủy ban Thường vụ Quốc hội giai đoạn 1960–1975 và Chủ tịch Quốc hội khóa V, VI. Ngoài các hoạt động chính trị, Trường Chinh còn được biết đến là một nhà thơ cách mạng với bút danh Sóng Hồng.
+
+"""@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng%20Chinh> ;
+    foaf:name "Trường Chinh"@vi .
 
 vires:V%E1%BB%8Bnh_H%E1%BA%A1_Long a vi:ĐịaĐiểm ;
     rdfs:label "Vịnh Hạ Long"@vi ;
@@ -120,11 +388,20 @@ Vịnh Hạ Long cùng với đảo Cát Bà tạo thành một trong 21 khu du 
     foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/V%E1%BB%8Bnh%20H%E1%BA%A1%20Long> ;
     foaf:name "Vịnh Hạ Long"@vi .
 
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa II"@vi .
+<http://vi.dbpedia.org/resource/%C4%90%C3%B4_th%E1%BB%8B_Vi%E1%BB%87t_Nam_lo%E1%BA%A1i_I> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đô thị Việt Nam loại I"@vi .
 
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa III"@vi .
+<http://vi.dbpedia.org/resource/%C4%90%C3%B4ng_B%E1%BA%AFc_B%E1%BB%99> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đông Bắc Bộ"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%C3%B4ng_Nam_B%E1%BB%99> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đông Nam Bộ"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_Vi%E1%BB%87t_Nam_%C4%91%E1%BA%B7t_t%C3%AAn_theo_t%C3%AAn_ng%C6%B0%E1%BB%9Di> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đơn vị hành chính Việt Nam đặt tên theo tên người"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_thu%E1%BB%99c_t%E1%BB%89nh_Qu%E1%BA%A3ng_Ninh> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đơn vị hành chính thuộc tỉnh Quảng Ninh"@vi .
 
 <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III_Qu%E1%BA%A3ng_B%C3%ACnh> a skos:Concept ;
     skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa III Quảng Bình"@vi .
@@ -132,20 +409,8 @@ Vịnh Hạ Long cùng với đảo Cát Bà tạo thành một trong 21 khu du 
 <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II_Qu%E1%BA%A3ng_B%C3%ACnh> a skos:Concept ;
     skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa II Quảng Bình"@vi .
 
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa IV"@vi .
-
 <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV_Qu%E1%BA%A3ng_B%C3%ACnh> a skos:Concept ;
     skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa IV Quảng Bình"@vi .
-
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa V"@vi .
-
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa VI"@vi .
-
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa VII"@vi .
 
 <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII_Qu%E1%BA%A3ng_B%C3%ACnh> a skos:Concept ;
     skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa VII Quảng Bình"@vi .
@@ -162,6 +427,12 @@ Vịnh Hạ Long cùng với đảo Cát Bà tạo thành một trong 21 khu du 
 <http://vi.dbpedia.org/resource/%C4%90%E1%BA%A3ng_vi%C3%AAn_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Ph%C3%A1p> a skos:Concept ;
     skos:prefLabel "Thể loại:Đảng viên Đảng Cộng sản Pháp"@vi .
 
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A3ng_vi%C3%AAn_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đảng viên Đảng Cộng sản Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BB%93ng_b%E1%BA%B1ng_s%C3%B4ng_H%E1%BB%93ng> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đồng bằng sông Hồng"@vi .
+
 <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I> a skos:Concept ;
     skos:prefLabel "Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa I"@vi .
 
@@ -174,12 +445,6 @@ Vịnh Hạ Long cùng với đảo Cát Bà tạo thành một trong 21 khu du 
 <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV> a skos:Concept ;
     skos:prefLabel "Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa IV"@vi .
 
-<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV> a skos:Concept ;
-    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa IV"@vi .
-
-<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_V> a skos:Concept ;
-    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa V"@vi .
-
 <http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI> a skos:Concept ;
     skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa VI"@vi .
 
@@ -189,8 +454,8 @@ vires:Anh_h%C3%B9ng_Lao_%C4%91%E1%BB%99ng a skos:Concept ;
 vires:Anh_h%C3%B9ng_Li%C3%AAn_X%C3%B4 a skos:Concept ;
     skos:prefLabel "Thể loại:Anh hùng Liên Xô"@vi .
 
-vires:B%C3%A0i_Vi%E1%BB%87t_Nam_ch%E1%BB%8Dn_l%E1%BB%8Dc a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài Việt Nam chọn lọc"@vi .
+vires:B%C3%A0i_c%C3%B3_nhi%E1%BB%81u_v%E1%BA%A5n_%C4%91%E1%BB%81 a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài có nhiều vấn đề"@vi .
 
 vires:B%C3%A0i_c%C6%A1_b%E1%BA%A3n a skos:Concept ;
     skos:prefLabel "Thể loại:Bài cơ bản"@vi .
@@ -198,14 +463,17 @@ vires:B%C3%A0i_c%C6%A1_b%E1%BA%A3n a skos:Concept ;
 vires:B%C3%A0i_l%E1%BB%97i_th%E1%BB%9Di a skos:Concept ;
     skos:prefLabel "Thể loại:Bài lỗi thời"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết có bản mẫu Hatnote trỏ đến một trang không tồn tại"@vi .
-
 vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ch%C3%BA_th%C3%ADch_kh%C3%B4ng_%C4%91%E1%BA%A7y_%C4%91%E1%BB%A7 a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết có chú thích không đầy đủ"@vi .
 
+vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_hatnote_%C4%91%E1%BB%95i_h%C6%B0%E1%BB%9Bng_c%E1%BA%A7n_ki%E1%BB%83m_tra_l%E1%BA%A1i a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết có hatnote đổi hướng cần kiểm tra lại"@vi .
+
 vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ph%E1%BA%A1m_vi_%C4%91%E1%BB%8Ba_l%C3%BD_h%E1%BA%A1n_ch%E1%BA%BF a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết có phạm vi địa lý hạn chế"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Khmer a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết có văn bản tiếng Khmer"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Vi%E1%BB%87t_n%C3%AAu_r%C3%B5 a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết có văn bản tiếng Việt nêu rõ"@vi .
@@ -216,17 +484,8 @@ vires:B%C3%A0i_vi%E1%BA%BFt_c%E1%BA%A7n_ch%C3%BA_th%C3%ADch_chi_ti%E1%BA%BFt_h%C
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CANTIC a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng CANTIC"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ICCU a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng ICCU"@vi .
-
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LNB a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng LNB"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NARA a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NARA"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLI a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLI"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NSK a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NSK"@vi .
@@ -237,20 +496,23 @@ vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VcBA a skos:C
 vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_%C4%91%E1%BB%8Bnh_d%E1%BA%A1ng_hAudio a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết sử dụng định dạng hAudio"@vi .
 
+vires:B%C3%A0i_vi%E1%BA%BFt_thi%E1%BA%BFu_tr%C3%ADch_d%E1%BA%ABn_trong_v%C4%83n_b%E1%BA%A3n a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết thiếu trích dẫn trong văn bản"@vi .
+
 vires:B%C3%A0i_vi%E1%BA%BFt_v%E1%BB%81_ti%E1%BB%83u_s%E1%BB%AD_c%C3%B3_%E1%BA%A3nh_ch%E1%BB%A5p_ch%E1%BB%AF_k%C3%BD_nh%C3%A2n_v%E1%BA%ADt a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết về tiểu sử có ảnh chụp chữ ký nhân vật"@vi .
 
-vires:B%C3%AD_th%C6%B0_Qu%C3%A2n_%E1%BB%A7y_Trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Bí thư Quân ủy Trung ương Việt Nam"@vi .
+vires:B%C3%A0n_c%C3%A3i_v%E1%BB%81_T%C4%90TL a skos:Concept ;
+    skos:prefLabel "Thể loại:Bàn cãi về TĐTL"@vi .
 
-vires:B%E1%BA%A3n_m%E1%BA%ABu_Portal_inline_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_%C4%91%E1%BB%8F_%C4%91%E1%BA%BFn_c%E1%BB%95ng_th%C3%B4ng_tin a skos:Concept ;
-    skos:prefLabel "Thể loại:Bản mẫu Portal-inline có liên kết đỏ đến cổng thông tin"@vi .
+vires:B%C3%AD_th%C6%B0_X%E1%BB%A9_%E1%BB%A7y_Nam_K%E1%BB%B3 a skos:Concept ;
+    skos:prefLabel "Thể loại:Bí thư Xứ ủy Nam Kỳ"@vi .
 
-vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Khoa_h%E1%BB%8Dc_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Bộ trưởng Bộ Khoa học và Công nghệ Việt Nam"@vi .
+vires:B%C3%AD_th%C6%B0_X%E1%BB%A9_%E1%BB%A7y_Trung_K%E1%BB%B3 a skos:Concept ;
+    skos:prefLabel "Thể loại:Bí thư Xứ ủy Trung Kỳ"@vi .
 
-vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_N%E1%BB%99i_v%E1%BB%A5_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Bộ trưởng Bộ Nội vụ Việt Nam"@vi .
+vires:B%E1%BA%AFc_Trung_B%E1%BB%99 a skos:Concept ;
+    skos:prefLabel "Thể loại:Bắc Trung Bộ"@vi .
 
 vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Bộ trưởng Bộ Ngoại giao Việt Nam"@vi .
@@ -258,17 +520,32 @@ vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_
 vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Qu%E1%BB%91c_ph%C3%B2ng_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Bộ trưởng Bộ Quốc phòng Việt Nam"@vi .
 
+vires:C%C3%B4ng_t%C6%B0%E1%BB%9Bc_nh%C3%A0_L%C3%BD a skos:Concept ;
+    skos:prefLabel "Thể loại:Công tước nhà Lý"@vi .
+
 vires:C%E1%BB%B1u_h%E1%BB%8Dc_sinh_Trung_h%E1%BB%8Dc_Albert_Sarraut a skos:Concept ;
     skos:prefLabel "Thể loại:Cựu học sinh Trung học Albert Sarraut"@vi .
 
 vires:Ch%E1%BB%A7_ngh%C4%A9a_d%C3%A2n_t%E1%BB%99c_c%C3%A1nh_t%E1%BA%A3 a skos:Concept ;
     skos:prefLabel "Thể loại:Chủ nghĩa dân tộc cánh tả"@vi .
 
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_%E1%BB%A6y_ban_Trung_%C6%B0%C6%A1ng_M%E1%BA%B7t_tr%E1%BA%ADn_T%E1%BB%95_qu%E1%BB%91c_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam"@vi .
+
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Nh%C3%A0_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch Hội đồng Nhà nước Việt Nam"@vi .
+
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Qu%E1%BB%91c_ph%C3%B2ng_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch Hội đồng Quốc phòng nước Việt Nam Dân chủ Cộng hòa"@vi .
+
 vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_qu%E1%BB%91c_ph%C3%B2ng_v%C3%A0_an_ninh_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Chủ tịch Hội đồng quốc phòng và an ninh Việt Nam"@vi .
 
-vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Chủ tịch nước Việt Nam"@vi .
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_C%E1%BB%99ng_h%C3%B2a_x%C3%A3_h%E1%BB%99i_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch nước Cộng hòa xã hội chủ nghĩa Việt Nam"@vi .
+
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch nước Việt Nam Dân chủ Cộng hòa"@vi .
 
 vires:Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7 a skos:Concept ;
     skos:prefLabel "Thể loại:Chiến dịch Điện Biên Phủ"@vi .
@@ -288,6 +565,74 @@ vires:Di_t%C3%ADch_qu%E1%BB%91c_gia_%C4%91%E1%BA%B7c_bi%E1%BB%87t a skos:Concept
 vires:Du_l%E1%BB%8Bch_Qu%E1%BA%A3ng_Ninh a skos:Concept ;
     skos:prefLabel "Thể loại:Du lịch Quảng Ninh"@vi .
 
+vires:Duy_T%C3%A2n_h%E1%BB%99i a skos:Concept ;
+    skos:prefLabel "Thể loại:Duy Tân hội"@vi .
+
+vires:Gi%C3%A1m_%C4%91%E1%BB%91c_H%E1%BB%8Dc_vi%E1%BB%87n_Ch%C3%ADnh_tr%E1%BB%8B_Qu%E1%BB%91c_gia_H%E1%BB%93_Ch%C3%AD_Minh a skos:Concept ;
+    skos:prefLabel "Thể loại:Giám đốc Học viện Chính trị Quốc gia Hồ Chí Minh"@vi .
+
+vires:H%C3%A0_N%E1%BB%99i a vi:ĐịaĐiểm,
+        skos:Concept ;
+    rdfs:label "Hà Nội"@vi ;
+    dct:description """Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam. Đây là thành phố trực thuộc trung ương lớn thứ hai về quy mô dân số, được xếp loại đô thị đặc biệt, có vị trí là trung tâm văn hóa, chính trị, một trong hai trung tâm kinh tế, giáo dục quan trọng tại Việt Nam. Hà Nội nằm về phía Tây Bắc của trung tâm vùng đồng bằng châu thổ sông Hồng, với địa hình bao gồm vùng đồng bằng trung tâm và vùng đồi núi ở phía Bắc và phía Tây thành phố. Với diện tích 3.359,82 km², và dân số xấp xỉ 8,5 triệu người, Hà Nội là thành phố trực thuộc trung ương có diện tích lớn thứ năm tại Việt Nam, đồng thời cũng là thành phố đông dân thứ hai và có mật độ dân số cao nhất trong 34 đơn vị hành chính cấp tỉnh của Việt Nam nhưng phân bố dân số không đồng đều. Hà Nội có 126 đơn vị hành chính cấp xã, gồm 51 phường và 75 xã.
+Hà Nội đã sớm trở thành trung tâm chính trị, kinh tế và văn hóa ngay từ những buổi đầu của lịch sử Việt Nam. Với vai trò thủ đô, Hà Nội là nơi tập trung nhiều địa điểm văn hóa giải trí, công trình thể thao quan trọng của đất nước, đồng thời cũng là địa điểm được lựa chọn để tổ chức nhiều sự kiện chính trị và thể thao quốc tế. Đây là nơi tập trung nhiều làng nghề truyền thống, đồng thời cũng là 1 trong 3 vùng tập trung nhiều hội lễ của miền Bắc Việt Nam. Thành phố có chỉ số phát triển con người ở mức cao, dẫn đầu trong số các đơn vị hành chính của Việt Nam. Nền ẩm thực Hà Nội với nhiều nét riêng biệt cũng là một trong những yếu tố thu hút khách du lịch tới thành phố. Năm 2019, Hà Nội là đơn vị hành chính Việt Nam xếp thứ 2 về tổng sản phẩm trên địa bàn (GRDP), xếp thứ 8 về GRDP bình quân đầu người và đứng thứ 41 về tốc độ tăng trưởng GRDP. Thành phố được UNESCO trao tặng danh hiệu "Thành phố vì hòa bình" vào ngày 16 tháng 7 năm 1999. Khu Hoàng thành Thăng Long cũng được tổ chức UNESCO công nhận là di sản văn hóa thế giới.
+
+"""@vi ;
+    dct:language "vi" ;
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%E1%BB%93ng_b%E1%BA%B1ng_s%C3%B4ng_H%E1%BB%93ng>,
+        vires:B%C3%A0i_Vi%E1%BB%87t_Nam_ch%E1%BB%8Dn_l%E1%BB%8Dc,
+        vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%8Dn_l%E1%BB%8Dc,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz_area,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NARA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_Portal_inline_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_%C4%91%E1%BB%8F_%C4%91%E1%BA%BFn_c%E1%BB%95ng_th%C3%B4ng_tin,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:H%C3%A0_N%E1%BB%99i,
+        vires:Kh%E1%BB%9Fi_%C4%91%E1%BA%A7u_n%C4%83m_1010,
+        vires:L%E1%BB%97i_CS1_ISBN,
+        vires:L%E1%BB%97i_CS1_ng%C3%A0y_th%C3%A1ng,
+        vires:L%E1%BB%97i_CS1_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Nga_ru,
+        vires:Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5,
+        vires:Qu%E1%BA%A3n_l%C3%BD_CS1_ng%C3%B4n_ng%E1%BB%AF_kh%C3%B4ng_r%C3%B5,
+        vires:T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata,
+        vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BA%A3ng_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BB%A7a_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A0nh_ph%E1%BB%91_tr%E1%BB%B1c_thu%E1%BB%99c_trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam,
+        vires:Th%E1%BB%9Di_gian_m%C6%A1_h%E1%BB%93_hay_kh%C3%B4ng_r%C3%B5_r%C3%A0ng,
+        vires:Th%E1%BB%A7_%C4%91%C3%B4_c%E1%BB%A7a_ch%C3%A2u_%C3%81,
+        vires:Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu,
+        vires:Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i,
+        vires:Trang_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_c%E1%BB%95ng_th%C3%B4ng_tin_tr%E1%BB%91ng,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_t%E1%BB%B1_%C4%91%E1%BB%99ng,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_ph%E1%BA%A7n_m%E1%BB%9F_r%E1%BB%99ng_Kartographer,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:bi%E1%BB%87t_danh "Hiện nay: :Hà Thành :Thành phố vì hòa bình{{Chú thích web |url= |ngày truy cập=ngày 17 tháng 2 năm 2019 |tựa đề=Hà Nội - thành phố không ngừng vươn lên - Hànộimới |archive-date = ngày 17 tháng 2 năm 2019 |archive-url= |url-status=live"@vi ;
+    vidbp:ghi_ch%C3%BA_logo "Biểu trưng"@vi ;
+    vidbp:logo "Emblem of Hanoi.svg"@vi ;
+    vidbp:t%C3%AAn_c%C5%A9 "Tống Bình, Đại La, Long Đỗ, Thăng Long"@vi ;
+    vidbp:wikipediaPageID 80 ;
+    rdfs:comment """Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam. Đây là thành phố trực thuộc trung ương lớn thứ hai về quy mô dân số, được xếp loại đô thị đặc biệt, có vị trí là trung tâm văn hóa, chính trị, một trong hai trung tâm kinh tế, giáo dục quan trọng tại Việt Nam. Hà Nội nằm về phía Tây Bắc của trung tâm vùng đồng bằng châu thổ sông Hồng, với địa hình bao gồm vùng đồng bằng trung tâm và vùng đồi núi ở phía Bắc và phía Tây thành phố. Với diện tích 3.359,82 km², và dân số xấp xỉ 8,5 triệu người, Hà Nội là thành phố trực thuộc trung ương có diện tích lớn thứ năm tại Việt Nam, đồng thời cũng là thành phố đông dân thứ hai và có mật độ dân số cao nhất trong 34 đơn vị hành chính cấp tỉnh của Việt Nam nhưng phân bố dân số không đồng đều. Hà Nội có 126 đơn vị hành chính cấp xã, gồm 51 phường và 75 xã.
+Hà Nội đã sớm trở thành trung tâm chính trị, kinh tế và văn hóa ngay từ những buổi đầu của lịch sử Việt Nam. Với vai trò thủ đô, Hà Nội là nơi tập trung nhiều địa điểm văn hóa giải trí, công trình thể thao quan trọng của đất nước, đồng thời cũng là địa điểm được lựa chọn để tổ chức nhiều sự kiện chính trị và thể thao quốc tế. Đây là nơi tập trung nhiều làng nghề truyền thống, đồng thời cũng là 1 trong 3 vùng tập trung nhiều hội lễ của miền Bắc Việt Nam. Thành phố có chỉ số phát triển con người ở mức cao, dẫn đầu trong số các đơn vị hành chính của Việt Nam. Nền ẩm thực Hà Nội với nhiều nét riêng biệt cũng là một trong những yếu tố thu hút khách du lịch tới thành phố. Năm 2019, Hà Nội là đơn vị hành chính Việt Nam xếp thứ 2 về tổng sản phẩm trên địa bàn (GRDP), xếp thứ 8 về GRDP bình quân đầu người và đứng thứ 41 về tốc độ tăng trưởng GRDP. Thành phố được UNESCO trao tặng danh hiệu "Thành phố vì hòa bình" vào ngày 16 tháng 7 năm 1999. Khu Hoàng thành Thăng Long cũng được tổ chức UNESCO công nhận là di sản văn hóa thế giới.
+
+"""@vi ;
+    skos:prefLabel "Thể loại:Hà Nội"@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/H%C3%A0%20N%E1%BB%99i> ;
+    foaf:name "Hà Nội"@vi .
+
 vires:H%E1%BA%A1_Long a skos:Concept ;
     skos:prefLabel "Thể loại:Hạ Long"@vi .
 
@@ -297,7 +642,10 @@ vires:H%E1%BA%A7u_t%C6%B0%E1%BB%9Bc_nh%C3%A0_Nguy%E1%BB%85n a skos:Concept ;
 vires:H%E1%BA%A7u_t%C6%B0%E1%BB%9Bc_truy_phong_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Hầu tước truy phong Việt Nam"@vi .
 
-vires:H%E1%BB%93_Ch%C3%AD_Minh a vi:Người,
+vires:H%E1%BB%8D_T%C3%B4n a skos:Concept ;
+    skos:prefLabel "Thể loại:Họ Tôn"@vi .
+
+vires:H%E1%BB%93_Ch%C3%AD_Minh a vi:NhânVậtChínhTrị,
         skos:Concept ;
     rdfs:label "Hồ Chí Minh"@vi ;
     dct:description """Hồ Chí Minh (chữ Nho: 胡志明; 19 tháng 5 năm 1890 – 2 tháng 9 năm 1969), tên khai sinh là Nguyễn Sinh Cung (chữ Nho: 阮生恭), còn được gọi phổ biến tại Việt Nam với tên gọi Bác Hồ, là một nhà cách mạng và chính khách người Việt Nam. Ông là người sáng lập Đảng Cộng sản Việt Nam, từng là Chủ tịch nước Việt Nam Dân chủ Cộng hòa từ 1945–1969, Thủ tướng Việt Nam Dân chủ Cộng hòa trong những năm 1945–1955, Tổng Bí thư Ban Chấp hành Trung ương Đảng Lao động Việt Nam từ 1956–1960, Chủ tịch Ban Chấp hành Trung ương Đảng Lao động Việt Nam từ năm 1951 cho đến khi qua đời.
@@ -400,16 +748,16 @@ Trong giai đoạn diễn ra chiến tranh Đông Dương và chiến tranh Vi�
         vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN,
         vires:Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a,
         vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
-    vidbp:1blankname "[[Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi ;
+    vidbp:1blankname "Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi ;
     vidbp:1namedata "Trường ChinhLê Duẩn"@vi ;
     vidbp:birth_date "{{birth date|df=y|1890|5|19"@vi ;
     vidbp:birth_name "Nguyễn Sinh Cung"@vi ;
     vidbp:caption "Hồ Chí Minh vào năm 1946"@vi ;
     vidbp:image "Ho Chi Minh - 1946 Portrait.jpg"@vi ;
     vidbp:name "Hồ Chí Minh"@vi ;
-    vidbp:office "[[Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi ;
-    vidbp:office2 "[[Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi ;
-    vidbp:party "Đảng Xã hội Pháp(1919–1921)Đảng Cộng sản Pháp(1921–1925)[[Đảng Cộng sản Việt Nam"@vi ;
+    vidbp:office "Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi ;
+    vidbp:office2 "Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi ;
+    vidbp:party "Đảng Xã hội Pháp(1919–1921)Đảng Cộng sản Pháp(1921–1925)Đảng Cộng sản Việt Nam"@vi ;
     vidbp:predecessor "Mới lập"@vi ;
     vidbp:predecessor2 "Trường Chinh"@vi ;
     vidbp:signature "Ho Chi Minh Signature.svg"@vi ;
@@ -426,6 +774,12 @@ Trong giai đoạn diễn ra chiến tranh Đông Dương và chiến tranh Vi�
 vires:H%E1%BB%99i_Vi%E1%BB%87t_Nam_C%C3%A1ch_m%E1%BA%A1ng_Thanh_ni%C3%AAn a skos:Concept ;
     skos:prefLabel "Thể loại:Hội Việt Nam Cách mạng Thanh niên"@vi .
 
+vires:H%E1%BB%99i_vi%C3%AAn_H%E1%BB%99i_Vi%E1%BB%87t_Nam_C%C3%A1ch_m%E1%BA%A1ng_Thanh_ni%C3%AAn a skos:Concept ;
+    skos:prefLabel "Thể loại:Hội viên Hội Việt Nam Cách mạng Thanh niên"@vi .
+
+vires:Ho%E1%BA%A1n_quan_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Hoạn quan Việt Nam"@vi .
+
 vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Chi%E1%BA%BFn_th%E1%BA%AFng a skos:Concept ;
     skos:prefLabel "Thể loại:Huân chương Chiến thắng"@vi .
 
@@ -435,8 +789,44 @@ vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Lenin a skos:Concept ;
 vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Qu%C3%A2n_c%C3%B4ng_h%E1%BA%A1ng_Nh%E1%BA%A5t a skos:Concept ;
     skos:prefLabel "Thể loại:Huân chương Quân công hạng Nhất"@vi .
 
-vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Sao_V%C3%A0ng a skos:Concept ;
-    skos:prefLabel "Thể loại:Huân chương Sao Vàng"@vi .
+vires:Hu%E1%BA%BF a vi:ĐịaĐiểm,
+        skos:Concept ;
+    rdfs:label "Huế"@vi ;
+    dct:description """Huế là một trong sáu thành phố trực thuộc trung ương và là thành phố di sản của Việt Nam. Thành phố là một trong các trung tâm văn hóa, y tế và giáo dục lớn của Việt Nam. Đây là thành phố ven biển thuộc cực nam của vùng Bắc Trung Bộ, miền Trung Việt Nam. Huế hiện là đô thị loại I, là thành phố trung tâm cấp vùng và cấp quốc gia.
+Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, 	Huế	có diện tích: 	4.947	km²,	xếp thứ	29; dân số:	1.432.986	người,	xếp thứ	29	; GRDP 2024: 	80.966.514	triệu VNĐ, xếp thứ	29; thu ngân sách 2024:	12.787.196	triệu VNĐ, xếp thứ	26; thu nhập bình quân:	62,80	triệu VNĐ/năm, 	xếp thứ	11.
+Huế từng là kinh đô (Cố đô Huế) của Việt Nam dưới triều Tây Sơn (1788–1801) và triều Nguyễn (1802–1945). Hiện nay, thành phố là một trong những trung tâm về văn hóa – du lịch, y tế chuyên sâu, giáo dục đào tạo, khoa học công nghệ của Miền Trung – Tây Nguyên và cả nước. Những địa danh nổi bật là sông Hương và những di sản để lại của triều đại phong kiến, Thành phố có năm danh hiệu UNESCO ở Việt Nam: Quần thể di tích Cố đô Huế (1993), Nhã nhạc cung đình Huế (2003), Mộc bản triều Nguyễn (2009), Châu bản triều Nguyễn (2014) và Hệ thống thơ văn trên kiến trúc cung đình Huế (2016). Ngoài ra, Huế còn là một trong những địa phương có di sản hát bài chòi đã được công nhận là di sản văn hóa phi vật thể của nhân loại."""@vi ;
+    dct:language "vi" ;
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%C3%B4_th%E1%BB%8B_Vi%E1%BB%87t_Nam_lo%E1%BA%A1i_I>,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:B%E1%BA%AFc_Trung_B%E1%BB%99,
+        vires:Hu%E1%BA%BF,
+        vires:L%E1%BB%97i_CS1_URL_tr%E1%BA%A7n,
+        vires:L%E1%BB%97i_CS1_thi%E1%BA%BFu_ti%C3%AAu_%C4%91%E1%BB%81,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Ba_T%C6%B0_fa,
+        vires:S%C6%A1_khai_Hu%E1%BA%BF,
+        vires:T%E1%BA%A5t_c%E1%BA%A3_b%C3%A0i_vi%E1%BA%BFt_s%C6%A1_khai,
+        vires:T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata,
+        vires:Th%C3%A0nh_ph%E1%BB%91_tr%E1%BB%B1c_thu%E1%BB%99c_trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A0nh_ph%E1%BB%91_ven_bi%E1%BB%83n_Vi%E1%BB%87t_Nam,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_t%E1%BB%B1_%C4%91%E1%BB%99ng,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_th%E1%BB%A7_c%C3%B4ng,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_ph%E1%BA%A7n_m%E1%BB%9F_r%E1%BB%99ng_Kartographer,
+        vires:V%E1%BB%8Bnh_B%E1%BA%AFc_B%E1%BB%99 ;
+    vidbp:bi%E1%BB%87t_danh "Vùng đất Cố đôXứ kẹo mè xửng"@vi ;
+    vidbp:ghi_ch%C3%BA_logo "Biểu trưng"@vi ;
+    vidbp:logo "Logo thành phố Huế.svg"@vi ;
+    vidbp:nhi%E1%BB%81u_h%C3%ACnh "{{multiple image | border = infobox | total_width = 300 | image_style = border:1; | caption_align = center | perrow = 1/2/2/1 | image1 = Thành phố Huế nhìn từ trên cao (2).jpg | caption1 = Trung tâm thành phố, bao gồm phường Thuận Hóa | image2 = River side, Hué, Vietnam.jpg | caption2 = Cầu Trường Tiền | image3 = Chùa Thiên Mụ ở Huế.jpg | caption3 = Chùa Thiên Mụ | width3 = 150 | height3 = 104 | image4 = ChoDongBa.JPG | caption4 = Chợ Đông Ba | image5 = Huế (2024) - Mausoleum of Emperor Khải Định - exterior - img 09.jpg | caption5 = Lăng Khải Định | image6 = Hue Vietnam Citadel-of-Huế-01.jpg | width6 = 300 | height6 = 127 | caption6 = Ngọ Môn, Hoàng thành Huế"@vi ;
+    vidbp:t%C3%AAn_c%C5%A9 "Thừa Thiên, Thừa Thiên Huế"@vi ;
+    vidbp:wikipediaPageID 11244 ;
+    rdfs:comment """Huế là một trong sáu thành phố trực thuộc trung ương và là thành phố di sản của Việt Nam. Thành phố là một trong các trung tâm văn hóa, y tế và giáo dục lớn của Việt Nam. Đây là thành phố ven biển thuộc cực nam của vùng Bắc Trung Bộ, miền Trung Việt Nam. Huế hiện là đô thị loại I, là thành phố trung tâm cấp vùng và cấp quốc gia.
+Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, 	Huế	có diện tích: 	4.947	km²,	xếp thứ	29; dân số:	1.432.986	người,	xếp thứ	29	; GRDP 2024: 	80.966.514	triệu VNĐ, xếp thứ	29; thu ngân sách 2024:	12.787.196	triệu VNĐ, xếp thứ	26; thu nhập bình quân:	62,80	triệu VNĐ/năm, 	xếp thứ	11.
+Huế từng là kinh đô (Cố đô Huế) của Việt Nam dưới triều Tây Sơn (1788–1801) và triều Nguyễn (1802–1945). Hiện nay, thành phố là một trong những trung tâm về văn hóa – du lịch, y tế chuyên sâu, giáo dục đào tạo, khoa học công nghệ của Miền Trung – Tây Nguyên và cả nước. Những địa danh nổi bật là sông Hương và những di sản để lại của triều đại phong kiến, Thành phố có năm danh hiệu UNESCO ở Việt Nam: Quần thể di tích Cố đô Huế (1993), Nhã nhạc cung đình Huế (2003), Mộc bản triều Nguyễn (2009), Châu bản triều Nguyễn (2014) và Hệ thống thơ văn trên kiến trúc cung đình Huế (2016). Ngoài ra, Huế còn là một trong những địa phương có di sản hát bài chòi đã được công nhận là di sản văn hóa phi vật thể của nhân loại."""@vi ;
+    skos:prefLabel "Thể loại:Huế"@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Hu%E1%BA%BF> ;
+    foaf:name "Huế"@vi .
 
 vires:Huy_hi%E1%BB%87u_70_n%C4%83m_tu%E1%BB%95i_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Huy hiệu 70 năm tuổi Đảng Cộng sản Việt Nam"@vi .
@@ -446,6 +836,12 @@ vires:IUCN_Lo%E1%BA%A1i_III a skos:Concept ;
 
 vires:K%E1%BB%B3_quan_thi%C3%AAn_nhi%C3%AAn a skos:Concept ;
     skos:prefLabel "Thể loại:Kỳ quan thiên nhiên"@vi .
+
+vires:Kh%E1%BB%9Fi_%C4%91%E1%BA%A7u_n%C4%83m_1010 a skos:Concept ;
+    skos:prefLabel "Thể loại:Khởi đầu năm 1010"@vi .
+
+vires:Kh%E1%BB%9Fi_%C4%91%E1%BA%A7u_n%C4%83m_1698_%E1%BB%9F_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Khởi đầu năm 1698 ở Việt Nam"@vi .
 
 vires:Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n a skos:Concept ;
     skos:prefLabel "Thể loại:Khởi nghĩa Lam Sơn"@vi .
@@ -459,11 +855,14 @@ vires:L%C3%A3nh_%C4%91%E1%BA%A1o_doanh_nghi%E1%BB%87p a skos:Concept ;
 vires:L%C3%A3nh_t%E1%BB%A5_C%E1%BB%99ng_s%E1%BA%A3n a skos:Concept ;
     skos:prefLabel "Thể loại:Lãnh tụ Cộng sản"@vi .
 
+vires:L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%E1%BB%B1_ch%E1%BB%A7 a skos:Concept ;
+    skos:prefLabel "Thể loại:Lịch sử Việt Nam thời Tự chủ"@vi .
+
 vires:L%E1%BB%97i_CS1_%E1%BA%A5n_ph%E1%BA%A9m_b%E1%BB%8B_b%E1%BB%8F_qua a skos:Concept ;
     skos:prefLabel "Thể loại:Lỗi CS1: ấn phẩm bị bỏ qua"@vi .
 
-vires:L%E1%BB%97i_CS1_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
-    skos:prefLabel "Thể loại:Lỗi CS1: tham số không rõ"@vi .
+vires:L%E1%BB%97i_CS1_ISBN a skos:Concept ;
+    skos:prefLabel "Thể loại:Lỗi CS1: ISBN"@vi .
 
 vires:L%E1%BB%97i_CS1_thi%E1%BA%BFu_t%C3%AAn a skos:Concept ;
     skos:prefLabel "Thể loại:Lỗi CS1: thiếu tên"@vi .
@@ -477,32 +876,68 @@ vires:L%E1%BB%97i_nhi%E1%BB%81u_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn a skos:Co
 vires:Li%C3%AAn_k%E1%BA%BFt_c%C3%B3_t%E1%BB%93n_t%E1%BA%A1i_trong_b%E1%BA%A3n_m%E1%BA%ABu_Interlanguage_link a skos:Concept ;
     skos:prefLabel "Thể loại:Liên kết có tồn tại trong bản mẫu Interlanguage link"@vi .
 
+vires:M%E1%BA%A5t_n%C4%83m_1105 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 1105"@vi .
+
+vires:M%E1%BA%A5t_n%C4%83m_1300 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 1300"@vi .
+
 vires:M%E1%BA%A5t_n%C4%83m_1442 a skos:Concept ;
     skos:prefLabel "Thể loại:Mất năm 1442"@vi .
 
 vires:M%E1%BA%A5t_n%C4%83m_1820 a skos:Concept ;
     skos:prefLabel "Thể loại:Mất năm 1820"@vi .
 
+vires:M%E1%BA%A5t_n%C4%83m_1940 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 1940"@vi .
+
 vires:M%E1%BA%A5t_n%C4%83m_1969 a skos:Concept ;
     skos:prefLabel "Thể loại:Mất năm 1969"@vi .
+
+vires:M%E1%BA%A5t_n%C4%83m_1980 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 1980"@vi .
+
+vires:M%E1%BA%A5t_n%C4%83m_1986 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 1986"@vi .
+
+vires:M%E1%BA%A5t_n%C4%83m_1988 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 1988"@vi .
 
 vires:M%E1%BA%A5t_n%C4%83m_2013 a skos:Concept ;
     skos:prefLabel "Thể loại:Mất năm 2013"@vi .
 
+vires:M%E1%BA%A5t_n%C4%83m_944 a skos:Concept ;
+    skos:prefLabel "Thể loại:Mất năm 944"@vi .
+
 vires:Ng%C6%B0%E1%BB%9Di_%C4%91%C6%B0%E1%BB%A3c_phong_t%E1%BA%B7ng_danh_hi%E1%BB%87u_Anh_h%C3%B9ng_Lao_%C4%91%E1%BB%99ng a skos:Concept ;
     skos:prefLabel "Thể loại:Người được phong tặng danh hiệu Anh hùng Lao động"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_%C4%91%C6%B0%E1%BB%A3c_th%E1%BA%A7n_th%C3%A1nh_h%C3%B3a a skos:Concept ;
+    skos:prefLabel "Thể loại:Người được thần thánh hóa"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_An_Giang a skos:Concept ;
+    skos:prefLabel "Thể loại:Người An Giang"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_H%C3%A0_T%C3%A2y a skos:Concept ;
+    skos:prefLabel "Thể loại:Người Hà Tây"@vi .
 
 vires:Ng%C6%B0%E1%BB%9Di_H%C3%A0_T%C4%A9nh a skos:Concept ;
     skos:prefLabel "Thể loại:Người Hà Tĩnh"@vi .
 
+vires:Ng%C6%B0%E1%BB%9Di_H%C6%B0ng_Y%C3%AAn a skos:Concept ;
+    skos:prefLabel "Thể loại:Người Hưng Yên"@vi .
+
 vires:Ng%C6%B0%E1%BB%9Di_H%E1%BA%A3i_D%C6%B0%C6%A1ng a skos:Concept ;
     skos:prefLabel "Thể loại:Người Hải Dương"@vi .
 
-vires:Ng%C6%B0%E1%BB%9Di_Ngh%E1%BB%87_An a skos:Concept ;
-    skos:prefLabel "Thể loại:Người Nghệ An"@vi .
+vires:Ng%C6%B0%E1%BB%9Di_Ninh_B%C3%ACnh a skos:Concept ;
+    skos:prefLabel "Thể loại:Người Ninh Bình"@vi .
 
 vires:Ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_B%C3%ACnh a skos:Concept ;
     skos:prefLabel "Thể loại:Người Quảng Bình"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_Tr%E1%BB%8B a skos:Concept ;
+    skos:prefLabel "Thể loại:Người Quảng Trị"@vi .
 
 vires:Ng%C6%B0%E1%BB%9Di_Th%C3%A1i_B%C3%ACnh a skos:Concept ;
     skos:prefLabel "Thể loại:Người Thái Bình"@vi .
@@ -519,14 +954,44 @@ vires:Ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_Nam_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t
 vires:Ng%C6%B0%E1%BB%9Di_b%E1%BB%8B_x%E1%BB%AD_t%E1%BB%AD_h%C3%ACnh_do_k%E1%BA%BFt_%C3%A1n_oan_sai a skos:Concept ;
     skos:prefLabel "Thể loại:Người bị xử tử hình do kết án oan sai"@vi .
 
+vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_L%C3%AA_t%E1%BA%A1i_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Người họ Lê tại Việt Nam"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_Phan_t%E1%BA%A1i_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Người họ Phan tại Việt Nam"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_T%C3%B4n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Người họ Tôn tại Việt Nam"@vi .
+
 vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_V%C3%B5_t%E1%BA%A1i_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Người họ Võ tại Việt Nam"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_l%C3%A0ng_H%C3%A0nh_Thi%E1%BB%87n_Nam_%C4%90%E1%BB%8Bnh a skos:Concept ;
+    skos:prefLabel "Thể loại:Người làng Hành Thiện, Nam Định"@vi .
 
 vires:Ng%C6%B0%E1%BB%9Di_th%E1%BB%8D_b%C3%A1ch_ni%C3%AAn_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Người thọ bách niên Việt Nam"@vi .
 
+vires:Ng%C6%B0%E1%BB%9Di_tham_gia_l%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_kh%C3%A1ng_chi%E1%BA%BFn_c%E1%BB%A7a_%C4%90%E1%BA%A1i_Vi%E1%BB%87t_ch%E1%BB%91ng_qu%C3%A2n_Nguy%C3%AAn_M%C3%B4ng_x%C3%A2m_l%C6%B0%E1%BB%A3c a skos:Concept ;
+    skos:prefLabel "Thể loại:Người tham gia lực lượng kháng chiến của Đại Việt chống quân Nguyên–Mông xâm lược"@vi .
+
 vires:Nghi_%C3%A1n_v%E1%BB%81_t%E1%BB%99i_gi%E1%BA%BFt_ng%C6%B0%E1%BB%9Di_ch%C6%B0a_c%C3%B3_l%E1%BB%9Di_gi%E1%BA%A3i_minh_b%E1%BA%A1ch_trong_l%E1%BB%8Bch_s%E1%BB%AD a skos:Concept ;
     skos:prefLabel "Thể loại:Nghi án về tội giết người chưa có lời giải minh bạch trong lịch sử"@vi .
+
+vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_%C4%90%E1%BB%A9c_de a skos:Concept ;
+    skos:prefLabel "Thể loại:Nguồn CS1 tiếng Đức (de)"@vi .
+
+vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Ba_T%C6%B0_fa a skos:Concept ;
+    skos:prefLabel "Thể loại:Nguồn CS1 tiếng Ba Tư (fa)"@vi .
+
+vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Nga_ru a skos:Concept ;
+    skos:prefLabel "Thể loại:Nguồn CS1 tiếng Nga (ru)"@vi .
+
+vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_S%C3%A9c_cs a skos:Concept ;
+    skos:prefLabel "Thể loại:Nguồn CS1 tiếng Séc (cs)"@vi .
+
+vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_T%C3%A2y_Ban_Nha_es a skos:Concept ;
+    skos:prefLabel "Thể loại:Nguồn CS1 tiếng Tây Ban Nha (es)"@vi .
 
 vires:Nguy%E1%BB%85n_Du a vi:Người,
         skos:Concept ;
@@ -640,23 +1105,23 @@ Năm 1442, toàn thể gia đình Nguyễn Trãi bị kết án tru di tam tộc
     vidbp:birth_date "1380"@vi ;
     vidbp:birth_place "Thăng Long, Đại Việt"@vi ;
     vidbp:birthname "Nguyễn Trãi"@vi ;
-    vidbp:children "[[#Gia đình"@vi ;
+    vidbp:children "#Gia đình"@vi ;
     vidbp:citizenship "Việt Nam"@vi ;
     vidbp:death_date "19 tháng 9 năm 1442(62 tuổi)Ngày tháng trong bài này đều lấy theo lịch Gregory đón trước."@vi ;
     vidbp:education "Thái học sinh (Tiến sĩ)"@vi ;
-    vidbp:ethnicity "[[Người Việt"@vi ;
-    vidbp:genre "Thơ, [[Cáo (văn kiện)"@vi ;
+    vidbp:ethnicity "Người Việt"@vi ;
+    vidbp:genre "Thơ, Cáo (văn kiện)"@vi ;
     vidbp:image "Nguyen Trai.jpg"@vi ;
     vidbp:name "Nguyễn Trãi"@vi ;
     vidbp:nationality "Việt Nam"@vi ;
     vidbp:notableworks "''Bình Ngô đại cáo'Quốc âm thi tập'Quân trung từ mệnh tập'Dư địa chí'Ức Trai thi tập''"@vi ;
-    vidbp:occupation "Nhà văn, [[Chính trị gia"@vi ;
+    vidbp:occupation "Nhà văn, Chính trị gia"@vi ;
     vidbp:penname "Ức Trai"@vi ;
-    vidbp:period "[[Văn học Việt Nam thời Lê sơ"@vi ;
+    vidbp:period "Văn học Việt Nam thời Lê sơ"@vi ;
     vidbp:phong_t%C6%B0%E1%BB%9Bc "Tán Trù bá (phong bởi Lê Thánh Tông)Tế Văn hầu (phong bởi Lê Tương Dực)"@vi ;
     vidbp:realname "Nguyễn Trãi"@vi ;
     vidbp:relatives "Nguyễn Phi Khanh (cha) Trần Thị Thái (mẹ)"@vi ;
-    vidbp:spouse "[[#Gia đình"@vi ;
+    vidbp:spouse "#Gia đình"@vi ;
     vidbp:wikipediaPageID 1555 ;
     rdfs:comment """Nguyễn Trãi (chữ Hán: 阮廌; 1380 – 19 tháng 9 năm 1442), hiệu là Ức Trai (抑齋), là một nhà chính trị, nhà văn, nhà văn hóa lớn của dân tộc Việt Nam. Ông đã tham gia tích cực cuộc Khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo chống lại sự xâm lược của nhà Minh (Trung Quốc) với Đại Việt. Khi cuộc khởi nghĩa thành công vào năm 1428, Nguyễn Trãi trở thành một trong những khai quốc công thần của triều đại quân chủ nhà Hậu Lê trong Lịch sử Việt Nam.
 Nguyễn Trãi có cha là Nguyễn Phi Khanh, con rể của quan Tư đồ Trần Nguyên Đán nhà Trần. Khi nhà Trần bị Hồ Quý Ly lật đổ lập nên nhà Hồ, Nguyễn Trãi tham gia dự thi, thi đỗ Thái học sinh năm 1400, Nguyễn Trãi làm quan dưới triều Hồ với chức Ngự sử đài chính chưởng. Khi nhà Minh xâm lược, cha ông là Nguyễn Phi Khanh ra đầu hàng giặc và về Trung Quốc (Đại Việt Sử kí Toàn thư).
@@ -683,9 +1148,6 @@ vires:Nh%C3%A0_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam a skos:Concept ;
 
 vires:Nh%C3%A0_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n a skos:Concept ;
     skos:prefLabel "Thể loại:Nhà ngoại giao Việt Nam thời Nguyễn"@vi .
-
-vires:Nh%C3%A0_s%E1%BB%AD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Nhà sử học Việt Nam"@vi .
 
 vires:Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_18 a skos:Concept ;
     skos:prefLabel "Thể loại:Nhà thơ Việt Nam thế kỷ 18"@vi .
@@ -717,11 +1179,11 @@ vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_L%C3%AA_s%C6%A1 a skos:Con
 vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Nguy%E1%BB%85n a skos:Concept ;
     skos:prefLabel "Thể loại:Nhà văn Việt Nam thời Nguyễn"@vi .
 
-vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c a skos:Concept ;
-    skos:prefLabel "Thể loại:Nhà văn Việt Nam thời Pháp thuộc"@vi .
-
 vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%C3%A2y_S%C6%A1n a skos:Concept ;
     skos:prefLabel "Thể loại:Nhà văn Việt Nam thời Tây Sơn"@vi .
+
+vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Tr%E1%BA%A7n a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhà văn Việt Nam thời Trần"@vi .
 
 vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_1945_1975 a skos:Concept ;
     skos:prefLabel "Thể loại:Nhà văn Việt Nam thời kỳ 1945–1975"@vi .
@@ -729,32 +1191,134 @@ vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_1945_1975 a sko
 vires:Nh%C3%A2n_v%E1%BA%ADt_c%C3%B2n_s%E1%BB%91ng a skos:Concept ;
     skos:prefLabel "Thể loại:Nhân vật còn sống"@vi .
 
+vires:Nh%C3%A2n_v%E1%BA%ADt_qu%C3%A2n_s%E1%BB%B1_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_k%E1%BB%B3_Ti%E1%BB%81n_%C4%91%E1%BB%99c_l%E1%BA%ADp a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhân vật quân sự Việt Nam thời kỳ Tiền độc lập"@vi .
+
 vires:Nh%C3%A2n_v%E1%BA%ADt_trong_N%E1%BB%99i_chi%E1%BA%BFn_L%C3%A0o a skos:Concept ;
     skos:prefLabel "Thể loại:Nhân vật trong Nội chiến Lào"@vi .
 
-vires:Ph%C3%B3_Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Phó Thủ tướng Việt Nam"@vi .
+vires:Pages_using_weather_box_with_unknown_parameters a skos:Concept ;
+    skos:prefLabel "Thể loại:Pages using weather box with unknown parameters"@vi .
+
+vires:Ph%C3%B3_Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Phó Chủ tịch nước Việt Nam"@vi .
 
 vires:Ph%E1%BA%ADt_t%E1%BB%AD_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Phật tử Việt Nam"@vi .
 
+vires:Phan_B%E1%BB%99i_Ch%C3%A2u a vi:Người,
+        skos:Concept ;
+    rdfs:label "Phan Bội Châu"@vi ;
+    dct:description "Phan Bội Châu (chữ Hán: 潘佩珠; 1867 – 1940) là một danh sĩ và là nhà cách mạng Việt Nam, hoạt động trong thời kỳ Pháp thuộc."@vi ;
+    dct:language "vi" ;
+    dct:subject vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:Duy_T%C3%A2n_h%E1%BB%99i,
+        vires:L%E1%BB%97i_CS1_ng%C3%A0y_th%C3%A1ng,
+        vires:M%E1%BA%A5t_n%C4%83m_1940,
+        vires:Ng%C6%B0%E1%BB%9Di_Ngh%E1%BB%87_An,
+        vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_Phan_t%E1%BA%A1i_Vi%E1%BB%87t_Nam,
+        vires:Nh%C3%A0_c%C3%A1ch_m%E1%BA%A1ng_Vi%E1%BB%87t_Nam,
+        vires:Nh%C3%A0_d%C3%A2n_t%E1%BB%99c_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam,
+        vires:Nh%C3%A0_s%E1%BB%AD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam,
+        vires:Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam,
+        vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c,
+        vires:Phan_B%E1%BB%99i_Ch%C3%A2u,
+        vires:Phong_tr%C3%A0o_%C4%90%C3%B4ng_Du,
+        vires:Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m,
+        vires:Qu%E1%BA%A3n_l%C3%BD_CS1_ng%C3%B4n_ng%E1%BB%AF_kh%C3%B4ng_r%C3%B5,
+        vires:S%E1%BB%91ng_t%E1%BA%A1i_Hu%E1%BA%BF,
+        vires:S%E1%BB%91ng_t%E1%BA%A1i_Ngh%E1%BB%87_An,
+        vires:S%E1%BB%91ng_t%E1%BA%A1i_Nh%E1%BA%ADt_B%E1%BA%A3n,
+        vires:Sinh_n%C4%83m_1867,
+        vires:Sinh_t%E1%BA%A1i_Ngh%E1%BB%87_An,
+        vires:Trang_b%E1%BB%8B_h%E1%BA%A1n_ch%E1%BA%BF_cho_th%C3%A0nh_vi%C3%AAn_x%C3%A1c_nh%E1%BA%ADn_m%E1%BB%9F_r%E1%BB%99ng,
+        vires:Vi%E1%BB%87t_Nam_Quang_ph%E1%BB%A5c_H%E1%BB%99i,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:b%C3%BAt_danh "Thị Hán, Phan Giải San, Sào Nam Tử, Hạo Sinh, Hiếu Hán"@vi ;
+    vidbp:c%E1%BB%A1_h%C3%ACnh "200px"@vi ;
+    vidbp:cha "Phan Văn Phổ"@vi ;
+    vidbp:con_c%C3%A1i "Phan Nghi Huynh (con bà Huyên)Phan Nghi Đệ (con bà Em)"@vi ;
+    vidbp:h%C3%ACnh "Mr. Phan Boi Chau.jpg"@vi ;
+    vidbp:h%C3%BAy "Phan Văn San"@vi ;
+    vidbp:hi%E1%BB%87u "Hải Thụ / Sào Nam"@vi ;
+    vidbp:m%E1%BA%B9 "Nguyễn Thị Nhàn"@vi ;
+    vidbp:ngàySinh "1867-01-01"^^xsd:date ;
+    vidbp:nơiSinh vires:l%C3%A0ng_%C4%90an_Nhi%E1%BB%85m_x%C3%A3_Xu%C3%A2n_H%C3%B2a_Nam_%C4%90%C3%A0n ;
+    vidbp:t%C3%AAn_g%E1%BB%91c "潘佩珠"@vi ;
+    vidbp:tri%E1%BB%81u_%C4%91%E1%BA%A1i "Nhà Nguyễn"@vi ;
+    vidbp:v%E1%BB%A3 "Thái Thị HuyênNguyễn Thị Em"@vi ;
+    vidbp:wikipediaPageID 4931 ;
+    rdfs:comment "Phan Bội Châu (chữ Hán: 潘佩珠; 1867 – 1940) là một danh sĩ và là nhà cách mạng Việt Nam, hoạt động trong thời kỳ Pháp thuộc."@vi ;
+    skos:prefLabel "Thể loại:Phan Bội Châu"@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Phan%20B%E1%BB%99i%20Ch%C3%A2u> ;
+    foaf:name "Phan Bội Châu"@vi .
+
 vires:Phi_c%C3%B4ng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Phi công Quân đội nhân dân Việt Nam"@vi .
+
+vires:Phong_tr%C3%A0o_%C4%90%C3%B4ng_Du a skos:Concept ;
+    skos:prefLabel "Thể loại:Phong trào Đông Du"@vi .
 
 vires:Qu%C3%A2n_nh%C3%A2n_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Quân nhân trong Chiến tranh Việt Nam"@vi .
 
-vires:Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m a skos:Concept ;
-    skos:prefLabel "Thể loại:Quản lý CS1: địa điểm"@vi .
-
 vires:Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m_thi%E1%BA%BFu_nh%C3%A0_xu%E1%BA%A5t_b%E1%BA%A3n a skos:Concept ;
     skos:prefLabel "Thể loại:Quản lý CS1: địa điểm thiếu nhà xuất bản"@vi .
 
-vires:Qu%E1%BA%A3n_l%C3%BD_CS1_ng%C3%B4n_ng%E1%BB%AF_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
-    skos:prefLabel "Thể loại:Quản lý CS1: ngôn ngữ không rõ"@vi .
-
 vires:Qu%E1%BA%A3n_l%C3%BD_CS1_nhi%E1%BB%81u_t%C3%AAn_danh_s%C3%A1ch_t%C3%A1c_gi%E1%BA%A3 a skos:Concept ;
     skos:prefLabel "Thể loại:Quản lý CS1: nhiều tên: danh sách tác giả"@vi .
+
+vires:Qu%E1%BA%A3n_l%C3%BD_CS1_t%C3%AAn_s%E1%BB%91_danh_s%C3%A1ch_t%C3%A1c_gi%E1%BA%A3 a skos:Concept ;
+    skos:prefLabel "Thể loại:Quản lý CS1: tên số: danh sách tác giả"@vi .
+
+vires:Qu%E1%BA%A3ng_Ninh a vi:ĐịaĐiểm,
+        skos:Concept ;
+    rdfs:label "Quảng Ninh"@vi ;
+    dct:description """Quảng Ninh là một tỉnh ven biển thuộc vùng Tây Bắc Bộ Việt Nam. Theo quy hoạch phát triển kinh tế, Quảng Ninh vừa thuộc vùng kinh tế trọng điểm phía bắc, và vừa thuộc Vùng duyên hải Bắc Bộ. Đây là tỉnh khai thác than đá chính của Việt Nam, có vịnh Hạ Long là di sản, kỳ quan thiên nhiên thế giới. Quảng Ninh cùng với Bắc Ninh, Ninh Bình và Khánh Hòa đã được Chính phủ Việt Nam quy hoạch thành thành phố trực thuộc trung ương.
+Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, 	Quảng Ninh	có diện tích: 	6.208	km²,	xếp thứ	26; dân số:	1.497.447	người,	xếp thứ	28; GRDP 2024: 	347.533.978	triệu VNĐ, xếp thứ	7; thu ngân sách 2024:	53.730.346	triệu VNĐ, xếp thứ	9; thu nhập bình quân:	73,30	triệu VNĐ/năm, 	xếp thứ	5."""@vi ;
+    dct:language "vi" ;
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%C3%B4ng_B%E1%BA%AFc_B%E1%BB%99>,
+        <http://vi.dbpedia.org/resource/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_thu%E1%BB%99c_t%E1%BB%89nh_Qu%E1%BA%A3ng_Ninh>,
+        vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng,
+        vires:B%C3%A0n_c%C3%A3i_v%E1%BB%81_T%C4%90TL,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:L%E1%BB%97i_CS1_URL_tr%E1%BA%A7n,
+        vires:L%E1%BB%97i_CS1_thi%E1%BA%BFu_ti%C3%AAu_%C4%91%E1%BB%81,
+        vires:Qu%E1%BA%A3ng_Ninh,
+        vires:T%E1%BB%89nh_c%E1%BB%A7a_Vi%E1%BB%87t_Nam,
+        vires:T%E1%BB%89nh_ven_bi%E1%BB%83n_Vi%E1%BB%87t_Nam,
+        vires:T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata,
+        vires:Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_t%E1%BB%B1_%C4%91%E1%BB%99ng,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_ph%E1%BA%A7n_m%E1%BB%9F_r%E1%BB%99ng_Kartographer,
+        vires:Trang_thi%E1%BA%BFu_ch%C3%BA_th%C3%ADch_trong_b%C3%A0i,
+        vires:V%C3%B9ng_duy%C3%AAn_h%E1%BA%A3i_B%E1%BA%AFc_B%E1%BB%99,
+        vires:V%E1%BB%8Bnh_B%E1%BA%AFc_B%E1%BB%99 ;
+    vidbp:ghi_ch%C3%BA_logo "Biểu trưng (không chính thức)"@vi ;
+    vidbp:logo "Logo tỉnh Quảng Ninh (không chính thức).png"@vi ;
+    vidbp:nhi%E1%BB%81u_h%C3%ACnh "{{multiple image | border = infobox | total_width = 280 | image_style = border:1; | perrow = 1/2/1 | image1 = A view of Ha Long Bay from the high point of Sun Sot cave (31520203451).jpg | image2 = Thượng Yên Công, tp. Uông Bí, Quảng Ninh, Vietnam - panoramio.jpg | image3 = 越南口岸 - panoramio.jpg | image4 = BinhLieu by phone.jpg"@vi ;
+    vidbp:wikipediaPageID 5393 ;
+    rdfs:comment """Quảng Ninh là một tỉnh ven biển thuộc vùng Tây Bắc Bộ Việt Nam. Theo quy hoạch phát triển kinh tế, Quảng Ninh vừa thuộc vùng kinh tế trọng điểm phía bắc, và vừa thuộc Vùng duyên hải Bắc Bộ. Đây là tỉnh khai thác than đá chính của Việt Nam, có vịnh Hạ Long là di sản, kỳ quan thiên nhiên thế giới. Quảng Ninh cùng với Bắc Ninh, Ninh Bình và Khánh Hòa đã được Chính phủ Việt Nam quy hoạch thành thành phố trực thuộc trung ương.
+Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, 	Quảng Ninh	có diện tích: 	6.208	km²,	xếp thứ	26; dân số:	1.497.447	người,	xếp thứ	28; GRDP 2024: 	347.533.978	triệu VNĐ, xếp thứ	7; thu ngân sách 2024:	53.730.346	triệu VNĐ, xếp thứ	9; thu nhập bình quân:	73,30	triệu VNĐ/năm, 	xếp thứ	5."""@vi ;
+    skos:prefLabel "Thể loại:Quảng Ninh"@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Qu%E1%BA%A3ng%20Ninh> ;
+    foaf:name "Quảng Ninh"@vi .
 
 vires:Quan_h%E1%BB%87_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_Trung_Qu%E1%BB%91c a skos:Concept ;
     skos:prefLabel "Thể loại:Quan hệ ngoại giao Việt Nam – Trung Quốc"@vi .
@@ -771,11 +1335,44 @@ vires:Quan_l%E1%BA%A1i_nh%C3%A0_L%C3%AA_trung_h%C6%B0ng a skos:Concept ;
 vires:Quan_l%E1%BA%A1i_nh%C3%A0_Nguy%E1%BB%85n a skos:Concept ;
     skos:prefLabel "Thể loại:Quan lại nhà Nguyễn"@vi .
 
+vires:S%C6%A1_khai_Hu%E1%BA%BF a skos:Concept ;
+    skos:prefLabel "Thể loại:Sơ khai Huế"@vi .
+
+vires:S%E1%BB%91ng_t%E1%BA%A1i_H%E1%BA%A3i_Ph%C3%B2ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Sống tại Hải Phòng"@vi .
+
+vires:S%E1%BB%91ng_t%E1%BA%A1i_Hu%E1%BA%BF a skos:Concept ;
+    skos:prefLabel "Thể loại:Sống tại Huế"@vi .
+
+vires:S%E1%BB%91ng_t%E1%BA%A1i_Ngh%E1%BB%87_An a skos:Concept ;
+    skos:prefLabel "Thể loại:Sống tại Nghệ An"@vi .
+
+vires:S%E1%BB%91ng_t%E1%BA%A1i_Nh%E1%BA%ADt_B%E1%BA%A3n a skos:Concept ;
+    skos:prefLabel "Thể loại:Sống tại Nhật Bản"@vi .
+
+vires:Sinh_n%C4%83m_1019 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1019"@vi .
+
+vires:Sinh_n%C4%83m_1228 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1228"@vi .
+
+vires:Sinh_n%C4%83m_1230 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1230"@vi .
+
+vires:Sinh_n%C4%83m_1231 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1231"@vi .
+
 vires:Sinh_n%C4%83m_1380 a skos:Concept ;
     skos:prefLabel "Thể loại:Sinh năm 1380"@vi .
 
 vires:Sinh_n%C4%83m_1766 a skos:Concept ;
     skos:prefLabel "Thể loại:Sinh năm 1766"@vi .
+
+vires:Sinh_n%C4%83m_1867 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1867"@vi .
+
+vires:Sinh_n%C4%83m_1888 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1888"@vi .
 
 vires:Sinh_n%C4%83m_1890 a skos:Concept ;
     skos:prefLabel "Thể loại:Sinh năm 1890"@vi .
@@ -786,11 +1383,26 @@ vires:Sinh_n%C4%83m_1911 a skos:Concept ;
 vires:Sinh_n%C4%83m_1947 a skos:Concept ;
     skos:prefLabel "Thể loại:Sinh năm 1947"@vi .
 
+vires:Sinh_n%C4%83m_898 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 898"@vi .
+
+vires:Sinh_t%E1%BA%A1i_H%E1%BA%A3i_Ph%C3%B2ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh tại Hải Phòng"@vi .
+
 vires:Sinh_t%E1%BA%A1i_L%E1%BB%87_Th%E1%BB%A7y_Qu%E1%BA%A3ng_B%C3%ACnh a skos:Concept ;
     skos:prefLabel "Thể loại:Sinh tại Lệ Thủy, Quảng Bình"@vi .
 
-vires:T%C3%A2n_Vi%E1%BB%87t_C%C3%A1ch_m%E1%BB%87nh_%C4%90%E1%BA%A3ng a skos:Concept ;
-    skos:prefLabel "Thể loại:Tân Việt Cách mệnh Đảng"@vi .
+vires:Sinh_t%E1%BA%A1i_Ngh%E1%BB%87_An a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh tại Nghệ An"@vi .
+
+vires:Sinh_t%E1%BA%A1i_Qu%E1%BA%A3ng_Tr%E1%BB%8B a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh tại Quảng Trị"@vi .
+
+vires:Source_attribution a skos:Concept ;
+    skos:prefLabel "Thể loại:Source attribution"@vi .
+
+vires:T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_Ti%E1%BA%BFt_%C4%91%E1%BB%99_s%E1%BB%A9 a skos:Concept ;
+    skos:prefLabel "Thể loại:Tĩnh Hải quân Tiết độ sứ"@vi .
 
 vires:T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam_ng%C6%B0%E1%BB%9Di_Qu%E1%BA%A3ng_B%C3%ACnh a skos:Concept ;
     skos:prefLabel "Thể loại:Tướng lĩnh Quân đội nhân dân Việt Nam người Quảng Bình"@vi .
@@ -798,17 +1410,101 @@ vires:T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n
 vires:T%C6%B0%E1%BB%9Bng_l%C4%A9nh_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam_th%E1%BB%A5_phong_th%E1%BA%ADp_ni%C3%AAn_1940 a skos:Concept ;
     skos:prefLabel "Thể loại:Tướng lĩnh Quân đội nhân dân Việt Nam thụ phong thập niên 1940"@vi .
 
-vires:T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata a skos:Concept ;
-    skos:prefLabel "Thể loại:Tọa độ trên Wikidata"@vi .
+vires:T%E1%BA%A5t_c%E1%BA%A3_b%C3%A0i_vi%E1%BA%BFt_s%C6%A1_khai a skos:Concept ;
+    skos:prefLabel "Thể loại:Tất cả bài viết sơ khai"@vi .
 
-vires:T%E1%BB%95ng_B%C3%AD_th%C6%B0_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi .
+vires:T%E1%BB%83_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Tể tướng Việt Nam"@vi .
+
+vires:T%E1%BB%89nh_c%E1%BB%A7a_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Tỉnh của Việt Nam"@vi .
+
+vires:T%E1%BB%89nh_ven_bi%E1%BB%83n_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Tỉnh ven biển Việt Nam"@vi .
 
 vires:T%E1%BB%95ng_c%E1%BB%A5c_C%C3%B4ng_nghi%E1%BB%87p_Qu%E1%BB%91c_ph%C3%B2ng_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Tổng cục Công nghiệp Quốc phòng Việt Nam"@vi .
 
+vires:T%E1%BB%A9c_M%E1%BA%B7c_l%E1%BB%99_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng_Ninh_B%C3%ACnh a vi:ĐịaĐiểm ;
+    rdfs:label "Tức Mặc, lộ Thiên Trường (Ninh Bình)"@vi .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh a vi:ĐịaĐiểm,
+        skos:Concept ;
+    rdfs:label "Thành phố Hồ Chí Minh"@vi ;
+    dct:description """Thành phố Hồ Chí Minh (viết tắt TP. HCM), còn được gọi là Sài Gòn, là thành phố lớn nhất Việt Nam về quy mô dân số và là trung tâm kinh tế, giải trí, một trong hai trung tâm văn hóa và giáo dục quan trọng tại Việt Nam. Thành phố Hồ Chí Minh là thành phố trực thuộc trung ương thuộc loại đô thị đặc biệt, nằm trong vùng chuyển tiếp giữa Đông Nam Bộ và Tây Nam Bộ. Về phân chia hành chính, thành phố này hiện có 113 phường, 54 xã và 1 đặc khu, tổng diện tích là 6.772,59 km2. Thành phố có dân số vào năm 2024 là hơn 14 triệu người (cao nhất cả nước), mật độ dân số trung bình 2.067 người/km² (cao thứ hai cả nước). Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, TP.HCM	có diện tích: 	6.773 km²,	xếp thứ	22; dân số:	14.002.598	người,	đông dân nhất Việt Nam; GRDP 2024: 	2.715.782.233	triệu VNĐ, xếp thứ	1; thu ngân sách 2024:	681.935.856	triệu VNĐ, xếp thứ	1; thu nhập bình quân:	85,53	triệu VNĐ/năm, 	xếp thứ	2.
+Thành phố Hồ Chí Minh năm 2011 chiếm 21,3% tổng sản phẩm (GDP) và 29,38% tổng thu ngân sách của cả Việt Nam. Thành phố có chỉ số phát triển con người ở mức cao, đứng thứ 2 trong số các đơn vị hành chính của Việt Nam. Năm 2020, thành phố có GRDP theo giá hiện hành ước là 1.372 ngàn tỷ đồng, theo giá so sánh 2010 đạt 991.424 tỷ đồng (số liệu địa phương cung cấp, Tổng cục Thống kê sẽ công bố GRDP đánh giá lại), tăng 1,39% so với năm 2019, đóng góp trên 22% GDP và 27% tổng thu ngân sách cả nước. GRDP bình quân đầu người ước năm 2020 là 6.328 USD/người, xếp thứ 4 trong số các tỉnh thành cả nước, nhưng so với năm 2019 là giảm. Thu nhập bình quân đầu người năm 2019 sơ bộ là 6,758 triệu VND/tháng, cao thứ 2 cả nước sau Bình Dương. Nhờ điều kiện tự nhiên, Thành phố Hồ Chí Minh trở thành 1 đầu mối giao thông của Việt Nam và Đông Nam Á, bao gồm cả đường bộ, đường sắt, đường thủy và đường hàng không. Vào năm 2019, thành phố đón khoảng 8,6 triệu khách du lịch quốc tế. Các lĩnh vực giáo dục, truyền thông, thể thao, giải trí, Thành phố Hồ Chí Minh đều giữ vị thế hàng đầu. Tuy nhiên, khoảng một thập kỷ gần đây, dưới nhiều tác động và áp lực khác nhau, các chỉ số trên của thành phố có sự giảm sút. Thành phố cần được tháo gỡ nhiều điểm nghẽn để đóng góp nhiều hơn cho đất nước."""@vi ;
+    dct:language "vi" ;
+    dct:subject <http://vi.dbpedia.org/resource/%C4%90%C3%B4ng_Nam_B%E1%BB%99>,
+        <http://vi.dbpedia.org/resource/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_Vi%E1%BB%87t_Nam_%C4%91%E1%BA%B7t_t%C3%AAn_theo_t%C3%AAn_ng%C6%B0%E1%BB%9Di>,
+        vires:B%C3%A0i_Vi%E1%BB%87t_Nam_ch%E1%BB%8Dn_l%E1%BB%8Dc,
+        vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_hatnote_%C4%91%E1%BB%95i_h%C6%B0%E1%BB%9Bng_c%E1%BA%A7n_ki%E1%BB%83m_tra_l%E1%BA%A1i,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Khmer,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz_area,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NARA,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SELIBR,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:Kh%E1%BB%9Fi_%C4%91%E1%BA%A7u_n%C4%83m_1698_%E1%BB%9F_Vi%E1%BB%87t_Nam,
+        vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en,
+        vires:Pages_using_weather_box_with_unknown_parameters,
+        vires:Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5,
+        vires:Qu%E1%BA%A3n_l%C3%BD_CS1_t%C3%AAn_s%E1%BB%91_danh_s%C3%A1ch_t%C3%A1c_gi%E1%BA%A3,
+        vires:T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata,
+        vires:Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh,
+        vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BA%A3ng,
+        vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BA%A3ng_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BB%A7a_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A0nh_ph%E1%BB%91_tr%E1%BB%B1c_thu%E1%BB%99c_trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam,
+        vires:Th%C3%A0nh_ph%E1%BB%91_ven_bi%E1%BB%83n_Vi%E1%BB%87t_Nam,
+        vires:Th%E1%BB%A7_%C4%91%C3%B4_c%E1%BB%B1u_qu%E1%BB%91c_gia,
+        vires:Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu,
+        vires:Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i,
+        vires:Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_t%E1%BB%B1_%C4%91%E1%BB%99ng,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN,
+        vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_ph%E1%BA%A7n_m%E1%BB%9F_r%E1%BB%99ng_Kartographer,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
+    vidbp:ghi_ch%C3%BA_logo "Biểu trưng"@vi ;
+    vidbp:logo "Biểu trưng của TP HCM.svg"@vi ;
+    vidbp:nhi%E1%BB%81u_h%C3%ACnh "{{multiple image | border = infobox | total_width = 280 | image_style = border:1; | caption_align = center | perrow = 1/2/3/2 | image1 = Ho Chi Minh City Skyline.jpg | caption1 = Quang cảnh phường Sài Gòn | image2 = Ho Chi Minh City, City Hall, 2020-01 CN-03.jpg | caption2 = Trụ sở Ủy ban nhân dân | image3 = 20190923 Independence Palace-13.jpg | caption3 = Dinh Độc Lập | image4 = Notre dame saigon.jpg | caption4 = Nhà thờ Đức Bà | image5 = Ho Chi Minh City panorama 2019 (cropped).jpg | caption5 = Landmark 81 | image6 = Ben Thanh Market (5461278547).jpg | caption6 = Chợ Bến Thành | image7 = Binh Duong Province Administration Center.jpg | caption7 = Trung tâm hành chính Cơ sở 2 | image8 = Bờ biển Vũng Tàu.JPG | caption8 = Bờ biển Vũng Tàu"@vi ;
+    vidbp:wikipediaPageID 39 ;
+    rdfs:comment """Thành phố Hồ Chí Minh (viết tắt TP. HCM), còn được gọi là Sài Gòn, là thành phố lớn nhất Việt Nam về quy mô dân số và là trung tâm kinh tế, giải trí, một trong hai trung tâm văn hóa và giáo dục quan trọng tại Việt Nam. Thành phố Hồ Chí Minh là thành phố trực thuộc trung ương thuộc loại đô thị đặc biệt, nằm trong vùng chuyển tiếp giữa Đông Nam Bộ và Tây Nam Bộ. Về phân chia hành chính, thành phố này hiện có 113 phường, 54 xã và 1 đặc khu, tổng diện tích là 6.772,59 km2. Thành phố có dân số vào năm 2024 là hơn 14 triệu người (cao nhất cả nước), mật độ dân số trung bình 2.067 người/km² (cao thứ hai cả nước). Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, TP.HCM	có diện tích: 	6.773 km²,	xếp thứ	22; dân số:	14.002.598	người,	đông dân nhất Việt Nam; GRDP 2024: 	2.715.782.233	triệu VNĐ, xếp thứ	1; thu ngân sách 2024:	681.935.856	triệu VNĐ, xếp thứ	1; thu nhập bình quân:	85,53	triệu VNĐ/năm, 	xếp thứ	2.
+Thành phố Hồ Chí Minh năm 2011 chiếm 21,3% tổng sản phẩm (GDP) và 29,38% tổng thu ngân sách của cả Việt Nam. Thành phố có chỉ số phát triển con người ở mức cao, đứng thứ 2 trong số các đơn vị hành chính của Việt Nam. Năm 2020, thành phố có GRDP theo giá hiện hành ước là 1.372 ngàn tỷ đồng, theo giá so sánh 2010 đạt 991.424 tỷ đồng (số liệu địa phương cung cấp, Tổng cục Thống kê sẽ công bố GRDP đánh giá lại), tăng 1,39% so với năm 2019, đóng góp trên 22% GDP và 27% tổng thu ngân sách cả nước. GRDP bình quân đầu người ước năm 2020 là 6.328 USD/người, xếp thứ 4 trong số các tỉnh thành cả nước, nhưng so với năm 2019 là giảm. Thu nhập bình quân đầu người năm 2019 sơ bộ là 6,758 triệu VND/tháng, cao thứ 2 cả nước sau Bình Dương. Nhờ điều kiện tự nhiên, Thành phố Hồ Chí Minh trở thành 1 đầu mối giao thông của Việt Nam và Đông Nam Á, bao gồm cả đường bộ, đường sắt, đường thủy và đường hàng không. Vào năm 2019, thành phố đón khoảng 8,6 triệu khách du lịch quốc tế. Các lĩnh vực giáo dục, truyền thông, thể thao, giải trí, Thành phố Hồ Chí Minh đều giữ vị thế hàng đầu. Tuy nhiên, khoảng một thập kỷ gần đây, dưới nhiều tác động và áp lực khác nhau, các chỉ số trên của thành phố có sự giảm sút. Thành phố cần được tháo gỡ nhiều điểm nghẽn để đóng góp nhiều hơn cho đất nước."""@vi ;
+    skos:prefLabel "Thể loại:Thành phố Hồ Chí Minh"@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh> ;
+    foaf:name "Thành phố Hồ Chí Minh"@vi .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BA%A3ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Thành phố cảng"@vi .
+
+vires:Th%C3%A1i_%C3%BAy_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Thái úy Việt Nam"@vi .
+
 vires:Th%C3%A1i_h%E1%BB%8Dc_sinh_nh%C3%A0_H%E1%BB%93 a skos:Concept ;
     skos:prefLabel "Thể loại:Thái học sinh nhà Hồ"@vi .
+
+vires:Th%E1%BA%A7n_th%C3%A1nh_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Thần thánh Việt Nam"@vi .
+
+vires:Th%E1%BB%9Di_gian_m%C6%A1_h%E1%BB%93_hay_kh%C3%B4ng_r%C3%B5_r%C3%A0ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Thời gian mơ hồ hay không rõ ràng"@vi .
+
+vires:Th%E1%BB%A7_%C4%91%C3%B4_c%E1%BB%A7a_ch%C3%A2u_%C3%81 a skos:Concept ;
+    skos:prefLabel "Thể loại:Thủ đô của châu Á"@vi .
+
+vires:Th%E1%BB%A7_%C4%91%C3%B4_c%E1%BB%B1u_qu%E1%BB%91c_gia a skos:Concept ;
+    skos:prefLabel "Thể loại:Thủ đô cựu quốc gia"@vi .
 
 vires:Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Thủ tướng Việt Nam"@vi .
@@ -816,22 +1512,97 @@ vires:Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam a skos:Concept ;
 vires:Th%E1%BB%AD_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m_CS1 a skos:Concept ;
     skos:prefLabel "Thể loại:Thử địa điểm CS1"@vi .
 
+vires:Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o a vi:Người,
+        skos:Concept ;
+    rdfs:label "Trần Hưng Đạo"@vi ;
+    dct:description """Trần Hưng Đạo (chữ Nho: 陳興道; 1226 – 1300), huý danh Trần Quốc Tuấn (陳國峻), tước hiệu Hưng Đạo đại vương (興道大王), là một nhà chính trị, nhà quân sự, tôn thất hoàng gia Đại Việt thời kỳ nhà Trần.
+Sau khi qua đời, dân gian Việt Nam suy tôn ông thành Đức Thánh Trần (德聖陳), hay còn gọi là Cửu Thiên Vũ Đế (九天武帝). Ông được biết đến trong lịch sử Việt Nam với việc chỉ huy quân đội đánh tan ba cuộc xâm lược của quân Nguyên – Mông năm 1258, 1285 và năm 1287. Phần lớn tài liệu nghiên cứu lịch sử và cả dân gian thời sau thường dùng tên gọi vắn tắt là "Trần Hưng Đạo" thay cho cách gọi đầy đủ là "Hưng Đạo đại vương Trần Quốc Tuấn", vốn bao gồm tước hiệu được sắc phong cho ông. Ông là 1 trong 14 vị anh hùng tiêu biểu của dân tộc Việt Nam.
+Là con của tôn thất An Sinh Vương Trần Liễu và là cháu nội của Trần Thái Tổ, Trần Hưng Đạo có mối quan hệ mật thiết với hoàng tộc họ Trần và vua Trần Nhân Tông gọi ông bằng bác. Năm 1257, ông được vua Trần Thái Tông phong làm đại tướng chỉ huy các lực lượng ở biên giới đánh quân Mông Cổ xâm lược. Sau đó, ông lui về thái ấp ở Vạn Kiếp. Đến tháng 10 âm lịch năm 1283, nhà Nguyên (sau khi Mông Cổ thống nhất Trung Hoa) đe dọa đánh Đại Việt lần hai, Hưng Đạo vương được Thượng hoàng Trần Thánh Tông, và vua Trần Nhân Tông (lần lượt là em họ và cháu họ ông) phong làm Quốc công tiết chế, thống lĩnh quân đội cả nước. Trên cương vị này, năm 1285, ông lãnh đạo quân sĩ chặn đứng đội quân xâm lược do hoàng tử thứ chín Thoát Hoan. Sau những thất bại ban đầu, quân dân Việt dưới sự lãnh đạo của hai vua Trần, Thượng tướng Thái sư Trần Quang Khải và Hưng Đạo vương phản công mạnh mẽ, phá tan quân Nguyên trong các trận Hàm Tử, Chương Dương, Trường Yên, Vạn Kiếp,... đánh đuổi hoàn toàn quân Nguyên khỏi biên giới.
+Năm 1288, quân Nguyên trở lại xâm lược Đại Việt lần thứ ba. Khi tiếp tục được phong Quốc công tiết chế; Hưng Đạo vương khẳng định với vua Trần Nhân Tông: "Năm nay đánh giặc nhàn". Ông đã áp dụng thành công chiến thuật của Ngô Quyền, đánh bại hoàn toàn thủy quân nhà Nguyên do các tướng Phàn Tiếp và Ô Mã Nhi chỉ huy trong trận thủy chiến trên sông Bạch Đằng, buộc quân Nguyên lại phải rút về nước. Tháng 4 âm lịch năm 1289, Trần Nhân Tông chính thức gia phong ông làm "Đại vương" dù chức quyền đứng đầu triều đình khi đó vẫn thuộc về Thượng tướng Thái sư Chiêu Minh Đại vương Trần Quang Khải.
+Sau đó, ông lui về Vạn Kiếp đến khi mất năm 1300. Trước lúc qua đời, ông khuyên Trần Anh Tông: "Phải khoan thư sức dân để làm kế sâu rễ bền gốc". Ngoài ra, ông còn để lại các tác phẩm kinh điển như Hịch tướng sĩ, Binh thư yếu lược và Vạn Kiếp tông bí truyền thư đặt nền móng cho nghệ thuật quân sự Việt Nam kể từ thời Trần đến ngày nay.
+
+"""@vi ;
+    dct:language "vi" ;
+    dct:subject vires:Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i,
+        vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC,
+        vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF,
+        vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n,
+        vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback,
+        vires:M%E1%BA%A5t_n%C4%83m_1300,
+        vires:Ng%C6%B0%E1%BB%9Di_%C4%91%C6%B0%E1%BB%A3c_th%E1%BA%A7n_th%C3%A1nh_h%C3%B3a,
+        vires:Ng%C6%B0%E1%BB%9Di_Ninh_B%C3%ACnh,
+        vires:Ng%C6%B0%E1%BB%9Di_tham_gia_l%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_kh%C3%A1ng_chi%E1%BA%BFn_c%E1%BB%A7a_%C4%90%E1%BA%A1i_Vi%E1%BB%87t_ch%E1%BB%91ng_qu%C3%A2n_Nguy%C3%AAn_M%C3%B4ng_x%C3%A2m_l%C6%B0%E1%BB%A3c,
+        vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Tr%E1%BA%A7n,
+        vires:S%E1%BB%91ng_t%E1%BA%A1i_H%E1%BA%A3i_Ph%C3%B2ng,
+        vires:Sinh_n%C4%83m_1228,
+        vires:Sinh_n%C4%83m_1230,
+        vires:Sinh_n%C4%83m_1231,
+        vires:Sinh_t%E1%BA%A1i_H%E1%BA%A3i_Ph%C3%B2ng,
+        vires:Th%E1%BA%A7n_th%C3%A1nh_Vi%E1%BB%87t_Nam,
+        vires:Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o,
+        vires:V%C3%B5_t%C6%B0%E1%BB%9Bng_nh%C3%A0_Tr%E1%BA%A7n,
+        vires:V%C6%B0%C6%A1ng_t%C6%B0%E1%BB%9Bc_nh%C3%A0_Tr%E1%BA%A7n,
+        vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers,
+        vires:Xung_%C4%91%E1%BB%99t_th%E1%BA%BF_k%E1%BB%B7_13 ;
+    vidbp:caption "Tượng đồng Trần Hưng Đạo tại Đền Kiếp Bạc"@vi ;
+    vidbp:ch%E1%BB%A9c_v%E1%BB%8B "Quốc công tiết chế thống lĩnh chư quân"@vi ;
+    vidbp:cha "Trần Liễu"@vi ;
+    vidbp:con_c%C3%A1i "Xem mục Trần Hưng Đạo#Gia quyến"@vi ;
+    vidbp:h%C3%ACnh "Tượng đồng Trần Hưng Đạo tại đền Kiếp Bạc.jpg"@vi ;
+    vidbp:ho%C3%A0ng_t%E1%BB%99c "Nhà Trần"@vi ;
+    vidbp:ki%E1%BB%83u_ho%C3%A0ng_t%E1%BB%99c "Triều đại"@vi ;
+    vidbp:ki%E1%BB%83u_ph%E1%BB%91i_ng%E1%BA%ABu "Vợ"@vi ;
+    vidbp:ki%E1%BB%83u_t%C3%AAn_%C4%91%E1%BA%A7y_%C4%91%E1%BB%A7 "Tên thật"@vi ;
+    vidbp:m%C3%A0u "#a2d736"@vi ;
+    vidbp:m%C3%A0u_ch%E1%BB%AF "Vàng"@vi ;
+    vidbp:m%E1%BA%B9 "Thiện Đạo quốc mẫu"@vi ;
+    vidbp:ngàySinh "1226-01-01"^^xsd:date ;
+    vidbp:nơiSinh vires:T%E1%BB%A9c_M%E1%BA%B7c_l%E1%BB%99_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng_Ninh_B%C3%ACnh ;
+    vidbp:ph%E1%BB%91i_ng%E1%BA%ABu "Công chúa Thiên Thành"@vi ;
+    vidbp:t%C3%AAn_g%E1%BB%91c "陳興道"@vi ;
+    vidbp:t%C6%B0%E1%BB%9Bc_hi%E1%BB%87u "Hưng Đạo đại vương(興道大王)"@vi ;
+    vidbp:t%C6%B0%E1%BB%9Bc_v%E1%BB%8B "Tôn thất hoàng gia Đại Việt"@vi ;
+    vidbp:th%C3%AAm "Đại Việt"@vi ;
+    vidbp:th%C3%B4ng_tin_con_c%C3%A1i "ẩn"@vi ;
+    vidbp:th%E1%BB%A5y_hi%E1%BB%87u "Nhân Vũ(仁武)"@vi ;
+    vidbp:wikipediaPageID 746 ;
+    rdfs:comment """Trần Hưng Đạo (chữ Nho: 陳興道; 1226 – 1300), huý danh Trần Quốc Tuấn (陳國峻), tước hiệu Hưng Đạo đại vương (興道大王), là một nhà chính trị, nhà quân sự, tôn thất hoàng gia Đại Việt thời kỳ nhà Trần.
+Sau khi qua đời, dân gian Việt Nam suy tôn ông thành Đức Thánh Trần (德聖陳), hay còn gọi là Cửu Thiên Vũ Đế (九天武帝). Ông được biết đến trong lịch sử Việt Nam với việc chỉ huy quân đội đánh tan ba cuộc xâm lược của quân Nguyên – Mông năm 1258, 1285 và năm 1287. Phần lớn tài liệu nghiên cứu lịch sử và cả dân gian thời sau thường dùng tên gọi vắn tắt là "Trần Hưng Đạo" thay cho cách gọi đầy đủ là "Hưng Đạo đại vương Trần Quốc Tuấn", vốn bao gồm tước hiệu được sắc phong cho ông. Ông là 1 trong 14 vị anh hùng tiêu biểu của dân tộc Việt Nam.
+Là con của tôn thất An Sinh Vương Trần Liễu và là cháu nội của Trần Thái Tổ, Trần Hưng Đạo có mối quan hệ mật thiết với hoàng tộc họ Trần và vua Trần Nhân Tông gọi ông bằng bác. Năm 1257, ông được vua Trần Thái Tông phong làm đại tướng chỉ huy các lực lượng ở biên giới đánh quân Mông Cổ xâm lược. Sau đó, ông lui về thái ấp ở Vạn Kiếp. Đến tháng 10 âm lịch năm 1283, nhà Nguyên (sau khi Mông Cổ thống nhất Trung Hoa) đe dọa đánh Đại Việt lần hai, Hưng Đạo vương được Thượng hoàng Trần Thánh Tông, và vua Trần Nhân Tông (lần lượt là em họ và cháu họ ông) phong làm Quốc công tiết chế, thống lĩnh quân đội cả nước. Trên cương vị này, năm 1285, ông lãnh đạo quân sĩ chặn đứng đội quân xâm lược do hoàng tử thứ chín Thoát Hoan. Sau những thất bại ban đầu, quân dân Việt dưới sự lãnh đạo của hai vua Trần, Thượng tướng Thái sư Trần Quang Khải và Hưng Đạo vương phản công mạnh mẽ, phá tan quân Nguyên trong các trận Hàm Tử, Chương Dương, Trường Yên, Vạn Kiếp,... đánh đuổi hoàn toàn quân Nguyên khỏi biên giới.
+Năm 1288, quân Nguyên trở lại xâm lược Đại Việt lần thứ ba. Khi tiếp tục được phong Quốc công tiết chế; Hưng Đạo vương khẳng định với vua Trần Nhân Tông: "Năm nay đánh giặc nhàn". Ông đã áp dụng thành công chiến thuật của Ngô Quyền, đánh bại hoàn toàn thủy quân nhà Nguyên do các tướng Phàn Tiếp và Ô Mã Nhi chỉ huy trong trận thủy chiến trên sông Bạch Đằng, buộc quân Nguyên lại phải rút về nước. Tháng 4 âm lịch năm 1289, Trần Nhân Tông chính thức gia phong ông làm "Đại vương" dù chức quyền đứng đầu triều đình khi đó vẫn thuộc về Thượng tướng Thái sư Chiêu Minh Đại vương Trần Quang Khải.
+Sau đó, ông lui về Vạn Kiếp đến khi mất năm 1300. Trước lúc qua đời, ông khuyên Trần Anh Tông: "Phải khoan thư sức dân để làm kế sâu rễ bền gốc". Ngoài ra, ông còn để lại các tác phẩm kinh điển như Hịch tướng sĩ, Binh thư yếu lược và Vạn Kiếp tông bí truyền thư đặt nền móng cho nghệ thuật quân sự Việt Nam kể từ thời Trần đến ngày nay.
+
+"""@vi ;
+    skos:prefLabel "Thể loại:Trần Hưng Đạo"@vi ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n%20H%C6%B0ng%20%C4%90%E1%BA%A1o> ;
+    foaf:name "Trần Hưng Đạo"@vi .
+
 vires:Trang_%C4%91%E1%BB%95i_h%C6%B0%E1%BB%9Bng_t%E1%BB%AB_vi%E1%BB%87c_di_chuy%E1%BB%83n a skos:Concept ;
     skos:prefLabel "Thể loại:Trang đổi hướng từ việc di chuyển"@vi .
 
-vires:Trang_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_c%E1%BB%95ng_th%C3%B4ng_tin_tr%E1%BB%91ng a skos:Concept ;
-    skos:prefLabel "Thể loại:Trang có bản mẫu cổng thông tin trống"@vi .
+vires:Trang_c%C3%B3_s%E1%BB%AD_d%E1%BB%A5ng_t%E1%BA%ADp_tin_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang có sử dụng tập tin không tồn tại"@vi .
+
+vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_th%E1%BB%A7_c%C3%B4ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang sử dụng bản mẫu nhiều hình với các hình được chia tỷ lệ thủ công"@vi .
 
 vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_sfn_v%E1%BB%9Bi_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
     skos:prefLabel "Thể loại:Trang sử dụng bản mẫu sfn với tham số không rõ"@vi .
 
-vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN a skos:Concept ;
-    skos:prefLabel "Thể loại:Trang sử dụng liên kết tự động ISBN"@vi .
+vires:Trang_thi%E1%BA%BFu_ch%C3%BA_th%C3%ADch_trong_b%C3%A0i a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang thiếu chú thích trong bài"@vi .
 
 vires:Trung_t%C6%B0%E1%BB%9Bng_Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Trung tướng Quân đội nhân dân Việt Nam"@vi .
 
-vires:V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p a vi:Người,
+vires:V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p a vi:NhânVậtChínhTrị,
         skos:Concept ;
     rdfs:label "Võ Nguyên Giáp"@vi ;
     dct:description """Võ Nguyên Giáp (25 tháng 8 năm 1911 – 4 tháng 10 năm 2013), tên khai sinh là Võ Giáp, còn được gọi là tướng Giáp hoặc anh Văn, là một nhà lãnh đạo quân sự và chính trị gia người Việt Nam. Ông là Đại tướng đầu tiên, Tổng Tư lệnh tối cao của Quân đội Nhân dân Việt Nam, một trong những thành viên sáng lập nhà nước Việt Nam Dân chủ Cộng hòa, được Chính phủ Việt Nam đánh giá là "người học trò xuất sắc và gần gũi của Chủ tịch Hồ Chí Minh", là chỉ huy trưởng của các chiến dịch trong Chiến tranh Đông Dương (1946–1954), Chiến tranh Việt Nam (1955–1975) và Chiến tranh biên giới Việt – Trung (1979).
@@ -935,12 +1706,12 @@ Võ Nguyên Giáp thường được ghi nhận là người có công trong chi
         vires:Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch,
         vires:V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p,
         vires:Wikipedia_articles_with_WorldCat_VIAF_identifiers ;
-    vidbp:1blankname1 "[[Phó Bí thư Quân ủy Trung ương (Việt Nam)"@vi ;
+    vidbp:1blankname1 "Phó Bí thư Quân ủy Trung ương (Việt Nam)"@vi ;
     vidbp:1namedata1 "{{plainlist| * Trần Tử Bình * Văn Tiến Dũng * Nguyễn Chí Thanh * Song Hào * Chu Huy Mân"@vi ;
     vidbp:caption "Võ Nguyên Giáp vào năm 1957"@vi ;
     vidbp:image "Mr. Vo Nguyen Giap.jpg"@vi ;
-    vidbp:office "[[Bộ Tổng Tư lệnh Quân đội nhân dân Việt Nam"@vi ;
-    vidbp:office1 "[[Bí thư Quân ủy Trung ương (Việt Nam)"@vi ;
+    vidbp:office "Bộ Tổng Tư lệnh Quân đội nhân dân Việt Nam"@vi ;
+    vidbp:office1 "Bí thư Quân ủy Trung ương (Việt Nam)"@vi ;
     vidbp:predecessor "Chức vụ thành lập"@vi ;
     vidbp:successor "Chức vụ bãi bõ"@vi ;
     vidbp:term_end "30 tháng 4 1975"@vi ;
@@ -955,11 +1726,23 @@ Võ Nguyên Giáp thường được ghi nhận là người có công trong chi
     foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/V%C3%B5%20Nguy%C3%AAn%20Gi%C3%A1p> ;
     foaf:name "Võ Nguyên Giáp"@vi .
 
+vires:V%C3%B5_t%C6%B0%E1%BB%9Bng_nh%C3%A0_L%C3%BD a skos:Concept ;
+    skos:prefLabel "Thể loại:Võ tướng nhà Lý"@vi .
+
+vires:V%C3%B5_t%C6%B0%E1%BB%9Bng_nh%C3%A0_Tr%E1%BA%A7n a skos:Concept ;
+    skos:prefLabel "Thể loại:Võ tướng nhà Trần"@vi .
+
+vires:V%C3%B9ng_duy%C3%AAn_h%E1%BA%A3i_B%E1%BA%AFc_B%E1%BB%99 a skos:Concept ;
+    skos:prefLabel "Thể loại:Vùng duyên hải Bắc Bộ"@vi .
+
+vires:V%C6%B0%C6%A1ng_t%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Vương tước Việt Nam"@vi .
+
+vires:V%C6%B0%C6%A1ng_t%C6%B0%E1%BB%9Bc_nh%C3%A0_Tr%E1%BA%A7n a skos:Concept ;
+    skos:prefLabel "Thể loại:Vương tước nhà Trần"@vi .
+
 vires:V%C6%B0%E1%BB%9Dn_di_s%E1%BA%A3n_ASEAN a skos:Concept ;
     skos:prefLabel "Thể loại:Vườn di sản ASEAN"@vi .
-
-vires:V%E1%BB%8Bnh_B%E1%BA%AFc_B%E1%BB%99 a skos:Concept ;
-    skos:prefLabel "Thể loại:Vịnh Bắc Bộ"@vi .
 
 vires:V%E1%BB%8Bnh_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Vịnh Việt Nam"@vi .
@@ -967,44 +1750,50 @@ vires:V%E1%BB%8Bnh_Vi%E1%BB%87t_Nam a skos:Concept ;
 vires:Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a a skos:Concept ;
     skos:prefLabel "Thể loại:Việt Nam Dân chủ Cộng hòa"@vi .
 
-<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_I> a skos:Concept ;
-    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa I"@vi .
+vires:Vi%E1%BB%87t_Nam_Quang_ph%E1%BB%A5c_H%E1%BB%99i a skos:Concept ;
+    skos:prefLabel "Thể loại:Việt Nam Quang phục Hội"@vi .
 
-<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam> a skos:Concept ;
-    skos:prefLabel "Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi .
+vires:Xung_%C4%91%E1%BB%99t_th%E1%BA%BF_k%E1%BB%B7_13 a skos:Concept ;
+    skos:prefLabel "Thể loại:Xung đột thế kỷ 13"@vi .
 
-<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I> a skos:Concept ;
-    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa I"@vi .
+vires:l%C3%A0ng_%C4%90an_Nhi%E1%BB%85m_x%C3%A3_Xu%C3%A2n_H%C3%B2a_Nam_%C4%90%C3%A0n a vi:ĐịaĐiểm ;
+    rdfs:label "làng Đan Nhiễm, xã Xuân Hòa, Nam Đàn"@vi .
 
-<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II> a skos:Concept ;
-    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa II"@vi .
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VII> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa VII"@vi .
 
-<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III> a skos:Concept ;
-    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa III"@vi .
+<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_V> a skos:Concept ;
+    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa V"@vi .
 
 vires:Anh_h%C3%B9ng_L%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_v%C5%A9_trang_nh%C3%A2n_d%C3%A2n a skos:Concept ;
     skos:prefLabel "Thể loại:Anh hùng Lực lượng vũ trang nhân dân"@vi .
 
-vires:Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Anh hùng dân tộc Việt Nam"@vi .
+vires:B%C3%A0i_c%E1%BA%A7n_s%E1%BB%ADa_v%C4%83n_phong a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài cần sửa văn phong"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_Wikipedia_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_RERO_sai a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết Wikipedia chứa nhận dạng RERO sai"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%8Dn_l%E1%BB%8Dc a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chọn lọc"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết có văn bản tiếng Trung Quốc"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng BNE"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ICCU a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng ICCU"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng MusicBrainz"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SELIBR a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng SELIBR"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_MusicBrainz_area a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng MusicBrainz area"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng SNAC-ID"@vi .
+vires:B%C3%AD_th%C6%B0_Qu%C3%A2n_%E1%BB%A7y_Trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Bí thư Quân ủy Trung ương Việt Nam"@vi .
+
+vires:B%E1%BA%A3n_m%E1%BA%ABu_Portal_inline_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_%C4%91%E1%BB%8F_%C4%91%E1%BA%BFn_c%E1%BB%95ng_th%C3%B4ng_tin a skos:Concept ;
+    skos:prefLabel "Thể loại:Bản mẫu Portal-inline có liên kết đỏ đến cổng thông tin"@vi .
+
+vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_Khoa_h%E1%BB%8Dc_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Bộ trưởng Bộ Khoa học và Công nghệ Việt Nam"@vi .
+
+vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_B%E1%BB%99_N%E1%BB%99i_v%E1%BB%A5_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Bộ trưởng Bộ Nội vụ Việt Nam"@vi .
 
 vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Bộ trưởng Việt Nam"@vi .
@@ -1012,20 +1801,38 @@ vires:B%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam a skos:Concept ;
 vires:Ch%E1%BB%91ng_ch%E1%BB%A7_ngh%C4%A9a_%C4%91%E1%BA%BF_qu%E1%BB%91c a skos:Concept ;
     skos:prefLabel "Thể loại:Chống chủ nghĩa đế quốc"@vi .
 
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%99i_%C4%91%E1%BB%93ng_Qu%E1%BB%91c_ph%C3%B2ng_n%C6%B0%E1%BB%9Bc_C%E1%BB%99ng_h%C3%B2a_x%C3%A3_h%E1%BB%99i_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch Hội đồng Quốc phòng nước Cộng hòa xã hội chủ nghĩa Việt Nam"@vi .
+
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch Quốc hội Việt Nam"@vi .
+
+vires:Ch%E1%BB%A7_t%E1%BB%8Bch_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Chủ tịch nước Việt Nam"@vi .
+
 vires:H%E1%BB%8Dc_sinh_Qu%E1%BB%91c_h%E1%BB%8Dc_Hu%E1%BA%BF a skos:Concept ;
     skos:prefLabel "Thể loại:Học sinh Quốc học Huế"@vi .
 
 vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_H%E1%BB%93_Ch%C3%AD_Minh a skos:Concept ;
     skos:prefLabel "Thể loại:Huân chương Hồ Chí Minh"@vi .
 
+vires:L%E1%BB%97i_CS1_URL_tr%E1%BA%A7n a skos:Concept ;
+    skos:prefLabel "Thể loại:Lỗi CS1: URL trần"@vi .
+
 vires:L%E1%BB%97i_CS1_li%C3%AAn_k%E1%BA%BFt_ngo%C3%A0i a skos:Concept ;
     skos:prefLabel "Thể loại:Lỗi CS1: liên kết ngoài"@vi .
 
-vires:L%E1%BB%97i_kh%C3%B4ng_c%C3%B3_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn a skos:Concept ;
-    skos:prefLabel "Thể loại:Lỗi không có mục tiêu Harv và Sfn"@vi .
+vires:L%E1%BB%97i_CS1_ng%C3%A0y_th%C3%A1ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Lỗi CS1: ngày tháng"@vi .
 
-vires:Ng%C6%B0%E1%BB%9Di_H%C3%A0_N%E1%BB%99i a skos:Concept ;
-    skos:prefLabel "Thể loại:Người Hà Nội"@vi .
+vires:L%E1%BB%97i_CS1_tham_s%E1%BB%91_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
+    skos:prefLabel "Thể loại:Lỗi CS1: tham số không rõ"@vi .
+
+vires:L%E1%BB%97i_CS1_thi%E1%BA%BFu_ti%C3%AAu_%C4%91%E1%BB%81 a skos:Concept ;
+    skos:prefLabel "Thể loại:Lỗi CS1: thiếu tiêu đề"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_Ngh%E1%BB%87_An a skos:Concept ;
+    skos:prefLabel "Thể loại:Người Nghệ An"@vi .
 
 vires:Ng%C6%B0%E1%BB%9Di_c%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Người cộng sản Việt Nam"@vi .
@@ -1039,59 +1846,92 @@ vires:Ng%C6%B0%E1%BB%9Di_h%E1%BB%8D_Nguy%E1%BB%85n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam 
 vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Ph%C3%A1p_fr a skos:Concept ;
     skos:prefLabel "Thể loại:Nguồn CS1 tiếng Pháp (fr)"@vi .
 
-vires:Nh%C3%A0_c%C3%A1ch_m%E1%BA%A1ng_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Nhà cách mạng Việt Nam"@vi .
-
-vires:Nh%C3%A0_d%C3%A2n_t%E1%BB%99c_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam a skos:Concept ;
-    skos:prefLabel "Thể loại:Nhà dân tộc chủ nghĩa Việt Nam"@vi .
+vires:Nh%C3%A0_s%E1%BB%AD_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhà sử học Việt Nam"@vi .
 
 vires:Nh%C3%A0_t%C6%B0_t%C6%B0%E1%BB%9Fng_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Nhà tư tưởng Việt Nam"@vi .
 
-vires:Nh%C3%A2n_v%E1%BA%ADt_trong_Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng a skos:Concept ;
-    skos:prefLabel "Thể loại:Nhân vật trong Chiến tranh Đông Dương"@vi .
+vires:Nh%C3%A0_th%C6%A1_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhà thơ Việt Nam"@vi .
 
-vires:Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
-    skos:prefLabel "Thể loại:Quản lý CS1: bot: trạng thái URL ban đầu không rõ"@vi .
+vires:Nh%C3%A0_v%C4%83n_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Ph%C3%A1p_thu%E1%BB%99c a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhà văn Việt Nam thời Pháp thuộc"@vi .
 
-vires:Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu a skos:Concept ;
-    skos:prefLabel "Thể loại:Trang đưa đối số thừa vào bản mẫu"@vi .
+vires:Nh%C3%A2n_v%E1%BA%ADt_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhân vật trong chiến tranh Việt Nam"@vi .
 
-vires:Trang_b%E1%BB%8B_h%E1%BA%A1n_ch%E1%BA%BF_cho_th%C3%A0nh_vi%C3%AAn_x%C3%A1c_nh%E1%BA%ADn_m%E1%BB%9F_r%E1%BB%99ng a skos:Concept ;
-    skos:prefLabel "Thể loại:Trang bị hạn chế cho thành viên xác nhận mở rộng"@vi .
+vires:Ph%C3%B3_Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Phó Thủ tướng Việt Nam"@vi .
 
-vires:Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i a skos:Concept ;
-    skos:prefLabel "Thể loại:Trang bị khóa hạn chế sửa đổi"@vi .
+vires:Qu%E1%BA%A3n_l%C3%BD_CS1_%C4%91%E1%BB%8Ba_%C4%91i%E1%BB%83m a skos:Concept ;
+    skos:prefLabel "Thể loại:Quản lý CS1: địa điểm"@vi .
 
-vires:Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch a skos:Concept ;
-    skos:prefLabel "Thể loại:Trang có lỗi chú thích"@vi .
+vires:Sinh_n%C4%83m_1907 a skos:Concept ;
+    skos:prefLabel "Thể loại:Sinh năm 1907"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết có trích dẫn không khớp"@vi .
+vires:T%C3%A2n_Vi%E1%BB%87t_C%C3%A1ch_m%E1%BB%87nh_%C4%90%E1%BA%A3ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Tân Việt Cách mệnh Đảng"@vi .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BA%A3ng_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Thành phố cảng Việt Nam"@vi .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_c%E1%BB%A7a_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Thành phố của Việt Nam"@vi .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_ven_bi%E1%BB%83n_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Thành phố ven biển Việt Nam"@vi .
+
+vires:Trang_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_c%E1%BB%95ng_th%C3%B4ng_tin_tr%E1%BB%91ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang có bản mẫu cổng thông tin trống"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_I> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa I"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_II> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa II"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_III> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa III"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa IV"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_V> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa V"@vi .
+
+<http://vi.dbpedia.org/resource/%C4%90%E1%BA%A1i_bi%E1%BB%83u_Qu%E1%BB%91c_h%E1%BB%99i_Vi%E1%BB%87t_Nam_kh%C3%B3a_VI> a skos:Concept ;
+    skos:prefLabel "Thể loại:Đại biểu Quốc hội Việt Nam khóa VI"@vi .
+
+<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_B%E1%BB%99_Ch%C3%ADnh_tr%E1%BB%8B_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam> a skos:Concept ;
+    skos:prefLabel "Thể loại:Ủy viên Bộ Chính trị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_IV> a skos:Concept ;
+    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa IV"@vi .
+
+vires:B%C3%A0i_Vi%E1%BB%87t_Nam_ch%E1%BB%8Dn_l%E1%BB%8Dc a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài Việt Nam chọn lọc"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_Wikipedia_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_RERO_sai a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết Wikipedia chứa nhận dạng RERO sai"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BIBSYS a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng BIBSYS"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng CINII"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NDL"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLA"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NARA a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NARA"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLG a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLG"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLK"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLI a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLI"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLP a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLP"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết sử dụng pull quote có nguồn"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SELIBR a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng SELIBR"@vi .
 
 vires:CS1_gi%C3%A1_tr%E1%BB%8B_quy%E1%BB%83n_d%C3%A0i a skos:Concept ;
     skos:prefLabel "Thể loại:CS1: giá trị quyển dài"@vi .
@@ -1099,17 +1939,128 @@ vires:CS1_gi%C3%A1_tr%E1%BB%8B_quy%E1%BB%83n_d%C3%A0i a skos:Concept ;
 vires:Danh_nh%C3%A2n_v%C4%83n_h%C3%B3a_th%E1%BA%BF_gi%E1%BB%9Bi_c%E1%BB%A7a_Vi%E1%BB%87t_Nam a skos:Concept ;
     skos:prefLabel "Thể loại:Danh nhân văn hóa thế giới của Việt Nam"@vi .
 
+vires:Hu%C3%A2n_ch%C6%B0%C6%A1ng_Sao_V%C3%A0ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Huân chương Sao Vàng"@vi .
+
+vires:L%E1%BB%97i_kh%C3%B4ng_c%C3%B3_m%E1%BB%A5c_ti%C3%AAu_Harv_v%C3%A0_Sfn a skos:Concept ;
+    skos:prefLabel "Thể loại:Lỗi không có mục tiêu Harv và Sfn"@vi .
+
+vires:Ng%C6%B0%E1%BB%9Di_H%C3%A0_N%E1%BB%99i a skos:Concept ;
+    skos:prefLabel "Thể loại:Người Hà Nội"@vi .
+
+vires:Nh%C3%A0_c%C3%A1ch_m%E1%BA%A1ng_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhà cách mạng Việt Nam"@vi .
+
+vires:Nh%C3%A0_d%C3%A2n_t%E1%BB%99c_ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhà dân tộc chủ nghĩa Việt Nam"@vi .
+
+vires:Nh%C3%A2n_v%E1%BA%ADt_trong_Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Nhân vật trong Chiến tranh Đông Dương"@vi .
+
+vires:Qu%E1%BA%A3n_l%C3%BD_CS1_ng%C3%B4n_ng%E1%BB%AF_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
+    skos:prefLabel "Thể loại:Quản lý CS1: ngôn ngữ không rõ"@vi .
+
+vires:T%E1%BB%95ng_B%C3%AD_th%C6%B0_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi .
+
+vires:Th%C3%A0nh_ph%E1%BB%91_tr%E1%BB%B1c_thu%E1%BB%99c_trung_%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Thành phố trực thuộc trung ương (Việt Nam)"@vi .
+
+vires:Trang_b%E1%BB%8B_h%E1%BA%A1n_ch%E1%BA%BF_cho_th%C3%A0nh_vi%C3%AAn_x%C3%A1c_nh%E1%BA%ADn_m%E1%BB%9F_r%E1%BB%99ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang bị hạn chế cho thành viên xác nhận mở rộng"@vi .
+
+vires:V%E1%BB%8Bnh_B%E1%BA%AFc_B%E1%BB%99 a skos:Concept ;
+    skos:prefLabel "Thể loại:Vịnh Bắc Bộ"@vi .
+
+<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_II> a skos:Concept ;
+    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa II"@vi .
+
+<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_III> a skos:Concept ;
+    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa III"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_b%E1%BA%A3n_m%E1%BA%ABu_Hatnote_tr%E1%BB%8F_%C4%91%E1%BA%BFn_m%E1%BB%99t_trang_kh%C3%B4ng_t%E1%BB%93n_t%E1%BA%A1i a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết có bản mẫu Hatnote trỏ đến một trang không tồn tại"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_v%C4%83n_b%E1%BA%A3n_ti%E1%BA%BFng_Trung_Qu%E1%BB%91c a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết có văn bản tiếng Trung Quốc"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNE a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng BNE"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLK a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLK"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SNAC_ID a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng SNAC-ID"@vi .
+
 vires:L%E1%BB%97i_CS1_tham_s%E1%BB%91_th%E1%BB%ABa a skos:Concept ;
     skos:prefLabel "Thể loại:Lỗi CS1: tham số thừa"@vi .
+
+vires:Qu%E1%BA%A3n_l%C3%BD_CS1_bot_tr%E1%BA%A1ng_th%C3%A1i_URL_ban_%C4%91%E1%BA%A7u_kh%C3%B4ng_r%C3%B5 a skos:Concept ;
+    skos:prefLabel "Thể loại:Quản lý CS1: bot: trạng thái URL ban đầu không rõ"@vi .
+
+vires:Trang_%C4%91%C6%B0a_%C4%91%E1%BB%91i_s%E1%BB%91_th%E1%BB%ABa_v%C3%A0o_b%E1%BA%A3n_m%E1%BA%ABu a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang đưa đối số thừa vào bản mẫu"@vi .
+
+vires:Trang_c%C3%B3_l%E1%BB%97i_ch%C3%BA_th%C3%ADch a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang có lỗi chú thích"@vi .
+
+vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_b%E1%BA%A3n_m%E1%BA%ABu_nhi%E1%BB%81u_h%C3%ACnh_v%E1%BB%9Bi_c%C3%A1c_h%C3%ACnh_%C4%91%C6%B0%E1%BB%A3c_chia_t%E1%BB%B7_l%E1%BB%87_t%E1%BB%B1_%C4%91%E1%BB%99ng a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang sử dụng bản mẫu nhiều hình với các hình được chia tỷ lệ tự động"@vi .
+
+vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_li%C3%AAn_k%E1%BA%BFt_t%E1%BB%B1_%C4%91%E1%BB%99ng_ISBN a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang sử dụng liên kết tự động ISBN"@vi .
+
+vires:Trang_s%E1%BB%AD_d%E1%BB%A5ng_ph%E1%BA%A7n_m%E1%BB%9F_r%E1%BB%99ng_Kartographer a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang sử dụng phần mở rộng Kartographer"@vi .
+
+<http://vi.dbpedia.org/resource/%E1%BB%A6y_vi%C3%AAn_Ban_Ch%E1%BA%A5p_h%C3%A0nh_Trung_%C6%B0%C6%A1ng_%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam_kh%C3%B3a_I> a skos:Concept ;
+    skos:prefLabel "Thể loại:Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa I"@vi .
+
+vires:Anh_h%C3%B9ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam a skos:Concept ;
+    skos:prefLabel "Thể loại:Anh hùng dân tộc Việt Nam"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_tr%C3%ADch_d%E1%BA%ABn_kh%C3%B4ng_kh%E1%BB%9Bp a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết có trích dẫn không khớp"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_CINII a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng CINII"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NLA a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NLA"@vi .
+
+vires:T%E1%BB%8Da_%C4%91%E1%BB%99_tr%C3%AAn_Wikidata a skos:Concept ;
+    skos:prefLabel "Thể loại:Tọa độ trên Wikidata"@vi .
+
+vires:Trang_b%E1%BB%8B_kh%C3%B3a_h%E1%BA%A1n_ch%E1%BA%BF_s%E1%BB%ADa_%C4%91%E1%BB%95i a skos:Concept ;
+    skos:prefLabel "Thể loại:Trang bị khóa hạn chế sửa đổi"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NDL a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NDL"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng PLWABN"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng Trove"@vi .
 
 vires:Ngu%E1%BB%93n_CS1_ti%E1%BA%BFng_Anh_en a skos:Concept ;
     skos:prefLabel "Thể loại:Nguồn CS1 tiếng Anh (en)"@vi .
 
-vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài có liên kết hỏng"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_s%E1%BB%AD_d%E1%BB%A5ng_pull_quote_c%C3%B3_ngu%E1%BB%93n a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết sử dụng pull quote có nguồn"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NTA"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_c%C3%B3_ngu%E1%BB%93n_tham_kh%E1%BA%A3o_ti%E1%BA%BFng_Anh_en a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết có nguồn tham khảo tiếng Anh (en)"@vi .
+
+vires:B%C3%A0i_c%C3%B3_li%C3%AAn_k%E1%BA%BFt_h%E1%BB%8Fng a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài có liên kết hỏng"@vi .
+
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NKC"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng BNF"@vi .
@@ -1117,29 +2068,17 @@ vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_BNF a skos:Co
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_ISNI a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng ISNI"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NKC a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NKC"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_NTA a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng NTA"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_PLWABN a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng PLWABN"@vi .
-
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_SUDOC a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng SUDOC"@vi .
 
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_Trove a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng Trove"@vi .
+vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND a skos:Concept ;
+    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng GND"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_LCCN a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng LCCN"@vi .
 
 vires:B%E1%BA%A3n_m%E1%BA%ABu_webarchive_d%C3%B9ng_li%C3%AAn_k%E1%BA%BFt_wayback a skos:Concept ;
     skos:prefLabel "Thể loại:Bản mẫu webarchive dùng liên kết wayback"@vi .
-
-vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_GND a skos:Concept ;
-    skos:prefLabel "Thể loại:Bài viết chứa nhận dạng GND"@vi .
 
 vires:B%C3%A0i_vi%E1%BA%BFt_ch%E1%BB%A9a_nh%E1%BA%ADn_d%E1%BA%A1ng_VIAF a skos:Concept ;
     skos:prefLabel "Thể loại:Bài viết chứa nhận dạng VIAF"@vi .

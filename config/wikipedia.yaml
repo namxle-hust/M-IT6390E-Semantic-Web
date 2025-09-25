@@ -1,7 +1,7 @@
 wikipedia:
   language: "vi"
   base_url: "https://vi.wikipedia.org/w/api.php"
-  user_agent: "Vietnamese-DBPedia-Extractor/1.0 (https://github.com/example/vietnamese-dbpedia)"
+  user_agent: "DBPedia-Extractor/1.0"
   rate_limit:
     requests_per_second: 1
     burst_limit: 5
@@ -60,20 +60,30 @@ sample_articles:
     - "Võ_Nguyên_Giáp"
     - "Phạm_Tuân"
     - "Nguyễn_Du"
+    - "Trần_Hưng_Đạo"
+    - "Ngô_Quyền"
+    - "Lý_Thường_Kiệt"
+    - "Nguyễn_Huệ"
+    - "Phan_Bội_Châu"
+    - "Tôn_Đức_Thắng"
+    - "Lê_Duẩn"
+    - "Trường_Chinh"
   places:
     - "Hà_Nội"
     - "Thành_phố_Hồ_Chí_Minh"
     - "Huế"
     - "Vịnh_Hạ_Long"
     - "Hội_An"
-  organizations:
-    - "Đại_học_Quốc_gia_Hà_Nội"
-    - "Đại_học_Bách_khoa_Hà_Nội"
-    - "Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh"
-  events:
-    - "Chiến_thắng_Điện_Biên_Phủ"
-    - "Cách_mạng_tháng_Tám"
-  works:
-    - "Truyện_Kiều"
-    - "Số_đỏ"
-    - "Dế_Mèn_phiêu_lưu_ký"
+    - "Quảng_Ninh"
+    - "Thanh_Hoá"
+  # organizations:
+  #   - "Đại_học_Quốc_gia_Hà_Nội"
+  #   - "Đại_học_Bách_khoa_Hà_Nội"
+  #   - "Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh"
+  # events:
+  #   - "Chiến_thắng_Điện_Biên_Phủ"
+  #   - "Cách_mạng_tháng_Tám"
+  # works:
+  #   - "Truyện_Kiều"
+  #   - "Số_đỏ"
+  #   - "Dế_Mèn_phiêu_lưu_ký"

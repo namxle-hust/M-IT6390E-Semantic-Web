@@ -1,0 +1,135 @@
+# Vietnamese DBPedia - Entity Linking Tests
+# Test cross-language entity links between Vietnamese and English DBPedia
+
+PREFIX vires: <http://vi.dbpedia.org/resource/>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX vidbp: <http://vi.dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Query 3.1: Count entity links by relationship type
+SELECT ?linkType (COUNT(*) AS ?count) WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity ?linkType ?enEntity .
+    FILTER(?linkType = owl:sameAs || ?linkType = rdfs:seeAlso)
+  }
+} GROUP BY ?linkType
+
+# Query 3.2: High-confidence entity links (owl:sameAs)
+SELECT ?viEntity ?enEntity ?viLabel ?enLabel WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity owl:sameAs ?enEntity ;
+              rdfs:label ?viLabel .
+  }
+  # Try to get English labels from English DBPedia (may not work in local setup)
+  OPTIONAL {
+    SERVICE SILENT <https://dbpedia.org/sparql> {
+      ?enEntity rdfs:label ?enLabel .
+      FILTER(LANG(?enLabel) = "en")
+    }
+  }
+  FILTER(LANG(?viLabel) = "vi")
+} ORDER BY ?viLabel
+LIMIT 10
+
+# Query 3.3: Lower-confidence entity links (rdfs:seeAlso)
+SELECT ?viEntity ?enEntity ?viLabel WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity rdfs:seeAlso ?enEntity ;
+              rdfs:label ?viLabel .
+  }
+  FILTER(LANG(?viLabel) = "vi")
+} ORDER BY ?viLabel
+LIMIT 10
+
+# Query 3.4: Entity link metadata - confidence scores and methods
+SELECT ?linkEntity ?viEntity ?enEntity ?confidence ?method WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?linkEntity vidbp:sourceEntity ?viEntity ;
+                vidbp:linkedEntity ?enEntity ;
+                vidbp:confidenceScore ?confidence ;
+                vidbp:matchMethod ?method .
+  }
+} ORDER BY DESC(?confidence)
+LIMIT 15
+
+# Query 3.5: Links by matching method
+SELECT ?method (COUNT(?linkEntity) AS ?count) (AVG(?confidence) AS ?avgConfidence) WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?linkEntity vidbp:matchMethod ?method ;
+                vidbp:confidenceScore ?confidence .
+  }
+} GROUP BY ?method
+ORDER BY DESC(?avgConfidence)
+
+# Query 3.6: Entities with multiple English matches
+SELECT ?viEntity ?viLabel (COUNT(?enEntity) AS ?matchCount) WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity ?linkType ?enEntity ;
+              rdfs:label ?viLabel .
+  }
+  FILTER(LANG(?viLabel) = "vi")
+} GROUP BY ?viEntity ?viLabel
+HAVING(?matchCount > 1)
+ORDER BY DESC(?matchCount)
+
+# Query 3.7: Vietnamese entities without any English links
+SELECT ?viEntity ?viLabel WHERE {
+  ?viEntity rdfs:label ?viLabel .
+  FILTER(LANG(?viLabel) = "vi")
+  FILTER(STRSTARTS(STR(?viEntity), "http://vi.dbpedia.org/resource/"))
+  FILTER NOT EXISTS {
+    GRAPH <http://vi.dbpedia.org/links/> {
+      ?viEntity ?linkProp ?enEntity .
+    }
+  }
+} ORDER BY ?viLabel
+LIMIT 10
+
+# Query 3.8: Link quality - high confidence direct mappings
+SELECT ?viEntity ?enEntity ?viLabel ?confidence WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?linkEntity vidbp:sourceEntity ?viEntity ;
+                vidbp:linkedEntity ?enEntity ;
+                vidbp:confidenceScore ?confidence ;
+                vidbp:matchMethod "direct_mapping" .
+    ?viEntity rdfs:label ?viLabel .
+  }
+  FILTER(LANG(?viLabel) = "vi")
+  FILTER(?confidence >= 0.9)
+} ORDER BY DESC(?confidence)
+
+# Query 3.9: Cross-language consistency check
+SELECT ?viEntity ?viLabel ?enEntity WHERE {
+  GRAPH <http://vi.dbpedia.org/links/> {
+    ?viEntity owl:sameAs ?enEntity ;
+              rdfs:label ?viLabel .
+  }
+  FILTER(LANG(?viLabel) = "vi")
+  # Check if the English entity exists in English DBPedia
+  FILTER EXISTS {
+    SERVICE SILENT <https://dbpedia.org/sparql> {
+      ?enEntity ?p ?o .
+    }
+  }
+} LIMIT 5
+
+# Query 3.10: Entity link coverage by entity type
+SELECT ?type ?typeLabel (COUNT(DISTINCT ?viEntity) AS ?totalEntities) 
+       (COUNT(DISTINCT ?linkedEntity) AS ?linkedEntities)
+       (ROUND(100.0 * COUNT(DISTINCT ?linkedEntity) / COUNT(DISTINCT ?viEntity)) AS ?linkagePercent) WHERE {
+  ?viEntity a ?type ;
+            rdfs:label ?viLabel .
+  ?type rdfs:label ?typeLabel .
+  OPTIONAL {
+    GRAPH <http://vi.dbpedia.org/links/> {
+      ?viEntity ?linkProp ?enEntity .
+      BIND(?viEntity AS ?linkedEntity)
+    }
+  }
+  FILTER(LANG(?viLabel) = "vi")
+  FILTER(LANG(?typeLabel) = "vi")
+  FILTER(STRSTARTS(STR(?viEntity), "http://vi.dbpedia.org/resource/"))
+} GROUP BY ?type ?typeLabel
+ORDER BY DESC(?linkagePercent)

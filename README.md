@@ -123,6 +123,8 @@ python cli.py graphdb load
 # Link entities to English DBPedia
 python cli.py link entities
 
+python cli.py graphdb load --input data/mappings --format ttl --context "http://vi.dbpedia.org/links/"
+
 # Start web interface
 python cli.py web
 ```
@@ -360,7 +362,7 @@ python cli.py query samples
 
 ```bash
 # Build Docker image
-docker build -t vietnamese-dbpedia .
+docker build -t namxle/vietnamese-dbpedia .
 
 # Run with Docker Compose (includes GraphDB)
 docker-compose up -d

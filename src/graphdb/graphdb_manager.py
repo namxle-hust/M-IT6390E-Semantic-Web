@@ -483,6 +483,55 @@ class GraphDBManager:
         except Exception as e:
             logger.error(f"Failed to set namespace: {e}")
             return False
+    
+    def load_ontology(self, repository_id: str, ontology_path: str = None) -> bool:
+        """Load ontology file into repository."""
+        if not ontology_path:
+            # Default ontology path
+            ontology_path = "ontology/vietnamese_ontology.ttl"
+        
+        if not Path(ontology_path).exists():
+            logger.error(f"Ontology file not found: {ontology_path}")
+            return False
+        
+        try:
+            # Load ontology with specific context
+            success = self.load_rdf_data(
+                repository_id=repository_id,
+                rdf_file_path=ontology_path,
+                format='turtle',
+                context='http://vi.dbpedia.org/ontology/'
+            )
+            
+            if success:
+                logger.info(f"Ontology loaded successfully from {ontology_path}")
+                return True
+            else:
+                logger.error("Failed to load ontology")
+                return False
+                
+        except Exception as e:
+            logger.error(f"Ontology loading failed: {e}")
+            return False
+    
+    def setup_repository_with_ontology(self, repository_id: str = None) -> bool:
+        """Complete repository setup including ontology loading."""
+        try:
+            # Create repository
+            if not self.create_repository(repository_id):
+                return False
+            
+            # Load ontology
+            if not self.load_ontology(repository_id or list(self.repository_configs.keys())[0]):
+                logger.warning("Failed to load ontology, but repository was created")
+                return False
+            
+            logger.info("Repository setup completed with ontology")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Repository setup failed: {e}")
+            return False
 
 
 def main():

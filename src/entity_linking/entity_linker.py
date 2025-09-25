@@ -522,6 +522,8 @@ class EntityLinker:
             {type_filter}
             FILTER(CONTAINS(LCASE(STR(?label)), LCASE("{search_term}")))
             FILTER(LANG(?label) = "en")
+            FILTER(!CONTAINS(STR(?entity), "vi.dbpedia.org"))
+            FILTER(STRSTARTS(STR(?entity), "http://dbpedia.org/resource/"))
         }} LIMIT 10
         """
         
@@ -625,6 +627,108 @@ class EntityLinker:
         except Exception as e:
             logger.error(f"Failed to save linking results: {e}")
             raise
+    
+    def export_links_to_rdf(self, matches: Dict[str, List[EntityMatch]], 
+                           output_path: str, format: str = 'turtle') -> None:
+        """Export entity linking results to RDF format."""
+        try:
+            from rdflib import Graph, Namespace, URIRef, Literal
+            from rdflib.namespace import OWL, RDFS, XSD
+            from urllib.parse import quote
+            
+            # Create graph and namespaces
+            g = Graph()
+            VIRES = Namespace('http://vi.dbpedia.org/resource/')
+            DBPEDIA = Namespace('http://dbpedia.org/resource/')
+            
+            # Bind namespaces
+            g.bind('vires', VIRES)
+            g.bind('dbpedia', DBPEDIA)
+            g.bind('owl', OWL)
+            g.bind('rdfs', RDFS)
+            
+            # Add entity links as RDF triples
+            for entity, match_list in matches.items():
+                # Create Vietnamese entity URI
+                entity_encoded = quote(entity.replace(' ', '_'), safe='')
+                vi_uri = VIRES[entity_encoded]
+                
+                for match in match_list:
+                    # Skip self-links (Vietnamese entity linking to itself)
+                    if self._is_self_link(entity, match.english_entity, match.dbpedia_uri):
+                        continue
+                    
+                    # Create English DBpedia URI
+                    en_entity_encoded = quote(match.english_entity.replace(' ', '_'), safe='')
+                    en_uri = DBPEDIA[en_entity_encoded]
+                    
+                    # Add owl:sameAs relationship (high confidence links)
+                    if match.confidence_score >= 0.9:
+                        g.add((vi_uri, OWL.sameAs, en_uri))
+                    else:
+                        # Add rdfs:seeAlso for lower confidence links
+                        g.add((vi_uri, RDFS.seeAlso, en_uri))
+                    
+                    # Add metadata about the link
+                    g.add((vi_uri, RDFS.label, Literal(entity, lang='vi')))
+                    
+                    # Add confidence score as annotation
+                    link_uri = URIRef(f"{vi_uri}_link_{hash(match.english_entity)}")
+                    g.add((link_uri, URIRef('http://vi.dbpedia.org/property/confidenceScore'), 
+                          Literal(match.confidence_score, datatype=XSD.double)))
+                    g.add((link_uri, URIRef('http://vi.dbpedia.org/property/matchMethod'), 
+                          Literal(match.match_method)))
+                    g.add((link_uri, URIRef('http://vi.dbpedia.org/property/linkedEntity'), en_uri))
+                    g.add((link_uri, URIRef('http://vi.dbpedia.org/property/sourceEntity'), vi_uri))
+            
+            # Serialize graph
+            Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+            g.serialize(destination=output_path, format=format)
+            
+            logger.info(f"Entity links exported to RDF: {output_path}")
+            logger.info(f"Total triples generated: {len(g)}")
+            
+        except Exception as e:
+            logger.error(f"Failed to export entity links to RDF: {e}")
+            raise
+    
+    def _is_self_link(self, vietnamese_entity: str, english_entity: str, dbpedia_uri: str) -> bool:
+        """Check if this is a self-link (Vietnamese entity linking to itself)."""
+        # Check if the DBPedia URI contains Vietnamese DBPedia patterns
+        vietnamese_patterns = [
+            'vi.dbpedia.org',
+            '/vi/',
+            'vietnamese',
+            'viet'
+        ]
+        
+        # Check URI patterns
+        for pattern in vietnamese_patterns:
+            if pattern in dbpedia_uri.lower():
+                logger.warning(f"Skipping self-link: {vietnamese_entity} -> {dbpedia_uri}")
+                return True
+        
+        # Check if the entities are essentially the same
+        normalized_vi = self._normalize_text(vietnamese_entity)
+        normalized_en = self._normalize_text(english_entity)
+        
+        # Skip if they're identical after normalization
+        if normalized_vi == normalized_en:
+            logger.warning(f"Skipping identical entities: {vietnamese_entity} -> {english_entity}")
+            return True
+        
+        # Skip if English entity is just Vietnamese entity with diacritics removed
+        import unicodedata
+        vietnamese_no_diacritics = ''.join(
+            c for c in unicodedata.normalize('NFD', vietnamese_entity)
+            if unicodedata.category(c) != 'Mn'
+        )
+        
+        if self._normalize_text(vietnamese_no_diacritics) == normalized_en:
+            logger.warning(f"Skipping diacritic-only difference: {vietnamese_entity} -> {english_entity}")
+            return True
+        
+        return False
     
     def get_linking_statistics(self) -> Dict[str, Any]:
         """Get entity linking statistics."""

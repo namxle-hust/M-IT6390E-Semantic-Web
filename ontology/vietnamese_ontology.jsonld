@@ -1,0 +1,420 @@
+[
+  {
+    "@id": "http://vi.dbpedia.org/property/nơiSinh",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Nơi sinh của một người"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/Người"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "nơi sinh"
+      },
+      {
+        "@language": "en",
+        "@value": "birth place"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/ĐịaĐiểm"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      {
+        "@id": "http://dbpedia.org/ontology/birthPlace"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/Người",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Lớp đại diện cho tất cả con người"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Người"
+      },
+      {
+        "@language": "en",
+        "@value": "Person"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Person"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/NhânVậtChínhTrị",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Người tham gia hoạt động chính trị"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Nhân vật chính trị"
+      },
+      {
+        "@language": "en",
+        "@value": "Political Figure"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/Người"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Politician"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/property/trungTâmHànhChính",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Trung tâm hành chính của vùng"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/ĐịaĐiểm"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "trung tâm hành chính"
+      },
+      {
+        "@language": "en",
+        "@value": "administrative center"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/ĐịaĐiểm"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "Vietnamese DBPedia Project"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Comprehensive ontology for Vietnamese knowledge representation"
+      },
+      {
+        "@language": "vi",
+        "@value": "Bản thể học toàn diện cho biểu diễn tri thức Việt Nam"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Vietnamese DBPedia Ontology"
+      },
+      {
+        "@language": "vi",
+        "@value": "Bản thể học DBPedia Việt Nam"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "http://dbpedia.org/ontology/"
+      },
+      {
+        "@id": "http://xmlns.com/foaf/0.1/"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/TổChức",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Tổ chức, cơ quan, đơn vị"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Tổ chức"
+      },
+      {
+        "@language": "en",
+        "@value": "Organization"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Organisation"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/property/ngàySinh",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Ngày sinh của một người"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/Người"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "ngày sinh"
+      },
+      {
+        "@language": "en",
+        "@value": "birth date"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      {
+        "@id": "http://dbpedia.org/ontology/birthDate"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/property/tọaLạcTại",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Vị trí địa lý của một địa điểm"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/ĐịaĐiểm"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "tọa lạc tại"
+      },
+      {
+        "@language": "en",
+        "@value": "located in"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/ĐịaĐiểm"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      {
+        "@id": "http://dbpedia.org/ontology/location"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/property/triềuĐại",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Thời kỳ triều đại"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/Người"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "triều đại"
+      },
+      {
+        "@language": "en",
+        "@value": "dynasty period"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/ĐịaĐiểm",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Vị trí địa lý cụ thể"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Địa điểm"
+      },
+      {
+        "@language": "en",
+        "@value": "Place"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Place"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/SựKiện",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Sự kiện, biến cố lịch sử hoặc văn hóa"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Sự kiện"
+      },
+      {
+        "@language": "en",
+        "@value": "Event"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Event"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/NghệSĩ",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Người hoạt động trong lĩnh vực nghệ thuật"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Nghệ sĩ"
+      },
+      {
+        "@language": "en",
+        "@value": "Artist"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://vi.dbpedia.org/ontology/Người"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Artist"
+      }
+    ]
+  },
+  {
+    "@id": "http://vi.dbpedia.org/ontology/TácPhẩm",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "vi",
+        "@value": "Tác phẩm văn học, nghệ thuật"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "vi",
+        "@value": "Tác phẩm"
+      },
+      {
+        "@language": "en",
+        "@value": "Work"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "http://dbpedia.org/ontology/Work"
+      }
+    ]
+  }
+]

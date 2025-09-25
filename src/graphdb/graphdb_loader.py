@@ -162,6 +162,12 @@ class GraphDBLoader:
     def load_directory(self, directory_path: str, pattern: str = "*.ttl", 
                       concurrent_loads: int = 3, validate: bool = True) -> List[LoadingResult]:
         """Load all RDF files from a directory with concurrent processing."""
+        return self.load_directory_with_context(directory_path, pattern, None, concurrent_loads, validate)
+    
+    def load_directory_with_context(self, directory_path: str, pattern: str = "*.ttl", 
+                                   context: str = None, concurrent_loads: int = 3, 
+                                   validate: bool = True) -> List[LoadingResult]:
+        """Load all RDF files from a directory with concurrent processing."""
         directory = Path(directory_path)
         if not directory.exists():
             logger.error(f"Directory not found: {directory_path}")
@@ -197,7 +203,7 @@ class GraphDBLoader:
                     self.load_rdf_file, 
                     str(file_path), 
                     file_format, 
-                    None, 
+                    context, 
                     validate
                 )
                 future_to_file[future] = file_path

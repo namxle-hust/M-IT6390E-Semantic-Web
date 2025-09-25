@@ -1,0 +1,101 @@
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vi: <http://vi.dbpedia.org/ontology/> .
+@prefix vidbp: <http://vi.dbpedia.org/property/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vi: a owl:Ontology ;
+    rdfs:label "Vietnamese DBPedia Ontology"@en,
+        "Bản thể học DBPedia Việt Nam"@vi ;
+    dct:creator "Vietnamese DBPedia Project" ;
+    rdfs:comment "Comprehensive ontology for Vietnamese knowledge representation"@en,
+        "Bản thể học toàn diện cho biểu diễn tri thức Việt Nam"@vi ;
+    owl:imports dbpedia:,
+        foaf: ;
+    owl:versionInfo "1.0" .
+
+vi:NghệSĩ a owl:Class ;
+    rdfs:label "Artist"@en,
+        "Nghệ sĩ"@vi ;
+    rdfs:comment "Người hoạt động trong lĩnh vực nghệ thuật"@vi ;
+    rdfs:subClassOf vi:Người ;
+    owl:equivalentClass dbpedia:Artist .
+
+vi:NhânVậtChínhTrị a owl:Class ;
+    rdfs:label "Political Figure"@en,
+        "Nhân vật chính trị"@vi ;
+    rdfs:comment "Người tham gia hoạt động chính trị"@vi ;
+    rdfs:subClassOf vi:Người ;
+    owl:equivalentClass dbpedia:Politician .
+
+vi:SựKiện a owl:Class ;
+    rdfs:label "Event"@en,
+        "Sự kiện"@vi ;
+    rdfs:comment "Sự kiện, biến cố lịch sử hoặc văn hóa"@vi ;
+    owl:equivalentClass dbpedia:Event .
+
+vi:TácPhẩm a owl:Class ;
+    rdfs:label "Work"@en,
+        "Tác phẩm"@vi ;
+    rdfs:comment "Tác phẩm văn học, nghệ thuật"@vi ;
+    owl:equivalentClass dbpedia:Work .
+
+vi:TổChức a owl:Class ;
+    rdfs:label "Organization"@en,
+        "Tổ chức"@vi ;
+    rdfs:comment "Tổ chức, cơ quan, đơn vị"@vi ;
+    owl:equivalentClass dbpedia:Organisation .
+
+vidbp:ngàySinh a owl:DatatypeProperty ;
+    rdfs:label "birth date"@en,
+        "ngày sinh"@vi ;
+    rdfs:comment "Ngày sinh của một người"@vi ;
+    rdfs:domain vi:Người ;
+    rdfs:range xsd:date ;
+    owl:equivalentProperty dbpedia:birthDate .
+
+vidbp:nơiSinh a owl:ObjectProperty ;
+    rdfs:label "birth place"@en,
+        "nơi sinh"@vi ;
+    rdfs:comment "Nơi sinh của một người"@vi ;
+    rdfs:domain vi:Người ;
+    rdfs:range vi:ĐịaĐiểm ;
+    owl:equivalentProperty dbpedia:birthPlace .
+
+vidbp:triềuĐại a owl:DatatypeProperty ;
+    rdfs:label "dynasty period"@en,
+        "triều đại"@vi ;
+    rdfs:comment "Thời kỳ triều đại"@vi ;
+    rdfs:domain vi:Người ;
+    rdfs:range xsd:string .
+
+vidbp:trungTâmHànhChính a owl:ObjectProperty ;
+    rdfs:label "administrative center"@en,
+        "trung tâm hành chính"@vi ;
+    rdfs:comment "Trung tâm hành chính của vùng"@vi ;
+    rdfs:domain vi:ĐịaĐiểm ;
+    rdfs:range vi:ĐịaĐiểm .
+
+vidbp:tọaLạcTại a owl:ObjectProperty ;
+    rdfs:label "located in"@en,
+        "tọa lạc tại"@vi ;
+    rdfs:comment "Vị trí địa lý của một địa điểm"@vi ;
+    rdfs:domain vi:ĐịaĐiểm ;
+    rdfs:range vi:ĐịaĐiểm ;
+    owl:equivalentProperty dbpedia:location .
+
+vi:Người a owl:Class ;
+    rdfs:label "Person"@en,
+        "Người"@vi ;
+    rdfs:comment "Lớp đại diện cho tất cả con người"@vi ;
+    owl:equivalentClass dbpedia:Person .
+
+vi:ĐịaĐiểm a owl:Class ;
+    rdfs:label "Place"@en,
+        "Địa điểm"@vi ;
+    rdfs:comment "Vị trí địa lý cụ thể"@vi ;
+    owl:equivalentClass dbpedia:Place .
+

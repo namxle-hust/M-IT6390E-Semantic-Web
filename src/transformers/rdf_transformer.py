@@ -190,34 +190,75 @@ class RDFTransformer:
     def _determine_class_from_categories(self, categories: List[str]) -> Optional[URIRef]:
         """Determine entity class from Wikipedia categories."""
         category_mappings = {
+            # People
             'người': 'Person',
             'nhân vật': 'Person',
             'chính trị gia': 'PoliticalFigure',
             'nghệ sĩ': 'Artist',
             'nhà văn': 'Writer',
             'nhà khoa học': 'Scientist',
+            'vận động viên': 'Athlete',
+            
+            # Places - expanded with more keywords
             'địa điểm': 'Place',
             'tỉnh': 'Province',
             'thành phố': 'City',
+            'thành phố việt nam': 'City',
+            'tỉnh thành': 'Province',
+            'tỉnh thành việt nam': 'Province',
+            'vịnh': 'Place',
+            'di tích': 'HistoricalSite',
+            'di tích lịch sử': 'HistoricalSite',
+            'danh lam thắng cảnh': 'Place',
+            'khu vực': 'Place',
+            'vùng': 'Place',
+            'xã': 'Ward',
+            'huyện': 'District',
+            'quận': 'District',
+            
+            # Organizations
             'trường': 'University',
             'đại học': 'University',
             'công ty': 'Company',
             'tổ chức': 'Organization',
+            'cơ quan': 'GovernmentAgency',
+            
+            # Events
             'sự kiện': 'Event',
             'lịch sử': 'HistoricalEvent',
+            'chiến dịch': 'HistoricalEvent',
+            'cách mạng': 'HistoricalEvent',
+            'lễ hội': 'CulturalEvent',
+            
+            # Works
             'văn học': 'LiteraryWork',
             'âm nhạc': 'MusicalWork',
-            'phim': 'Film'
+            'phim': 'Film',
+            'tác phẩm': 'Work'
         }
         
+        # Check categories for keywords
         for category in categories:
             category_lower = category.lower()
             for keyword, class_name in category_mappings.items():
                 if keyword in category_lower:
                     return self.ontology.get_class_uri(class_name)
         
-        # Default to generic entity
-        return self.ontology.get_class_uri('Person')  # Most articles are about people
+        # Smarter default classification based on article title patterns
+        return self._determine_default_class(categories)
+    
+    def _determine_default_class(self, categories: List[str]) -> URIRef:
+        """Determine default class based on heuristics when no category match is found."""
+        # Check if it's likely a redirect page
+        redirect_indicators = ['trang đổi hướng', 'redirect', 'disambiguation', 'di chuyển']
+        is_redirect = any(indicator in ' '.join(categories).lower() for indicator in redirect_indicators)
+        
+        if is_redirect:
+            # For redirects, try to be conservative - use generic Work class
+            return self.ontology.get_class_uri('Work')
+        
+        # If no clear indicators, default to Person (most Wikipedia articles are about people)
+        return self.ontology.get_class_uri('Person')
     
     def _add_basic_properties(self, entity_uri: URIRef, article: WikipediaArticle) -> None:
         """Add basic properties for any entity."""

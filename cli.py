@@ -307,8 +307,10 @@ def graphdb():
 
 @graphdb.command('setup')
 @click.option('--repository', default='vietnamese_dbpedia', help='Repository name')
-def setup_graphdb(repository: str):
-    """Set up GraphDB repository."""
+@click.option('--with-ontology/--no-ontology', default=True, help='Load ontology during setup')
+@click.option('--ontology-path', help='Path to ontology file (default: ontology/vietnamese_ontology.ttl)')
+def setup_graphdb(repository: str, with_ontology: bool, ontology_path: Optional[str]):
+    """Set up GraphDB repository with optional ontology loading."""
     try:
         console.print("[bold blue]Setting up GraphDB repository...[/bold blue]")
         
@@ -322,33 +324,84 @@ def setup_graphdb(repository: str):
             manager = GraphDBManager()
             progress.update(task, description="Connected to GraphDB")
             
-            # Create repository
-            success = manager.create_repository(repository)
-            if success:
-                progress.update(task, description="Repository created")
+            if with_ontology:
+                # Use complete setup with ontology
+                success = manager.setup_repository_with_ontology(repository)
+                if success:
+                    progress.update(task, description="Repository created with ontology")
+                    console.print(f"[green]✓[/green] Repository '{repository}' created with ontology loaded")
+                else:
+                    console.print(f"[yellow]⚠[/yellow] Repository created but ontology loading failed")
             else:
-                progress.update(task, description="Repository already exists")
+                # Create repository only
+                success = manager.create_repository(repository)
+                if success:
+                    progress.update(task, description="Repository created")
+                    console.print(f"[green]✓[/green] Repository '{repository}' created")
+                else:
+                    progress.update(task, description="Repository already exists")
+                    console.print(f"[yellow]ℹ[/yellow] Repository '{repository}' already exists")
             
             # Get repository info
             info = manager.get_repository_info(repository)
+            size = manager.get_repository_size(repository)
             progress.update(task, description="Repository configured")
         
-        console.print(f"[green]✓[/green] Repository '{repository}' is ready")
         if info:
             console.print(f"[green]✓[/green] Title: {info.get('title', 'N/A')}")
             console.print(f"[green]✓[/green] Type: {info.get('type', 'N/A')}")
+        if size is not None:
+            console.print(f"[green]✓[/green] Statements: {size:,}")
         
     except Exception as e:
         console.print(f"[red]✗ Failed to setup GraphDB: {e}[/red]")
         sys.exit(1)
 
 
+@graphdb.command('load-ontology')
+@click.option('--ontology-path', default='ontology/vietnamese_ontology.ttl', help='Path to ontology file')
+@click.option('--repository', default='vietnamese_dbpedia', help='Repository name')
+def load_ontology(ontology_path: str, repository: str):
+    """Load ontology into GraphDB repository."""
+    try:
+        console.print("[bold blue]Loading ontology into GraphDB...[/bold blue]")
+        
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            console=console
+        ) as progress:
+            task = progress.add_task("Connecting to GraphDB...", total=None)
+            
+            manager = GraphDBManager()
+            progress.update(task, description="Connected to GraphDB")
+            
+            # Load ontology
+            success = manager.load_ontology(repository, ontology_path)
+            if success:
+                progress.update(task, description="Ontology loaded successfully")
+                console.print(f"[green]✓[/green] Ontology loaded from {ontology_path}")
+                
+                # Show repository size
+                size = manager.get_repository_size(repository)
+                if size is not None:
+                    console.print(f"[green]✓[/green] Repository now has {size:,} statements")
+            else:
+                console.print(f"[red]✗[/red] Failed to load ontology")
+                sys.exit(1)
+        
+    except Exception as e:
+        console.print(f"[red]✗ Failed to load ontology: {e}[/red]")
+        sys.exit(1)
+
+
 @graphdb.command('load')
 @click.option('--input', default='data/rdf', help='Input directory or file')
 @click.option('--repository', default='vietnamese_dbpedia', help='Repository name')
-@click.option('--format', default='turtle', help='RDF format')
+@click.option('--format', default='ttl', help='RDF format')
+@click.option('--context', default='http://vi.dbpedia.org/resource/', help='RDF context/graph URI')
 @click.option('--clear', is_flag=True, help='Clear repository before loading')
-def load_graphdb(input: str, repository: str, format: str, clear: bool):
+def load_graphdb(input: str, repository: str, format: str, context: str, clear: bool):
     """Load RDF data into GraphDB."""
     try:
         console.print("[bold blue]Loading data into GraphDB...[/bold blue]")
@@ -368,13 +421,13 @@ def load_graphdb(input: str, repository: str, format: str, clear: bool):
                 manager.clear_repository(repository)
                 progress.update(task, description="Repository cleared")
             
-            # Load data
+            # Load data with context
             input_path = Path(input)
             if input_path.is_file():
-                result = loader.load_rdf_file(str(input_path), format)
+                result = loader.load_rdf_file(str(input_path), format, context)
                 results = [result]
             else:
-                results = loader.load_directory(str(input_path), f"*.{format}")
+                results = loader.load_directory_with_context(str(input_path), f"*.{format}", context)
             
             progress.update(task, description="Data loading complete")
             
@@ -398,6 +451,12 @@ def load_graphdb(input: str, repository: str, format: str, clear: bool):
         
         console.print(table)
         console.print(f"[green]✓[/green] Successfully loaded {stats['successful_loads']} files")
+        console.print(f"[green]✓[/green] Context used: {context}")
+        
+        # Show repository size after loading
+        final_size = manager.get_repository_size(repository)
+        if final_size is not None:
+            console.print(f"[green]✓[/green] Repository total statements: {final_size:,}")
         
     except Exception as e:
         console.print(f"[red]✗ Failed to load into GraphDB: {e}[/red]")
@@ -413,9 +472,14 @@ def link():
 @link.command('entities')
 @click.option('--input', default='data/raw/articles.json', help='Input articles file')
 @click.option('--output', default='data/mappings/entity_links.json', help='Output links file')
+@click.option('--rdf-output', default='data/mappings/entity_links.ttl', help='Export entity links as RDF')
+@click.option('--no-rdf', is_flag=True, help='Skip RDF export')
+@click.option('--load-to-graphdb', is_flag=True, help='Load entity links into GraphDB')
+@click.option('--repository', default='vietnamese_dbpedia', help='GraphDB repository name')
 @click.option('--threshold', default=0.8, help='Confidence threshold')
-def link_entities(input: str, output: str, threshold: float):
-    """Link Vietnamese entities to English DBPedia."""
+def link_entities(input: str, output: str, rdf_output: str, no_rdf: bool,
+                 load_to_graphdb: bool, repository: str, threshold: float):
+    """Link Vietnamese entities to English DBPedia with optional RDF export and GraphDB loading."""
     try:
         console.print("[bold blue]Linking entities to English DBPedia...[/bold blue]")
         
@@ -447,9 +511,41 @@ def link_entities(input: str, output: str, threshold: float):
             
             progress.update(task, description="Filtered by confidence")
             
-            # Save results
+            # Save JSON results
             linker.save_linking_results(filtered_matches, output)
-            progress.update(task, description="Results saved")
+            progress.update(task, description="JSON results saved")
+            
+            # Export to RDF (default behavior, unless explicitly disabled)
+            rdf_exported = False
+            if not no_rdf:
+                linker.export_links_to_rdf(filtered_matches, rdf_output, 'turtle')
+                progress.update(task, description="RDF export completed")
+                rdf_exported = True
+            
+            # Load into GraphDB if requested
+            if load_to_graphdb:
+                manager = GraphDBManager()
+                
+                # Use RDF output or create temporary RDF file
+                rdf_file = rdf_output if rdf_exported else output.replace('.json', '_temp_links.ttl')
+                if not rdf_exported:
+                    linker.export_links_to_rdf(filtered_matches, rdf_file, 'turtle')
+                
+                # Load entity links into GraphDB
+                success = manager.load_rdf_data(
+                    repository_id=repository,
+                    rdf_file_path=rdf_file,
+                    format='turtle',
+                    context='http://vi.dbpedia.org/links/'
+                )
+                
+                if success:
+                    progress.update(task, description="Loaded into GraphDB")
+                    console.print(f"[green]✓[/green] Entity links loaded into GraphDB repository: {repository}")
+                else:
+                    console.print(f"[red]✗[/red] Failed to load entity links into GraphDB")
+            
+            progress.update(task, description="Process completed")
         
         # Show statistics
         stats = linker.get_linking_statistics()
@@ -464,6 +560,14 @@ def link_entities(input: str, output: str, threshold: float):
         console.print(table)
         console.print(f"[green]✓[/green] Entity links saved to: {output}")
         console.print(f"[green]✓[/green] High-confidence links: {len(filtered_matches)}")
+        if rdf_exported:
+            console.print(f"[green]✓[/green] RDF export saved to: {rdf_output}")
+        elif no_rdf:
+            console.print(f"[yellow]ℹ[/yellow] RDF export skipped (--no-rdf flag used)")
+        if load_to_graphdb:
+            size = GraphDBManager().get_repository_size(repository)
+            if size:
+                console.print(f"[green]✓[/green] Repository now has {size:,} total statements")
         
     except Exception as e:
         console.print(f"[red]✗ Failed to link entities: {e}[/red]")

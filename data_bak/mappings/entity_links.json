@@ -1,0 +1,139 @@
+{
+  "Huế": [
+    {
+      "vietnamese_entity": "Huế",
+      "english_entity": "Huế",
+      "dbpedia_uri": "http://dbpedia.org/resource/Huế",
+      "confidence_score": 1.0,
+      "similarity_scores": {
+        "levenshtein": 1.0,
+        "ratio": 1.0,
+        "partial_ratio": 1.0,
+        "token_sort_ratio": 1.0,
+        "token_set_ratio": 1.0,
+        "jaccard": 1.0
+      },
+      "match_method": "property_based",
+      "additional_info": {
+        "sparql_query": true
+      }
+    },
+    {
+      "vietnamese_entity": "Huế",
+      "english_entity": "Hue",
+      "dbpedia_uri": "http://dbpedia.org/resource/Hue",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Hà Nội": [
+    {
+      "vietnamese_entity": "Hà Nội",
+      "english_entity": "Hanoi",
+      "dbpedia_uri": "http://dbpedia.org/resource/Category:Hanoi",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Hà Nội",
+      "english_entity": "Hanoi",
+      "dbpedia_uri": "http://dbpedia.org/resource/Hanoi",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    },
+    {
+      "vietnamese_entity": "Hà Nội",
+      "english_entity": "Ha Noi F.C.",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ha_Noi_F.C.",
+      "confidence_score": 0.8266666666666668,
+      "similarity_scores": {
+        "levenshtein": 0.6666666666666667,
+        "ratio": 0.8,
+        "partial_ratio": 1.0,
+        "token_sort_ratio": 0.8,
+        "token_set_ratio": 1.0,
+        "jaccard": 0.6666666666666666
+      },
+      "match_method": "similarity",
+      "additional_info": {
+        "candidate": "Ha Noi"
+      }
+    }
+  ],
+  "Thành phố Hồ Chí Minh": [
+    {
+      "vietnamese_entity": "Thành phố Hồ Chí Minh",
+      "english_entity": "Ho Chi Minh City",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ho_Chi_Minh_City",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Hội An": [
+    {
+      "vietnamese_entity": "Hội An",
+      "english_entity": "Hoi An",
+      "dbpedia_uri": "http://dbpedia.org/resource/Category:Hoi_An",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    }
+  ],
+  "Vịnh Hạ Long": [
+    {
+      "vietnamese_entity": "Vịnh Hạ Long",
+      "english_entity": "Ha Long Bay",
+      "dbpedia_uri": "http://dbpedia.org/resource/Ha_Long_Bay",
+      "confidence_score": 0.95,
+      "similarity_scores": {
+        "direct_mapping": 1.0
+      },
+      "match_method": "direct_mapping",
+      "additional_info": {
+        "predefined": true
+      }
+    },
+    {
+      "vietnamese_entity": "Vịnh Hạ Long",
+      "english_entity": "Hạ Long Bay",
+      "dbpedia_uri": "http://dbpedia.org/resource/Hạ_Long_Bay",
+      "confidence_score": 0.9,
+      "similarity_scores": {
+        "language_link": 1.0
+      },
+      "match_method": "language_link",
+      "additional_info": {
+        "wikipedia_link": true
+      }
+    }
+  ]
+}

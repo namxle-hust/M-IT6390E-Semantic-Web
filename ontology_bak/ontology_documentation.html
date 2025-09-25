@@ -1,0 +1,120 @@
+
+        <!DOCTYPE html>
+        <html lang="vi">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Vietnamese DBPedia Ontology Documentation</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .class { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+                .property { margin: 15px 0; padding: 10px; background: #f9f9f9; }
+                .uri { color: #0066cc; font-family: monospace; }
+                .label { font-weight: bold; }
+                .comment { font-style: italic; color: #666; }
+                h1, h2 { color: #333; }
+            </style>
+        </head>
+        <body>
+            <h1>Vietnamese DBPedia Ontology Documentation</h1>
+            <p>Comprehensive ontology for Vietnamese knowledge representation</p>
+            
+            <h2>Classes</h2>
+        
+            <div class="class">
+                <h3>Người (Person)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/Người</p>
+                <p class="comment">Lớp đại diện cho tất cả con người</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Person</p>
+            </div>
+            
+            <div class="class">
+                <h3>Nhân vật chính trị (Political Figure)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/NhânVậtChínhTrị</p>
+                <p class="comment">Người tham gia hoạt động chính trị</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Politician</p>
+            </div>
+            
+            <div class="class">
+                <h3>Nghệ sĩ (Artist)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/NghệSĩ</p>
+                <p class="comment">Người hoạt động trong lĩnh vực nghệ thuật</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Artist</p>
+            </div>
+            
+            <div class="class">
+                <h3>Địa điểm (Place)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/ĐịaĐiểm</p>
+                <p class="comment">Vị trí địa lý cụ thể</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Place</p>
+            </div>
+            
+            <div class="class">
+                <h3>Tổ chức (Organization)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/TổChức</p>
+                <p class="comment">Tổ chức, cơ quan, đơn vị</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Organisation</p>
+            </div>
+            
+            <div class="class">
+                <h3>Sự kiện (Event)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/SựKiện</p>
+                <p class="comment">Sự kiện, biến cố lịch sử hoặc văn hóa</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Event</p>
+            </div>
+            
+            <div class="class">
+                <h3>Tác phẩm (Work)</h3>
+                <p class="uri">URI: http://vi.dbpedia.org/ontology/TácPhẩm</p>
+                <p class="comment">Tác phẩm văn học, nghệ thuật</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/Work</p>
+            </div>
+            <h2>Properties</h2>
+            <div class="property">
+                <h4>ngày sinh (birth date)</h4>
+                <p class="uri">URI: http://vi.dbpedia.org/property/ngàySinh</p>
+                <p class="comment">Ngày sinh của một người</p>
+                <p><strong>Domain:</strong> Person</p>
+                <p><strong>Range:</strong> xsd:date</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/birthDate</p>
+            </div>
+            
+            <div class="property">
+                <h4>nơi sinh (birth place)</h4>
+                <p class="uri">URI: http://vi.dbpedia.org/property/nơiSinh</p>
+                <p class="comment">Nơi sinh của một người</p>
+                <p><strong>Domain:</strong> Person</p>
+                <p><strong>Range:</strong> Place</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/birthPlace</p>
+            </div>
+            
+            <div class="property">
+                <h4>tọa lạc tại (located in)</h4>
+                <p class="uri">URI: http://vi.dbpedia.org/property/tọaLạcTại</p>
+                <p class="comment">Vị trí địa lý của một địa điểm</p>
+                <p><strong>Domain:</strong> Place</p>
+                <p><strong>Range:</strong> Place</p>
+                <p><strong>Equivalent to:</strong> http://dbpedia.org/ontology/location</p>
+            </div>
+            
+            <div class="property">
+                <h4>triều đại (dynasty period)</h4>
+                <p class="uri">URI: http://vi.dbpedia.org/property/triềuĐại</p>
+                <p class="comment">Thời kỳ triều đại</p>
+                <p><strong>Domain:</strong> Person</p>
+                <p><strong>Range:</strong> xsd:string</p>
+                
+            </div>
+            
+            <div class="property">
+                <h4>trung tâm hành chính (administrative center)</h4>
+                <p class="uri">URI: http://vi.dbpedia.org/property/trungTâmHànhChính</p>
+                <p class="comment">Trung tâm hành chính của vùng</p>
+                <p><strong>Domain:</strong> Place</p>
+                <p><strong>Range:</strong> Place</p>
+                
+            </div>
+            
+            </body>
+        </html>
+        

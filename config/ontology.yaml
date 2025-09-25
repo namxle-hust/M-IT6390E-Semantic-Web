@@ -119,14 +119,6 @@ properties:
     comment_vi: "Vị trí địa lý của một địa điểm"
     equivalent_property: "http://dbpedia.org/ontology/location"
   
-  vietnameseTitle:
-    uri: "danh_hiệuViệtNam"
-    label_vi: "danh hiệu Việt Nam"
-    label_en: "Vietnamese title"
-    domain: "Person"
-    range: "xsd:string"
-    comment_vi: "Danh hiệu truyền thống Việt Nam"
-  
   dynastyPeriod:
     uri: "triềuĐại"
     label_vi: "triều đại"
@@ -150,6 +142,17 @@ mappings:
     "Thành phố Việt Nam": "City"
     "Thông tin địa điểm": "Place"
     "Thông tin tỉnh thành": "Province"
+    "đơn vị hành chính Việt Nam": "Place"
     "Thông tin trường đại học": "University"
     "Thông tin công ty": "Company"
     "Thông tin sự kiện": "Event"
+    "UNESCO World Heritage Site": "Place"
+    "nhân vật hoàng gia": "Person"
+    "viên chức": "Person"
+    
+    # English templates found in Vietnamese Wikipedia
+    "officeholder 1": "PoliticalFigure"
+    "officeholder": "PoliticalFigure"
+    "infobox person": "Person"
+    "infobox settlement": "Place"
+    "infobox university": "University"

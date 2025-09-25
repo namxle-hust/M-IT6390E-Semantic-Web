@@ -1,5 +1,5 @@
 graphdb:
-  host: "localhost"
+  host: "graphdb"
   port: 7200
   username: "admin"
   password: "admin"

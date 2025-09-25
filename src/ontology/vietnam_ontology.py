@@ -186,10 +186,12 @@ class VietnamOntology:
         try:
             # Check if predicate exists in ontology
             if not any(self.graph.triples((predicate, RDF.type, None))):
+                logger.warning(f"predicate is not exists in ontology, {predicate}")
                 return False
             
             # Check domain constraints
             for domain in self.graph.objects(predicate, RDFS.domain):
+                logger.warning(f"domain constraints")
                 if not any(self.graph.triples((subject, RDF.type, domain))):
                     return False
             
@@ -197,6 +199,7 @@ class VietnamOntology:
             if isinstance(obj, URIRef):
                 for range_class in self.graph.objects(predicate, RDFS.range):
                     if not any(self.graph.triples((obj, RDF.type, range_class))):
+                        logger.warning(f"range constraints")
                         return False
             
             return True

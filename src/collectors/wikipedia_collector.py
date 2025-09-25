@@ -252,7 +252,7 @@ class WikipediaCollector:
                 "prop": "wikitext",
                 "section": 0,
                 "disablelimitreport": True,
-                # "redirects": True,  # Follow redirects automatically
+                "redirects": True,  # Follow redirects automatically
             }
 
             response = self._make_api_request(params)
